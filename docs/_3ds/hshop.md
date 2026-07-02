@@ -17,6 +17,7 @@ downloads:
 icon: https://raw.githubusercontent.com/venkeyz/vendb/master/source/images/hShop.png
 image: https://raw.githubusercontent.com/venkeyz/vendb/master/source/images/hShopBanner.png
 image_length: 59205
+last_updated: 2026-07-02 at 14:03 (UTC)
 layout: app
 llm_generation: unknown
 qr:
@@ -28,5 +29,5 @@ title: hShop
 unique_ids:
 - '0x1E5E6A2A'
 updated: '---'
-version: 1.5.11
+version: 1.5.11.1
 ---

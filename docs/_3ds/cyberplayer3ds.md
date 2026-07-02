@@ -13,6 +13,7 @@ github: Taifuoguru/CyberPlayer3DS
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/icon.png
 image: https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/Banner.png
 image_length: 70725
+last_updated: 2026-07-02 at 19:53 (UTC)
 layout: app
 llm_generation: minor
 prerelease:
@@ -40,5 +41,4 @@ update_notes: <p dir="auto">Fixed some bugs and added a feature that keeps music
   when the screen is turned off with headphones plugged in</p>
 updated: '2026-07-02T19:53:17Z'
 version: 1.0.1
-version_title: CyberPlayer3DS
 ---
