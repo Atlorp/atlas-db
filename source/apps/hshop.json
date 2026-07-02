@@ -11,7 +11,8 @@
     509504042
   ],
   "description": "The better way to install hShop content on a 3DS.",
-  "icon": "https://files.catbox.moe/hsbdvo.png",
+  "image": "https://raw.githubusercontent.com/venkeyz/vendb/master/source/images/hShopBanner.png",
+  "icon": "https://raw.githubusercontent.com/venkeyz/vendb/master/source/images/hShop.png",
   "version": "1.5.11",
   "downloads": {
     "hShop.cia": {
