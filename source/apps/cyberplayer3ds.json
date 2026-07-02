@@ -1,0 +1,16 @@
+{
+	"github": "Taifuoguru/CyberPlayer3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		900000000
+	],
+	"llm_generation": "minor",
+  "image": "https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/Banner.png",
+	"icon": "https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/icon.png",
+	"description": "A retro-styled audio/visual experience for the Nintendo 3DS, heavily inspired by late 90s/early 2000s Kenwood car audio DSP systems"
+}
