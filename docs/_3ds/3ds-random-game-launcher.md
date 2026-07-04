@@ -11,24 +11,24 @@ description: Pick a random game from your SD card or NAND and launch it. SMDH ti
 download_filter: \.3dsx|\.cia
 download_page: https://github.com/selloa/3DS-Random-Game-Launcher/releases
 downloads:
-  3DS-Random-Game-Launcher-v0.2.1.3dsx:
-    size: 626128
+  3DS-Random-Game-Launcher-v0.2.2.3dsx:
+    size: 626136
     size_str: 611 KiB
-    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v0.2.1/3DS-Random-Game-Launcher-v0.2.1.3dsx
-  3DS-Random-Game-Launcher-v0.2.1.cia:
+    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v0.2.2/3DS-Random-Game-Launcher-v0.2.2.3dsx
+  3DS-Random-Game-Launcher-v0.2.2.cia:
     size: 671680
     size_str: 655 KiB
-    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v0.2.1/3DS-Random-Game-Launcher-v0.2.1.cia
+    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v0.2.2/3DS-Random-Game-Launcher-v0.2.2.cia
 github: selloa/3DS-Random-Game-Launcher
 icon: https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/icon.png
 image: https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/meta/banner.png
-image_length: 6156
+image_length: 6126
 layout: app
 license: mit
 license_name: MIT License
 llm_generation: unknown
 qr:
-  3DS-Random-Game-Launcher-v0.2.1.cia: https://db.universal-team.net/assets/images/qr/3ds-random-game-launcher-v0-2-1-cia.png
+  3DS-Random-Game-Launcher-v0.2.2.cia: https://db.universal-team.net/assets/images/qr/3ds-random-game-launcher-v0-2-2-cia.png
 source: https://github.com/selloa/3DS-Random-Game-Launcher
 stars: 4
 systems:
@@ -36,67 +36,59 @@ systems:
 title: 3DS Random Game Launcher
 unique_ids:
 - '0x5247C'
-update_notes: '<h2 dir="auto">3DS Random Game Launcher v0.2.1</h2>
+update_notes: '<p dir="auto">3DS Random Game Launcher v0.2.2</p>
 
-  <p dir="auto">UI polish and build tooling update over v0.2.0.</p>
+  <p dir="auto">Default filter and layout tweaks over v0.2.1.</p>
 
-  <h3 dir="auto">Highlights</h3>
+  <p dir="auto">Highlights</p>
 
   <ul dir="auto">
 
-  <li><strong>Redesigned info screens</strong> Details and Technical tabs use aligned
-  label/value columns, section spacing, and wrapped long text with proper indentation</li>
+  <li>Default filters: demos are now excluded by default; short game names preferred
+  (toggle Long game name in Options)</li>
 
-  <li><strong>Technical filter summary</strong> two-column ON/OFF grid for active
-  filters and sources at the bottom of the Technical page</li>
+  <li>Details page layout fix on the DETAILS tab</li>
 
-  <li><strong>Cleaner chrome</strong> inverted header/footer bar, L/R page tabs (Game
-  / Details / Technical), and simplified Options header</li>
-
-  <li><strong>Banner generator</strong> config-driven <code class="notranslate">meta/banner-src/</code>
-  pipeline plus <code class="notranslate">build.ps1</code> / <code class="notranslate">build.bat
-  banners</code> for store and CIA artwork</li>
-
-  <li><strong>Docs and release workflow</strong> updated VERSIONING, tools, and meta
-  README for v0.2.1 builds</li>
+  <li>Banner artwork updated to v0.2.2</li>
 
   </ul>
 
-  <h3 dir="auto">Controls</h3>
+  <p dir="auto">Note: If you already have saved options on SD, your settings are kept.
+  Use Restore defaults in Options to reset to the new defaults.</p>
+
+  <p dir="auto">Controls</p>
 
   <ul dir="auto">
 
-  <li><strong>A</strong> Launch selected title</li>
+  <li>A Launch selected title</li>
 
-  <li><strong>Y</strong> Reroll</li>
+  <li>Y Reroll</li>
 
-  <li><strong>L/R</strong> Switch Game / Details / Technical pages</li>
+  <li>L/R Switch Game / Details / Technical pages</li>
 
-  <li><strong>SELECT</strong> Options / filters</li>
+  <li>SELECT Options / filters</li>
 
-  <li><strong>X</strong> Toggle homebrew-only mode (Game page)</li>
+  <li>X Toggle homebrew-only mode (Game page)</li>
 
-  <li><strong>START</strong> Exit</li>
+  <li>START Exit</li>
 
   </ul>
 
-  <h3 dir="auto">Install</h3>
+  <p dir="auto">Install</p>
 
   <ul dir="auto">
 
-  <li><strong>3DSX:</strong> copy to <code class="notranslate">3ds/</code> on SD card,
-  launch from Homebrew Launcher</li>
+  <li>3DSX: copy to 3ds/ on SD card, launch from Homebrew Launcher</li>
 
-  <li><strong>CIA:</strong> install with FBI or Universal Updater for a Home Menu
-  icon</li>
+  <li>CIA: install with FBI or Universal Updater for a Home Menu icon</li>
 
   </ul>
 
   <p dir="auto">Universal Updater users on Universal-DB should see this update after
   the store refreshes.</p>'
-updated: '2026-05-23T21:50:38Z'
-version: v0.2.1
-version_title: v0.2.1
+updated: '2026-07-04T15:30:26Z'
+version: v0.2.2
+version_title: v0.2.2
 website: https://github.com/selloa/3DS-Random-Game-Launcher
 ---
 Can't decide what to play? Let your 3DS pick for you.
