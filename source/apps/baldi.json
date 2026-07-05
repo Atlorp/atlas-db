@@ -1,0 +1,11 @@
+
+{
+	"github": "QuadraticRiotz/Baldi3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/QuadraticRiotz/Baldi3DS/main/Assets/Textures/icon48.png"
+}
