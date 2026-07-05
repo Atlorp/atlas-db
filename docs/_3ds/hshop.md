@@ -26,8 +26,6 @@ stars: 0
 systems:
 - 3DS
 title: hShop
-unique_ids:
-- '0x1E5E6A2A'
 updated: '---'
-version: 1.5.11.1
+version: 1.5.11
 ---
