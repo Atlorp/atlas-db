@@ -974,10 +974,10 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		"VenDB",
 		"venkeyz",
 		"VenDB",
-		"https://github.com/venkeyz/vendb/docs/unistore/vendb.unistore",
-		[f"https://github.com/venkeyz/vendb/docs/unistore/vendb-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
-		"https://github.com/venkeyz/vendb/docs/unistore/vendb.tdx",
-		"https://github.com/venkeyz/vendb/docs/unistore/vendb-info.json",
+		"https://venkeyz.github.io/vendb/unistore/vendb.unistore",
+		[f"https://venkeyz.github.io/vendb/unistore/vendb-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
+		"https://venkeyz.github.io/vendb/unistore/vendb.tdx",
+		"https://venkeyz.github.io/vendb/unistore/vendb-info.json",
 		bool(BG_IMAGE)
 	)
 
