@@ -4,8 +4,7 @@
     "category": ["game"],
     "console": ["New 3DS"],
     "version": "v1.0.0"
-  },
-  "Portal 2 3DS.3dsx": [
+  	"Portal 2 3DS.3dsx": [
     {
       "type": "downloadFile",
       "file": "https://venkeyz.github.io/vendb/assets/files/Portal-2-Launcher.3dsx",
