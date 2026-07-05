@@ -13,6 +13,57 @@ jobs:
 
     steps:
     - uses: actions/checkout@v6
+    
+    - name: sync from uni db
+      run: |
+        set -e
+
+        UPSTREAM_REPO="https://github.com/Universal-Team/db.git"
+        TMP_DIR=$(mktemp -d)
+
+        git clone --depth=1 "$UPSTREAM_REPO" "$TMP_DIR"
+
+        echo "app sync"
+        mkdir -p source/apps
+        mkdir -p conflicts/source/apps
+
+        find "$TMP_DIR/source/apps" -type f | while read file; do
+          rel="${file#$TMP_DIR/source/apps/}"
+          local_file="source/apps/$rel"
+          conflict_file="conflicts/source/apps/$rel"
+
+          if [ ! -f "$local_file" ]; then
+            mkdir -p "$(dirname "$local_file")"
+            cp "$file" "$local_file"
+          else
+            if ! cmp -s "$file" "$local_file"; then
+              mkdir -p "$(dirname "$conflict_file")"
+              cp "$file" "$conflict_file"
+            fi
+          fi
+        done
+
+        echo "screenshot sync"
+        mkdir -p docs/assets/images/screenshots
+        mkdir -p conflicts/docs/assets/images/screenshots
+
+        find "$TMP_DIR/docs/assets/images/screenshots" -type f | while read file; do
+          rel="${file#$TMP_DIR/docs/assets/images/screenshots/}"
+          local_file="docs/assets/images/screenshots/$rel"
+          conflict_file="conflicts/docs/assets/images/screenshots/$rel"
+
+          if [ ! -f "$local_file" ]; then
+            mkdir -p "$(dirname "$local_file")"
+            cp "$file" "$local_file"
+          else
+            if ! cmp -s "$file" "$local_file"; then
+              mkdir -p "$(dirname "$conflict_file")"
+              cp "$file" "$conflict_file"
+            fi
+          fi
+        done
+
+        rm -rf "$TMP_DIR"
 
     - name: Delete old pages and QRs
       run: rm -rf docs/_3ds/* docs/_ds/* docs/assets/images/qr/*.png docs/assets/images/qr/git/*.png docs/assets/images/qr/prerelease/*.png
