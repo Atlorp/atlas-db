@@ -1162,7 +1162,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 
 	if not PRIORITY_MODE:
 		# Make tdx
-		with open(DOCS_DIR.joinpath("unistore", "universal-db.tdx"), "wb") as tdx:
+		with open(DOCS_DIR.joinpath("unistore", vendb.tdx"), "wb") as tdx:
 			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(1 if BG_IMAGE else 0, iconIndex)]), tdx, imgPath=str(TEMP_DIR / "32"))
 
 		# Make t3x(s)
@@ -1187,7 +1187,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 			system(f"tex3ds -i {infile} -o {outfile}")
 
 	# Write UniStore and metadata
-	unistore.save(DOCS_DIR.joinpath("unistore", "universal-db.unistore"), DOCS_DIR.joinpath("unistore", "universal-db-info.json"))
+	unistore.save(DOCS_DIR.joinpath("unistore", "vendb.unistore"), DOCS_DIR.joinpath("unistore", "vendb-info.json"))
 
 	# Write output file
 	with DOCS_DIR.joinpath("data", "full.json").open("w", encoding="utf8") as file:
