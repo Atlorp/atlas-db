@@ -1178,11 +1178,6 @@ def all_command(source: str, docs: str, background: str, github_token: str, prio
 	click.echo(f"Priority Mode: {PRIORITY_MODE}")
 	process_from_folder(source_path, github_token, error_webhook)
 
-
-@main_entry_group.command()
-@click.argument("docs", default=str(SCRIPT_DIR.parent / "docs"), type=click.Path(file_okay=False))
-
-
 @main_entry_group.command()
 @click.argument("apps", type=click.File(mode="r"), nargs=-1)
 @click.option("--github-token", "-t", help="A GitHub API token", envvar="TOKEN")
