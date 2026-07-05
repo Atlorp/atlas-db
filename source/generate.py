@@ -83,75 +83,6 @@ def saveIcon(img: Image.Image, index: int, ds: bool,
 	color = color.getpixel((0, 0))
 	return img, f"#{color[0]:02x}{color[1]:02x}{color[2]:02x}"
 
-
-def retroarchUniStore() -> None:
-	"""Generates the RetroArch Cores UniStore"""
-
-	print("Generating RetroArch UniStore")
-
-	unistoreRA = UniStore(
-		"RetroArch Cores",
-		"Libretro",
-		"RetroArch cores",
-		"https://db.universal-team.net/unistore/retroarch.unistore",
-		["https://db.universal-team.net/unistore/retroarch.t3x"]
-	)
-
-	iconIndexRA = -1
-
-	# Add everything to the RetroArch UniStore
-	r = requests.get("https://buildbot.libretro.com/nightly/nintendo/3ds/latest/3dsx/.index-extended")
-	for app in r.text.strip().split("\n"):
-		name = app.split(" ")[2][:-9]
-		print(name)
-
-		href = f"https://buildbot.libretro.com/nightly/nintendo/3ds/latest/3dsx/{name}.3dsx.zip"
-
-		# Get metadata
-		info = {}
-		for item in requests.get(f"https://raw.githubusercontent.com/libretro/libretro-core-info/master/{name}.info").text.strip().split("\n"):
-			matches = re.findall(r'(.*?) *= *"(.*)"', item)
-			if matches:
-				info[matches[0][0]] = matches[0][1]
-
-		img = requests.get(f"https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/{name[:-9]}.png")
-		if img.status_code == 200:
-			iconIndexRA += 1
-			saveIcon(Image.open(BytesIO(img.content)), iconIndexRA, False, location=str(TEMP_DIR.joinpath("ra")))
-
-		notes = ""
-		if "description" in info and len(info["description"]) > 200:
-			notes += f"### Description\n{info['description']}\n\n"
-		if "notes" in info:
-			notes += "### Notes\n" + info["notes"].replace("|", "\n")
-
-		entry = StoreEntry(
-			info["display_name"] if "display_name" in info else name,
-			info["authors"].replace("|", ", ") if "authors" in info else "libretro",
-			shorten(info["description"], 200, placeholder="...") if "description" in info else "",
-			info["display_version"] if "display_version" in info else "nightly",
-			categories=info["categories"].split("|") if "categories" in info else ["emulator"],
-			consoles=["3DS"],
-			releaseNotes=notes,
-			license=info["license"] if "license" in info else "",
-			iconIndex=iconIndexRA if img.status_code == 200 else -1
-		)
-
-		entry.addDownloadScript(f"{name}.3dsx", f"{name}.zip", href, archive=(f"{name}.3dsx",))
-		entry.addDownloadScript(f"{name}.cia", f"{name}.zip", href.replace("3dsx", "cia"), archive=(f"{name}.cia",), retroarch=True)
-
-		unistoreRA.append(entry)
-
-	# Make t3x
-	with TEMP_DIR.joinpath("ra", "48", "icons.t3s").open("w", encoding="utf8") as file:
-		file.write("--atlas -f rgba -z auto\n\n")
-		for i in range(iconIndexRA):
-			file.write(f"{i}.png\n")
-	system(f"tex3ds -i {TEMP_DIR.joinpath('ra', '48', 'icons.t3s')} -o {DOCS_DIR.joinpath('unistore', 'retroarch.t3x')}")
-
-	unistoreRA.save(DOCS_DIR.joinpath("unistore", "retroarch.unistore"))
-
-
 def handle_gbatemp_app(r, app: Dict[str, Any]):
 	soup = BeautifulSoup(r.text, "html.parser")
 
@@ -1250,13 +1181,6 @@ def all_command(source: str, docs: str, background: str, github_token: str, prio
 
 @main_entry_group.command()
 @click.argument("docs", default=str(SCRIPT_DIR.parent / "docs"), type=click.Path(file_okay=False))
-def gen_retroarch(docs):
-	"""Generates the RetroArch Unistore ONLY"""
-	docs_path = check_for_docs_dir(docs)
-	global DOCS_DIR
-	DOCS_DIR = docs_path
-
-	retroarchUniStore()
 
 
 @main_entry_group.command()
