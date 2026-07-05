@@ -3,7 +3,7 @@
     "author": "Drake-Rochelle",
     "category": ["game"],
     "console": ["New 3DS"],
-    "version": "v1.0.0"
+    "version": "v1.0.0",
   	"Portal 2 3DS.3dsx": [
     {
       "type": "downloadFile",
