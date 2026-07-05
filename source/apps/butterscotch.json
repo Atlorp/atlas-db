@@ -6,6 +6,6 @@
 	"categories": [
 		"game"
 	],
-  "llm_generation": "major",
+  "llm_generation": "minor",
   "icon": "https://raw.githubusercontent.com/efimandreev0/Butterscotch/main/3ds/icon.png"
 }
