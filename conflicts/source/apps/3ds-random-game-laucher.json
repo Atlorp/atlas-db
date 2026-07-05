@@ -1,0 +1,15 @@
+{
+	"github": "selloa/3DS-Random-Game-Launcher",
+	"author": "selloa",
+	"title": "3DS Random Game Launcher",
+	"description": "Pick a random game from your SD card or NAND and launch it. ",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"unique_ids": [337020],
+	"image": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/icon.png",
+	"website": "https://github.com/selloa/3DS-Random-Game-Launcher",
+	"source": "https://github.com/selloa/3DS-Random-Game-Launcher",
+	"download_filter": "\\.3dsx|\\.cia",
+	"long_description": "Can't decide what to play? Let your 3DS pick for you.\n\nScans installed titles on SD card and/or NAND, shows a readable name, and launches a random pick from your library. Great for rediscovering games you forgot you had.\n\n**What it does:**\n- Random pick from your library, with reroll before launch\n- Readable title names from installed icons (SMDH), with an offline catalog as fallback\n- Filter by category: apps, Virtual Console, DSiWare, demos, DLC, patches, system titles, and more\n- Scan SD card and/or NAND; unlisted/homebrew mode for titles not in the catalog\n- Options and filters saved to SD card\n- Game, Details, and Technical info pages while browsing a pick\n\n**Controls:**\n- `A` — Launch the selected title\n- `Y` — Reroll\n- `L/R` — Change info page\n- `X` — Toggle unlisted/homebrew mode\n- `SELECT` — Options / filters\n- `START` — Exit\n\n**Source code & feedback:**\n- [GitHub repository](https://github.com/selloa/3DS-Random-Game-Launcher) — source, docs, and build instructions\n- [Open an issue](https://github.com/selloa/3DS-Random-Game-Launcher/issues) — bug reports and feature requests\n- [Pull requests welcome](https://github.com/selloa/3DS-Random-Game-Launcher/pulls) — contributions and fixes\n\nInstall or update from Universal Updater or [GitHub Releases](https://github.com/selloa/3DS-Random-Game-Launcher/releases). Per-version changes are in **Update notes** (from GitHub Releases). MIT licensed."
+}

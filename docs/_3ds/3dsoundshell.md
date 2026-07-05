@@ -29,6 +29,9 @@ license_name: Apache License 2.0
 llm_generation: unknown
 qr:
   3DSoundShell-V0.93.cia: https://db.universal-team.net/assets/images/qr/3dsoundshell-v0-93-cia.png
+screenshots:
+- description: Presentation
+  url: https://db.universal-team.net/assets/images/screenshots/3dsoundshell/presentation.png
 source: https://github.com/Adritrain09/3DSoundShell
 stars: 2
 systems:
