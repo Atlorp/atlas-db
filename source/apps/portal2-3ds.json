@@ -1,14 +1,16 @@
 {
-    "title": "Portal 2 3DS",
-    "author": "Drake-Rochelle",
-    "category": ["game"],
-    "console": ["New 3DS"],
-    "version": "v1.0.0",
-  	"Portal 2 3DS.3dsx": [
-    {
-      "type": "downloadFile",
-      "file": "https://venkeyz.github.io/vendb/assets/files/Portal-2-Launcher.3dsx",
-      "output": "%3DSX%/Portal-2-Launcher.3dsx"
-    }
-  ]
+  "title": "Portal 2 3DS",
+  "author": "Drake-Rochelle",
+  "category": ["game"],
+  "console": ["New 3DS"],
+  "version": "v1.0.0",
+  "files": {
+    "Portal 2 3DS.3dsx": [
+      {
+        "type": "downloadFile",
+        "file": "https://venkeyz.github.io/vendb/assets/files/Portal-2-Launcher.3dsx",
+        "output": "%3DSX%/Portal-2-Launcher.3dsx"
+      }
+    ]
+  }
 }
