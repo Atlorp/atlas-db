@@ -2,7 +2,7 @@
   "title": "Portal 2 3DS",
   "author": "Drake-Rochelle",
   "category": ["game"],
-  "console": ["New 3DS"],
+  "systems": ["New 3DS"],
   "version": "v1.0.0",
   "files": {
     "Portal 2 3DS.3dsx": [
