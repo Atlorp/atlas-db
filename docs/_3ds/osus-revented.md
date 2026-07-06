@@ -3,14 +3,15 @@ author: Omer Hasanov
 avatar: https://avatars.githubusercontent.com/u/70479520?v=4
 categories:
 - game
-color: '#93494c'
-color_bg: '#803f42'
+color: '#eb96bc'
+color_bg: '#805166'
 created: '2022-06-07T14:29:43Z'
 description: The sussy osu clone named osus, revamped!
 download_page: https://github.com/ohasanov-hbrw/osus-revented/releases
 github: ohasanov-hbrw/osus-revented
-image: https://avatars.githubusercontent.com/u/70479520?v=4&size=128
-image_length: 21199
+icon: https://raw.githubusercontent.com/ohasanov-hbrw/osus-revented/3ds-pc-merge/meta/icon.png
+image: https://raw.githubusercontent.com/ohasanov-hbrw/osus-revented/3ds-pc-merge/meta/icon.png
+image_length: 6776
 layout: app
 license: other
 license_name: Other
