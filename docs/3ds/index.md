@@ -1,5 +1,5 @@
 ---
 layout: cards
 title: 3DS
-system: a3ds
+system: 3ds
 ---
