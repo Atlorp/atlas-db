@@ -1068,11 +1068,6 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 										app["scripts"] = {}
 									app["scripts"][f"[git] {item}"] = entry._entry[f"[git] {item}"]
 
-			if app["title"] == "RetroArch":
-				entry._entry["info"]["description"] += "\n\nCores must be downloaded from their separate UniStore, which can be added in settings."
-				if not PRIORITY_MODE:
-					retroarchUniStore()
-
 			unistore.append(entry)
 		else:
 			# Create Universal-Updater version.json
