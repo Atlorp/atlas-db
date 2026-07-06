@@ -9,61 +9,61 @@
 			{
 				"title": "All",
 				"page_title": "3DS",
-				"url": "/3ds",
+				"url": "/vendb/3ds",
 				"key": "3"
 			},
 			{
 				"title": "Games",
 				"page_title":"3DS - Games",
-				"url": "/3ds/category/game",
+				"url": "/vendb/3ds/category/game",
 				"i18n": "cat-game"
 			},
 			{
 				"title": "Emulators",
 				"page_title": "3DS - Emulators",
-				"url": "/3ds/category/emulator",
+				"url": "/vendb/3ds/category/emulator",
 				"i18n": "cat-emulator"
 			},
 			{
 				"title": "Apps",
 				"page_title": "3DS - Applications",
-				"url": "/3ds/category/app",
+				"url": "/vendb/3ds/category/app",
 				"i18n": "cat-app"
 			},
 			{
 				"title": "Utilities",
 				"page_title":"3DS - Utilities",
-				"url": "/3ds/category/utility",
+				"url": "/vendb/3ds/category/utility",
 				"i18n": "cat-utility"
 			},
 			{
 				"title": "Plugins",
 				"page_title": "3DS - Plugins",
-				"url": "/3ds/category/plugin",
+				"url": "/vendb/3ds/category/plugin",
 				"i18n": "cat-plugin"
 			},
 			{
 				"title": "FIRMs",
 				"page_title":"3DS - FIRMs",
-				"url": "/3ds/category/firm",
+				"url": "/vendb/3ds/category/firm",
 				"i18n": "cat-firm"
 			},
 			{
 				"title": "Exploits",
 				"page_title": "3DS - Exploits",
-				"url": "/3ds/category/exploit",
+				"url": "/vendb/3ds/category/exploit",
 				"i18n": "cat-exploit"
 			},
 			{
 				"title": "Multimedia",
 				"page_title": "3DS - Multimedia",
-				"url": "/3ds/category/media",
+				"url": "/vendb/3ds/category/media",
 				"i18n": "cat-media"
 			},
 			{
 				"title": "Save Tools",
 				"page_title":"3DS - Save Tools",
-				"url": "/3ds/category/save-tool",
+				"url": "/vendb/3ds/category/save-tool",
 				"i18n": "cat-save-tool"
 			}
 		]
