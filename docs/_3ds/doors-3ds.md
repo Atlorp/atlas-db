@@ -13,6 +13,7 @@ download_page: https://github.com/carmander152/Doors-3DS/releases
 github: carmander152/Doors-3DS
 icon: https://raw.githubusercontent.com/carmander152/Doors-3DS/main/icon.png
 image: https://raw.githubusercontent.com/carmander152/Doors-3DS/main/banner.png
+image_length: 38377
 layout: app
 llm_generation: unknown
 prerelease:
@@ -54,6 +55,5 @@ update_notes: '<p dir="auto">Just a quick fix release that adds L &amp; R camera
 updated: '2026-05-11T23:42:44Z'
 version: Beta-v0.8.1
 version_title: Doors 3DS Beta v0.8.1
-wiki: https://github.com/carmander152/Doors-3DS/wiki
 ---
 This is a fan demake of the Roblox horror game Doors which was originally made by LSplash. This is being built completely from the ground up as obviously, there is no translation from Luau (Roblox code) to C++ (3DS code)

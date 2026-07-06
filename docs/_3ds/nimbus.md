@@ -70,6 +70,7 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 updated: '2026-06-09T22:33:30Z'
 version: v2.1.1
 version_title: v2.1.1
+wiki: https://github.com/PretendoNetwork/nimbus/wiki
 ---
 #### Usage
 - Run the Nimbus homebrew and choose to use either a Pretendo or Nintendo account
