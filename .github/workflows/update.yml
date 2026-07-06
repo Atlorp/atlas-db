@@ -1,10 +1,14 @@
 name: Update sources
 
-# Run on push and 4 times per day
 on:
   schedule:
     - cron: 0 0,6,12,18 * * *
   workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   run:
@@ -87,28 +91,28 @@ jobs:
           python3 source/generate.py all
         fi
 
+    - name: github pages
+      uses: actions/configure-pages@v5
 
-      # Pull origin in case a commit has been done while updating
-    - name: Pull origin
-      run: |
-        git config --global --add safe.directory /__w/vendb/vendb
-        git pull origin master --ff-only
+    - name: upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: docs
 
-    - name: Push changes
-      run: |
-        git config user.email "twlbot@flashcarts.net"
-        git config user.name "TWLBot"
 
-        echo "machine github.com" > "$HOME/.netrc"
-        echo "  login TWLBot" >> "$HOME/.netrc"
-        echo "  password ${{ secrets.GITHUB_TOKEN }}" >> "$HOME/.netrc"
+  deploy:
+    needs: run
+    runs-on: ubuntu-latest
 
-        echo "machine api.github.com" >> "$HOME/.netrc"
-        echo "  login TWLBot" >> "$HOME/.netrc"
-        echo "  password ${{ secrets.GITHUB_TOKEN }}" >> "$HOME/.netrc"
+    permissions:
+      pages: write
+      id-token: write
 
-        git checkout master
-        git stage .
-        if git commit -m "Update sources"; then
-          git push origin master
-        fi
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
