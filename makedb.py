@@ -7,11 +7,11 @@ import logging
 import os
 from typing import List, Dict, Any
 
-DB_FILENAME = "UDB-Kekatsu-DS.txt"
+DB_FILENAME = "VENDS.txt"
 DB_VERSION = 1
 DB_DELIMITER = "\t"
 
-UDB_FILE_PATH = os.path.join("db", "docs", "data", "full.json")
+UDB_FILE_PATH = os.path.join("docs", "data", "full.json")
 PLATFORM = "nds"
 REGION = "ANY"
 LOG_FORMAT = "%(levelname)s: %(message)s"
