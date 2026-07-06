@@ -7,7 +7,7 @@ i'll add a qr code soon
 
 https://github.com/cavv-dev/UDB-Kekatsu-DS/blob/main/makedb.py (kekatsu)
 
-unidb (forked)
+https://github.com/Universal-Team/db (forked)
 
 # og content
 
