@@ -3,7 +3,11 @@
 QR Code (scan in universal updater)
 i'll add a qr code soon
 
+# repos used
 
+https://github.com/cavv-dev/UDB-Kekatsu-DS/blob/main/makedb.py (kekatsu)
+
+unidb (forked)
 
 # og content
 
