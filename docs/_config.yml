@@ -5,6 +5,8 @@ repo        : "venkeyz/vendb"
 color       : "#1d8056"
 image       : "https://universal-team.net/images/icons/universal-team.png"
 
+baseurl: "/vendb"
+
 sass:
   sass_dir: _sass
 
