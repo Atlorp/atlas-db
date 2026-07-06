@@ -1,7 +1,7 @@
 # theme       : jekyll-theme-slate
-title       : "Universal-DB"
-description : "Universal-DB - A database of DS and 3DS homebrew"
-repo        : "Universal-Team/db"
+title       : "VenDB"
+description : "VenDB - A unrestricted database of DS and 3DS homebrew"
+repo        : "venkeyz/vendb"
 color       : "#1d8056"
 image       : "https://universal-team.net/images/icons/universal-team.png"
 
