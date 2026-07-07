@@ -1,0 +1,47 @@
+{
+	"github": "efimandreev0/minecraftpe-nx-ctr",
+	"title": "Minecraft PE",
+	"description": "Port of MCPE Alpha 0.6.1 to Nintendo Switch and 3DS.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"autogen_scripts": true,
+	"scripts": {
+		"Minecraft PE.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "efimandreev0/minecraftpe-nx-ctr",
+				"file": "minecraftcpp.cia",
+				"output": "/minecraftcpp.cia"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "efimandreev0/minecraftpe-nx-ctr",
+				"file": "minecraftpe.rar",
+				"output": "/minecraftpe.rar"
+			},
+			{
+				"type": "installCia",
+				"file": "/minecraftcpp.cia"
+			},
+			{
+				"type": "extractFile",
+				"file": "/minecraftpe.rar",
+				"input": "",
+				"output": "/3ds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/minecraftcpp.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/minecraftpe.rar"
+			}
+		]
+	}
+}
