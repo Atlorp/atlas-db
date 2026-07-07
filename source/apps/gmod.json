@@ -1,0 +1,33 @@
+{
+	"title": "Garry's Mod 3DS",
+	"categories": [
+		"game"
+	],
+	"downloads": {
+		"gmod.cia": {
+			"url": "https://files.catbox.moe/2na4s1.cia"
+		}
+	},
+	"author": "Dimolade",
+	"version": "0",
+	"systems": [
+		"New 3DS"
+	],
+	"scripts": {
+		"Garry's Mod.cia": [
+			{
+				"type": "downloadFile",
+				"file": "https://files.catbox.moe/2na4s1.cia",
+				"output": "/gmod.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/gmod.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/gmod.cia"
+			}
+		]
+	}
+}
