@@ -1,5 +1,6 @@
 ---
 author: Omer Hasanov
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/70479520?v=4
 categories:
 - game
@@ -57,3 +58,13 @@ updated: '2025-12-24T15:14:54Z'
 version: v0.0.2-alpha
 version_title: 'Alpha Release Two: 3DS? Hell Yeah!'
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[extra] Beatmaps</summary>
+<ol>
+<li>Download <code>osus-songs.zip</code></li>
+<li>Extract everything from the zip to <code>/3ds/beatmaps/</code> on your SD card</li>
+</ol>
+</details>
+

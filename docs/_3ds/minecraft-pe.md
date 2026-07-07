@@ -1,6 +1,5 @@
 ---
 author: Efim
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/120276090?v=4
 categories:
 - game
@@ -104,7 +103,7 @@ update_notes: '<ul dir="auto">
 
   </ul>'
 updated: '2026-03-12T15:31:31Z'
-version: v1.0.0
+version: v0.8.4
 version_title: v1.0.0
 ---
 ### Installation instructions
