@@ -21,6 +21,7 @@ downloads:
 github: Taifuoguru/CyberPlayer3DS
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/icon.png
 image: https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/Banner.png
+image_length: 70725
 last_updated: 2026-07-02 at 19:53 (UTC)
 layout: app
 llm_generation: minor
