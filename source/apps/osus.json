@@ -1,11 +1,31 @@
 {
-        "github": "ohasanov-hbrw/osus-revented",
-        "categories": [
-                "game"
-        ],
-        "systems": [
-                "3DS"
-        ],
-"description": "The sussy osu clone named osus, revamped!",
-"icon": "https://raw.githubusercontent.com/ohasanov-hbrw/osus-revented/3ds-pc-merge/meta/icon.png"
+	"github": "ohasanov-hbrw/osus-revented",
+	"categories": [
+		"game"
+	],
+	"systems": [
+		"3DS"
+	],
+	"description": "The sussy osu clone named osus, revamped!",
+	"icon": "https://raw.githubusercontent.com/ohasanov-hbrw/osus-revented/3ds-pc-merge/meta/icon.png",
+	"autogen_scripts": true,
+	"scripts": {
+		"[extra] Beatmaps": [
+			{
+				"type": "downloadFile",
+				"file": "https://raw.githubusercontent.com/venkeyz/vendb/master/docs/assets/files/osus-songs.zip",
+				"output": "/osus-songs.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/osus-songs.zip",
+				"input": "",
+				"output": "/3ds/beatmaps/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/osus-songs.zip"
+			}
+		]
+	}
 }
