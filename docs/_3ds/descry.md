@@ -84,7 +84,21 @@ update_notes: '<h2 dir="auto">descry v1.0.2</h2>
 
   68510353436408002ca3328281bc57e1339f3fce096592eaa7943cce777d704d  descry.3ds
 
-  </code></pre>'
+  </code></pre>
+
+  <h3 dir="auto">thanks</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DoubleSprattt/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DoubleSprattt">@DoubleSprattt</a>
+  — for the careful issue <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4822698990" data-permission-text="Title is private" data-url="https://github.com/patausx/descry/issues/1"
+  data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/1/hovercard"
+  href="https://github.com/patausx/descry/issues/1">#1</a> report, screenshots, and
+  testing notes.</li>
+
+  </ul>'
 updated: '2026-07-08T15:04:50Z'
 version: v1.0.2
 version_title: descry v1.0.2
