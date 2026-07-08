@@ -3,8 +3,6 @@ author: badda71
 avatar: https://avatars.githubusercontent.com/u/11392517?v=4
 categories:
 - app
-color: '#668898'
-color_bg: '#567280'
 created: '2020-08-16T11:22:33Z'
 description: A VNC viewer for Nintendo 3DS
 download_page: https://github.com/badda71/TinyVNC/releases

@@ -20,7 +20,6 @@ downloads:
 github: badda71/uae3DS
 icon: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/icon.png
 image: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/banner.png
-image_length: 28872
 layout: app
 llm_generation: 'no'
 qr:
