@@ -1,0 +1,10 @@
+{
+        "github": "TheRealZora/FBI-Reloaded",
+        "description": "Open source title manager for the 3DS with modifications for remote installation of large files. ",
+        "systems": [
+                "3DS"
+        ],
+        "categories": [
+                "utility"
+        ]
+}
