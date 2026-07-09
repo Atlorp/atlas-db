@@ -1,0 +1,52 @@
+{
+	"title": "Ultimate Custom Night 3DS",
+	"icon": "https://cdn2.steamgriddb.com/icon/f3b7e5d3eb074cde5b76e26bc0fb5776.png",
+	"categories": [
+		"game"
+	],
+	"downloads": {
+		"UCN3DS.cia": {
+			"url": "https://www.dropbox.com/scl/fi/o0ld1z41s8carr5m1ms3z/UltimateCustomNight3DS.cia?rlkey=5rnbyv83t86via6t1gwf9ffvt&st=bsth57ye&dl=1"
+		},
+		"UCNOLD3DS.cia": {
+			"url": "https://www.dropbox.com/scl/fi/1twh669j7r0xggo6aeqxu/UCN-O3DS-VER-2-DEVBUILD.cia?rlkey=1sis4uap51ctql4loihh3xwt4&st=gnd2kz3z&dl=1"
+		}
+	},
+	"author": "Dimolade",
+	"version": "0",
+	"systems": [
+		"3DS"
+	],
+	"scripts": {
+		"Ultimate Custom Night 3DS.cia": [
+			{
+				"type": "downloadFile",
+				"file": "https://www.dropbox.com/scl/fi/o0ld1z41s8carr5m1ms3z/UltimateCustomNight3DS.cia?rlkey=5rnbyv83t86via6t1gwf9ffvt&st=bsth57ye&dl=1",
+				"output": "/UCN3DS.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/UCN3DS.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/UCN3DS.cia"
+			}
+		],
+		"[DEVBUILD] Ultimate Custom Night OLD 3DS.cia": [
+			{
+				"type": "downloadFile",
+				"file": "https://www.dropbox.com/scl/fi/1twh669j7r0xggo6aeqxu/UCN-O3DS-VER-2-DEVBUILD.cia?rlkey=1sis4uap51ctql4loihh3xwt4&st=gnd2kz3z&dl=1",
+				"output": "/UCNOLD3DS.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/UCNOLD3DS.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/UCNOLD3DS.cia"
+			}
+		]
+	}
+}

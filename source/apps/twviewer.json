@@ -1,0 +1,11 @@
+{
+	"github": "gamerboyrts-a11y/twviewer",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+        "media"
+	],
+	"icon": "https://raw.githubusercontent.com/gamerboyrts-a11y/twviewer/main/icon.png"
+}
