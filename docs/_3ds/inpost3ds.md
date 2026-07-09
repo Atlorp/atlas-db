@@ -20,6 +20,7 @@ downloads:
 github: TehFridge/InPost3DS
 icon: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/gfx/logo_inpost.png
+image_length: 20744
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -16,7 +16,6 @@ downloads:
 github: AzizBgBoss/TerrariaDS
 icon: https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/icon.png
 image: https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/logo.png
-image_length: 7982
 layout: app
 license: other
 license_name: Other

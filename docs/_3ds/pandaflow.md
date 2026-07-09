@@ -30,6 +30,5 @@ title: PandaFlow
 updated: '2026-06-11T04:16:07Z'
 version: v1.1.0
 version_title: v1.1.0
-wiki: https://github.com/PandaAkiraNakai/PandaFlow/wiki
 ---
 Homebrew music player for the Nintendo 3DS that keeps playing with the lid closed (like the official 3DS Sound app). Plays MP3, FLAC, WAV and AAC organized into album folders, with cover art, synced .lrc / plain .txt lyrics, shuffle and repeat, and a touch transport bar. Mixtape-style UI with a spinning vinyl record. On New 3DS the C-stick adjusts the volume.

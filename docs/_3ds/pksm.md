@@ -3,6 +3,8 @@ author: FlagBrew
 avatar: https://avatars.githubusercontent.com/u/42673825?v=4
 categories:
 - utility
+color: '#749285'
+color_bg: '#658074'
 created: '2016-05-15T08:26:47Z'
 description: Gen I to GenVIII save manager.
 download_page: https://github.com/FlagBrew/PKSM/releases

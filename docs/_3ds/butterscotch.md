@@ -17,6 +17,7 @@ downloads:
 github: efimandreev0/Butterscotch
 icon: https://raw.githubusercontent.com/efimandreev0/Butterscotch/main/3ds/icon.png
 image: https://raw.githubusercontent.com/efimandreev0/Butterscotch/main/3ds/icon.png
+image_length: 2777
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
