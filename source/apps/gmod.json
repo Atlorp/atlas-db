@@ -5,7 +5,7 @@
 	],
 	"downloads": {
 		"gmod.cia": {
-			"url": "https://files.catbox.moe/2na4s1.cia"
+			"url": "https://www.dropbox.com/scl/fi/5vlbwjj23tkhn8mxzd7w0/NGM3DS.cia?rlkey=oblms1o3vsu3y50syhfl435fj&st=ain9paxs&dl=1"
 		}
 	},
 	"author": "Dimolade",
@@ -17,7 +17,7 @@
 		"Garry's Mod.cia": [
 			{
 				"type": "downloadFile",
-				"file": "https://files.catbox.moe/2na4s1.cia",
+				"file": "https://www.dropbox.com/scl/fi/5vlbwjj23tkhn8mxzd7w0/NGM3DS.cia?rlkey=oblms1o3vsu3y50syhfl435fj&st=ain9paxs&dl=1",
 				"output": "/gmod.cia"
 			},
 			{
