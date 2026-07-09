@@ -1,1 +1,2 @@
+VenDB=https://raw.githubusercontent.com/venkeyz/vendb/refs/heads/master/VENDS.txt
 Universal-DB=https://gist.githubusercontent.com/cavv-dev/3c0cbc1b63ac8ca0c1d9f549403afbf1/raw/

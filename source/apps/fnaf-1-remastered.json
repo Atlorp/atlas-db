@@ -1,0 +1,33 @@
+{
+  "title": "Five Nights at Freddy's Remastered",
+  "author": "BasDEV",
+  "category": [
+    "game"
+  ],
+  "systems": [
+    "3DS"
+  ],
+  "version": "v1.0.0",
+  "downloads": {
+    "fnaf1.cia": {
+      "url": "https://www.dropbox.com/scl/fi/2skz6izc97l7a387j8x3p/FNaF-1-remastered.cia?rlkey=0eltmmg66z52pa8jn2wb9rbux&st=wlehxila&dl=1"
+    }
+  },
+  "scripts": {
+    "Five Nights at Freddy's Remastered": [
+      {
+        "type": "downloadFile",
+        "file": "https://www.dropbox.com/scl/fi/2skz6izc97l7a387j8x3p/FNaF-1-remastered.cia?rlkey=0eltmmg66z52pa8jn2wb9rbux&st=wlehxila&dl=1",
+        "output": "/fnaf1.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/fnaf1.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/fnaf1.cia"
+      }
+    ]
+  }
+}

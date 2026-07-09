@@ -1,0 +1,33 @@
+{
+  "title": "Five Nights at Freddy's 4",
+  "author": "unknown",
+  "category": [
+    "game"
+  ],
+  "systems": [
+    "3DS"
+  ],
+  "version": "v1.0.0",
+  "downloads": {
+    "fnaf4.cia": {
+      "url": "https://www.dropbox.com/scl/fi/q3ajz019hursr9xmymnbm/FNaF-4-3DS.cia?rlkey=u2hdl4y36rzs4hxp7du6vuzv8&st=dyza9tjr&dl=1"
+    }
+  },
+  "scripts": {
+    "Five Nights at Freddy's 4": [
+      {
+        "type": "downloadFile",
+        "file": "https://www.dropbox.com/scl/fi/q3ajz019hursr9xmymnbm/FNaF-4-3DS.cia?rlkey=u2hdl4y36rzs4hxp7du6vuzv8&st=dyza9tjr&dl=1",
+        "output": "/fnaf4.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/fnaf4.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/fnaf4.cia"
+      }
+    ]
+  }
+}

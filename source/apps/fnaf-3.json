@@ -1,0 +1,33 @@
+{
+  "title": "Five Nights at Freddy's 3",
+  "author": "unknown",
+  "category": [
+    "game"
+  ],
+  "systems": [
+    "3DS"
+  ],
+  "version": "v1.0.0",
+  "downloads": {
+    "fnaf3.cia": {
+      "url": "https://www.dropbox.com/scl/fi/bu4rb60udpt4vpphwvg9o/FNaF-3-3DS.cia?rlkey=bfes92t0kg979ho8dy3ad1ywx&st=49cshqqs&dl=1"
+    }
+  },
+  "scripts": {
+    "Five Nights at Freddy's 3": [
+      {
+        "type": "downloadFile",
+        "file": "https://www.dropbox.com/scl/fi/bu4rb60udpt4vpphwvg9o/FNaF-3-3DS.cia?rlkey=bfes92t0kg979ho8dy3ad1ywx&st=49cshqqs&dl=1",
+        "output": "/fnaf3.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/fnaf3.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/fnaf3.cia"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Five Nights at Freddy's 2",
+  "author": "Dimolade",
+  "category": [
+    "game"
+  ],
+  "systems": [
+    "3DS"
+  ],
+  "version": "v1.0.0",
+  "downloads": {
+    "fnaf2.cia": {
+      "url": "https://www.dropbox.com/scl/fi/0qw39sarit7dxpbi14g6r/FNaF-2-3DS.cia?rlkey=ci8odlljawexpvlqahaudjwz1&st=hfwisfh4&dl=1"
+    }
+  },
+  "scripts": {
+    "Five Nights at Freddy's 2": [
+      {
+        "type": "downloadFile",
+        "file": "https://www.dropbox.com/scl/fi/0qw39sarit7dxpbi14g6r/FNaF-2-3DS.cia?rlkey=ci8odlljawexpvlqahaudjwz1&st=hfwisfh4&dl=1",
+        "output": "/fnaf2.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/fnaf2.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/fnaf2.cia"
+      }
+    ]
+  }
+}

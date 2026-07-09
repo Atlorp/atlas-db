@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Home",
-		"url": "/"
+		"url": "/vendb/"
 	},
 	{
 		"title": "3DS",
@@ -74,49 +74,49 @@
 			{
 				"title": "All",
 				"page_title": "3DS",
-				"url": "/3ds",
+				"url": "/ds",
 				"key": "3"
 			},
 			{
 				"title": "Games",
 				"page_title":"DS - Games",
-				"url": "/ds/category/game",
+				"url": "/vendb/ds/category/game",
 				"i18n": "cat-game"
 			},
 			{
 				"title": "Emulators",
 				"page_title": "DS - Emulators",
-				"url": "/ds/category/emulator",
+				"url": "/vendb/ds/category/emulator",
 				"i18n": "cat-emulator"
 			},
 			{
 				"title": "Apps",
 				"page_title": "DS - Applications",
-				"url": "/ds/category/app",
+				"url": "/vendb/ds/category/app",
 				"i18n": "cat-app"
 			},
 			{
 				"title": "Utilities",
 				"page_title":"DS - Utilities",
-				"url": "/ds/category/utility",
+				"url": "/vendb/ds/category/utility",
 				"i18n": "cat-utility"
 			},
 			{
 				"title": "Multimedia",
 				"page_title": "DS - Multimedia",
-				"url": "/ds/category/media",
+				"url": "/vendb/ds/category/media",
 				"i18n": "cat-media"
 			},
 			{
 				"title": "Save Tools",
 				"page_title":"DS - Save Tools",
-				"url": "/ds/category/save-tool",
+				"url": "/vendb/ds/category/save-tool",
 				"i18n": "cat-save-tool"
 			}
 		]
 	},
 	{
 		"title": "Submit app request",
-		"url": "/app-request"
+		"url": "/vendb/app-request"
 	}
 ]
