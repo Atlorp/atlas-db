@@ -3,6 +3,8 @@ author: AzizBgBoss
 avatar: https://avatars.githubusercontent.com/u/83554824?v=4
 categories:
 - game
+color: '#4b8c8f'
+color_bg: '#437d80'
 created: '2025-07-30T19:25:56Z'
 description: A terraria remake (not port) for the Nintendo DS made by AzizBgBoss.
 download_page: https://github.com/AzizBgBoss/TerrariaDS/releases
@@ -14,6 +16,7 @@ downloads:
 github: AzizBgBoss/TerrariaDS
 icon: https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/icon.png
 image: https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/logo.png
+image_length: 7982
 layout: app
 license: other
 license_name: Other

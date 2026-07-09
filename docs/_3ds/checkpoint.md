@@ -90,4 +90,5 @@ update_notes: '<h2 dir="auto">What''s new</h2>
 updated: '2026-06-21T08:47:47Z'
 version: v3.13.0
 version_title: Checkpoint 3.13.0
+wiki: https://github.com/BernardoGiordano/Checkpoint/wiki
 ---

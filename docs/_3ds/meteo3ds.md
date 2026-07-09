@@ -3,8 +3,6 @@ author: xPsycho999
 avatar: https://avatars.githubusercontent.com/u/47577362?v=4
 categories:
 - app
-color: '#90b8d3'
-color_bg: '#576f80'
 created: '2026-06-20T04:10:22Z'
 description: 'Meteo3DS - a polished bilingual (EN/DE) weather app for the Nintendo
   3DS (Open-Meteo): live forecast, hourly/7-day, air quality & pollen, multi-city,

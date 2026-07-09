@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/173373592?v=4
 categories:
 - utility
 - app
+color: '#8338a8'
+color_bg: '#632b80'
 created: '2026-06-04T20:26:16Z'
 description: A Tor browser that can be displayed on the Nintendo 3ds
 download_page: https://github.com/DisLoPik/Tor3ds/releases

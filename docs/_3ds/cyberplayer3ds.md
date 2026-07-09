@@ -3,8 +3,6 @@ author: TAYFUN SERHAN YÜNLÜOĞLU
 avatar: https://avatars.githubusercontent.com/u/297731797?v=4
 categories:
 - utility
-color: '#3c4249'
-color_bg: '#3c4249'
 created: '2026-07-01T00:19:55Z'
 description: A retro-styled audio/visual experience for the Nintendo 3DS, heavily
   inspired by late 90s/early 2000s Kenwood car audio DSP systems
@@ -78,4 +76,5 @@ update_notes: '<p dir="auto">CyberPlayer3DS - Release Notes<br>
 updated: '2026-07-06T18:02:51Z'
 version: 1.0.1
 version_title: CyberPlayer3DS
+wiki: https://github.com/Taifuoguru/CyberPlayer3DS/wiki
 ---

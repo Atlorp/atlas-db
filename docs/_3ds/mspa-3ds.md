@@ -57,6 +57,5 @@ update_notes: '<h2 dir="auto">What''s new in v1.0.0</h2>
 updated: '2026-06-27T19:48:19Z'
 version: v1.0.0
 version_title: RELEASE 1
-wiki: https://github.com/Animalino5/MSPA-3DS/wiki
 ---
 This is a Homestuck 3DS reader which works by fetching data from a Homestuck Mirror then displaying said data. (YOU NEED WIFI FOR THIS TO WORK)
