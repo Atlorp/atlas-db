@@ -2,9 +2,14 @@
 author: Dimolade
 categories:
 - game
+color: '#5fb4f0'
+color_bg: '#326080'
 downloads:
   gmod.cia:
     url: https://www.dropbox.com/scl/fi/5vlbwjj23tkhn8mxzd7w0/NGM3DS.cia?rlkey=oblms1o3vsu3y50syhfl435fj&st=ain9paxs&dl=1
+icon: https://cdn2.steamgriddb.com/icon/131f383b434fdf48079bff1e44e2d9a5/8/48x48.png
+image: https://cdn2.steamgriddb.com/icon/131f383b434fdf48079bff1e44e2d9a5/8/48x48.png
+image_length: 1243
 layout: app
 llm_generation: unknown
 qr:
