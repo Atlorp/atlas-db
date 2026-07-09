@@ -1,4 +1,4 @@
-const ISSUE_URL = "https://github.com/Universal-Team/db/issues/new?template=app-request.yml&title=";
+const ISSUE_URL = "https://github.com/venkeyz/vendb/issues/new?template=app-request.yml&title=";
 const GITHUB_API = "api.github.com";
 const GITLAB_BASE = "gitlab.com";
 const CODEBERG_BASE = "codeberg.org";
@@ -72,7 +72,7 @@ let appSchema = {
 	download_filter: {label: "Download Filter (regex)", help: "File whitelist in case your app has files not caught by the blacklist. Most common of cross-platform apps.", type: "string"},
 	// Rare
 	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", savedDefault: true},
-	script_message: {label: "Pre-install message", help: "The confirmation message to display in Universal-Updater before installing. Leave blank for most apps.", type: "string"},
+	preinstall_message: {label: "Pre-install message", help: "The confirmation message to display in Universal-Updater before installing. Leave blank for most apps.", type: "string"},
 };
 
 let apiMappings = {
@@ -149,7 +149,7 @@ function setGit(provider, host) {
 	gitDiv.innerHTML = "";
 
 	if(git.provider != "none") {
-		git.host = host ? host : defaultHosts[git.provider];
+		git.host = (host && host != "github.com") ? host : defaultHosts[git.provider];
 
 		let div = document.createElement("div");
 		div.classList.add("input-group");
