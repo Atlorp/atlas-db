@@ -4,6 +4,8 @@ autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
 - game
+color: '#b46800'
+color_bg: '#804a00'
 created: '2019-02-25T00:42:43Z'
 description: A port of Xash3D-FWGS for the Nintendo 3DS
 download_page: https://github.com/masterfeizz/Xash3DS/releases
@@ -90,16 +92,16 @@ Xash3D Engine is a custom Gold Source engine rewritten from scratch. Xash3D is c
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[full game] extras.pak</summary>
+<ol>
+<li>Download <code>extras.pak</code> to <code>/xash3d/extras.pak</code> on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>[demo] uplink_data.zip</summary>
 <ol>
 <li>Download <code>uplink_data.zip</code></li>
 <li>Extract everything from the zip to the root of your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[full game] extras.pak</summary>
-<ol>
-<li>Download <code>extras.pak</code> to <code>/xash3d/extras.pak</code> on your SD card</li>
 </ol>
 </details>
 

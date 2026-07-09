@@ -3,6 +3,8 @@ author: CTurt
 avatar: https://avatars.githubusercontent.com/u/6132330?v=4
 categories:
 - utility
+color: '#939393'
+color_bg: '#808080'
 created: '2014-12-05T16:52:25Z'
 download_page: https://github.com/CTurt/3DSController/releases
 downloads:
@@ -13,6 +15,7 @@ downloads:
 github: CTurt/3DSController
 icon: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png
 image: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png
+image_length: 4254
 layout: app
 llm_generation: 'no'
 source: https://github.com/CTurt/3DSController

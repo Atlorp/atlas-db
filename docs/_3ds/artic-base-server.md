@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/188636407?v=4
 categories:
 - emulator
 - utility
+color: '#bdd4d4'
+color_bg: '#728080'
 created: '2024-05-12T17:18:02Z'
 description: A tool for broadcasting games from your console to a compatible 3DS emulator.
 download_page: https://github.com/PabloMK7/ArticBaseServer/releases

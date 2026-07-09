@@ -3,6 +3,8 @@ author: Voxel
 avatar: https://avatars.githubusercontent.com/u/16278868?v=4
 categories:
 - game
+color: '#515c7b'
+color_bg: '#515c7b'
 created: '2023-02-02T06:44:28Z'
 description: An updated 3DS port of the Sonic CD (2011) Decompilation
 download_page: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux/releases

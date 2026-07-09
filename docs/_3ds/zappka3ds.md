@@ -47,6 +47,5 @@ update_notes: '<p dir="auto">elo naprawiłem logowanie i kupony.<br>
 updated: '2026-02-06T03:20:25Z'
 version: v2.0.41
 version_title: Żappka3DS 2.0.41 (update tymczasowy)
-wiki: https://github.com/TehFridge/Zappka3DS/wiki
 ---
 ## Get your Żappsy™ straight with Żappka3DS!

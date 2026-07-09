@@ -21,6 +21,7 @@ downloads:
 github: TheCoolesttOne/3DS-Button-Test
 icon: https://raw.githubusercontent.com/TheCoolesttOne/3DS-Button-Test/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/TheCoolesttOne/3DS-Button-Test/refs/heads/main/icon.png
+image_length: 2070
 layout: app
 llm_generation: unknown
 qr:
@@ -37,5 +38,4 @@ update_notes: <p dir="auto">this is the first release. (I know the 3dsx and cia 
 updated: '2024-09-13T22:43:20Z'
 version: V1
 version_title: V1
-wiki: https://github.com/TheCoolesttOne/3DS-Button-Test/wiki
 ---

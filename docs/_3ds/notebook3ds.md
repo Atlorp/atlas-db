@@ -55,7 +55,6 @@ update_notes: '<p dir="auto">New release!</p>
 updated: '2024-12-19T10:39:29Z'
 version: release-1.1.0
 version_title: v1.1.0
-wiki: https://github.com/Milk-Cool/Notebook3DS/wiki
 ---
 This is a simple note taking/drawing app. Made it for myself to take notes during classes, but thought someone might find it useful too.
 Supported features:

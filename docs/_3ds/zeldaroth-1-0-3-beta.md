@@ -3,6 +3,8 @@ author: Viktor Varga
 avatar: https://avatars.githubusercontent.com/u/12373906?v=4
 categories:
 - game
+color: '#ceb1a5'
+color_bg: '#806e66'
 created: '2020-12-18T01:11:38Z'
 description: ZeldaROTH 1.0.3 beta including Hungarian translation for this classic
   fan game, and was recompiled with actual libraries.
@@ -85,17 +87,17 @@ Beta, because, its playable, but until now, it was not found yet, why it gives g
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>qrcode.png</summary>
+<ol>
+<li>Download <code>qrcode.png</code> to <code>/qrcode.png</code> on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>ZeldaROTH.cia</summary>
 <ol>
 <li>Download <code>ZeldaROTH.cia</code> to <code>/cias/ZeldaROTH.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/ZeldaROTH.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>qrcode.png</summary>
-<ol>
-<li>Download <code>qrcode.png</code> to <code>/qrcode.png</code> on your SD card</li>
 </ol>
 </details>
 

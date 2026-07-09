@@ -20,6 +20,7 @@ downloads:
 github: vinegar77/hrt-3ds
 icon: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/icon.png
 image: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/hrtbanner.png
+image_length: 57119
 layout: app
 license: mit
 license_name: MIT License

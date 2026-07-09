@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/256004323?v=4
 categories:
 - app
 - media
+color: '#2e3746'
+color_bg: '#2e3746'
 created: '2026-03-03T02:38:59Z'
 description: A Jellyfin client for Nintendo 3DS.
 download_filter: \.3dsx$|\.cia$
@@ -20,6 +22,7 @@ downloads:
 github: 8-bitStudio/3d-jelly
 icon: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
 image: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
+image_length: 4191
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
@@ -27,7 +30,7 @@ llm_generation: unknown
 qr:
   3dJelly.cia: https://db.universal-team.net/assets/images/qr/3djelly-cia.png
 source: https://github.com/8-bitStudio/3d-jelly
-stars: 11
+stars: 12
 systems:
 - 3DS
 title: 3dJelly

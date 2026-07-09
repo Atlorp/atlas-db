@@ -18,6 +18,7 @@ downloads:
 github: Oldhimaster1/3ds-Google-Maps
 icon: https://raw.githubusercontent.com/Oldhimaster1/3ds-Google-Maps/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/Oldhimaster1/3ds-Google-Maps/refs/heads/main/banner.png
+image_length: 42667
 layout: app
 license: mit
 license_name: MIT License

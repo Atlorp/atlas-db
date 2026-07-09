@@ -24,6 +24,7 @@ downloads:
 github: Voxel9/PrBoom-Plus-3DS
 icon: https://raw.githubusercontent.com/Voxel9/PrBoom-Plus-3DS/refs/heads/3ds/build/3ds/res/icon.png
 image: https://raw.githubusercontent.com/Voxel9/PrBoom-Plus-3DS/refs/heads/3ds/build/3ds/res/banner.png
+image_length: 37543
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

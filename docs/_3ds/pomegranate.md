@@ -21,6 +21,7 @@ downloads:
 github: sheepy0125/pomegranate
 icon: https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/icon.png
 image: https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/banner.png
+image_length: 32108
 layout: app
 license: mit
 license_name: MIT License

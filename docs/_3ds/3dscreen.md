@@ -22,6 +22,7 @@ downloads:
 github: AllisterMKW/3DScreen
 icon: https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/Resources/banner.png
+image_length: 18682
 layout: app
 llm_generation: unknown
 qr:

@@ -3,6 +3,8 @@ author: oreo639
 avatar: https://avatars.githubusercontent.com/u/31916379?v=4
 categories:
 - app
+color: '#4d5351'
+color_bg: '#4d5351'
 created: '2018-12-17T04:06:39Z'
 description: Gui music player for the Nintendo 3DS (wip)
 download_page: https://github.com/Oreo639/LimePlayer3DS/releases
@@ -27,7 +29,7 @@ screenshots:
 - description: Quick menu
   url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/quick-menu.png
 source: https://github.com/oreo639/LimePlayer3DS
-stars: 53
+stars: 54
 systems:
 - 3DS
 title: LimePlayer3DS

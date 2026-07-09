@@ -23,6 +23,7 @@ downloads:
 github: dcuevasa/3DS_CodEdit
 icon: https://raw.githubusercontent.com/dcuevasa/3DS_CodEdit/refs/heads/next/res/ic_launcher_filemanager.png
 image: https://raw.githubusercontent.com/dcuevasa/3DS_CodEdit/refs/heads/next/res/banner.png
+image_length: 37646
 layout: app
 llm_generation: unknown
 qr:

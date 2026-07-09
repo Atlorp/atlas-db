@@ -3,6 +3,8 @@ author: DS-Homebrew
 avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - utility
+color: '#464061'
+color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
@@ -49,6 +51,7 @@ downloads:
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.24.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
+icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
 image: https://db.universal-team.net/assets/images/images/twilight-menu.png
 image_length: 12520
 layout: app
@@ -131,18 +134,18 @@ Please check the [wiki](https://wiki.ds-homebrew.com/twilightmenu/) for help ins
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Full)</summary>
+<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Minimal, Recommended)</summary>
 <ol>
-<li>Download <code>AddOn-VirtualConsoleFull-3DS.7z</code></li>
+<li>Download <code>AddOn-VirtualConsoleMinimal-3DS.7z</code></li>
 <li>Extract <code>/_nds</code> from the 7z to <code>/_nds</code> on your SD card</li>
 <li>Extract "roms" folder?  (Recommended for new users) If not, you're done!</li>
 <li>Extract <code>/roms</code> from the 7z to <code>/roms</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Minimal, Recommended)</summary>
+<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Full)</summary>
 <ol>
-<li>Download <code>AddOn-VirtualConsoleMinimal-3DS.7z</code></li>
+<li>Download <code>AddOn-VirtualConsoleFull-3DS.7z</code></li>
 <li>Extract <code>/_nds</code> from the 7z to <code>/_nds</code> on your SD card</li>
 <li>Extract "roms" folder?  (Recommended for new users) If not, you're done!</li>
 <li>Extract <code>/roms</code> from the 7z to <code>/roms</code> on your SD card</li>

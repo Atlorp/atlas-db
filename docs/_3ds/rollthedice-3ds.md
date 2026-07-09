@@ -18,6 +18,7 @@ downloads:
 github: DefeatOf13/RollTheDice-3DS
 icon: https://raw.githubusercontent.com/DefeatOf13/RollTheDice-3DS/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/DefeatOf13/RollTheDice-3DS/refs/heads/main/icon.png
+image_length: 2363
 layout: app
 llm_generation: unknown
 source: https://github.com/DefeatOf13/RollTheDice-3DS

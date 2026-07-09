@@ -3,6 +3,8 @@ author: William278
 avatar: https://avatars.githubusercontent.com/u/31187453?v=4
 categories:
 - game
+color: '#483326'
+color_bg: '#483326'
 created: '2023-07-06T00:11:28Z'
 description: Breaking Bad, as a Nintendo DS game! Master the art of the cook and prepare
   the perfect batch—lest you meet the wrong end of Gus. Hone your cook in both Singleplayer
@@ -166,16 +168,16 @@ You can listen to the game music through the Music Player submenu, located in th
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>breaking-bad-ds.nds</summary>
+<ol>
+<li>Download <code>breaking-bad-ds.nds</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>[git] breaking-bad-ds.nds</summary>
 <ol>
 <li>Download <code>Breaking%20Bad%20DS.zip</code></li>
 <li>Extract <code>/breaking-bad-ds.nds</code> from the zip to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>breaking-bad-ds.nds</summary>
-<ol>
-<li>Download <code>breaking-bad-ds.nds</code> to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

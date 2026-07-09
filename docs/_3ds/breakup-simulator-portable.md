@@ -3,6 +3,8 @@ author: Dangerbites
 avatar: https://avatars.githubusercontent.com/u/119724559?v=4
 categories:
 - game
+color: '#d2b8ca'
+color_bg: '#80707b'
 created: '2024-02-17T08:44:30Z'
 description: Port of Super Kawai Breakup Sim for the Nintendo 3DS
 download_page: https://github.com/Dangerbites/BreakupSimulator3DS/releases
@@ -14,6 +16,7 @@ downloads:
 github: Dangerbites/BreakupSimulator3DS
 icon: https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-icon.png
 image: https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-banner.png
+image_length: 58937
 layout: app
 license: mit
 license_name: MIT License

@@ -32,7 +32,6 @@ updated: '2020-10-05T13:52:12Z'
 version: v0.5.2
 version_title: Version 0.5.2
 website: https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/
-wiki: https://github.com/Stewmath/GameYob/wiki
 ---
 ### Installation instructions
 

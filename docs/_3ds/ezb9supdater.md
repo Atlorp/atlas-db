@@ -3,6 +3,8 @@ author: PabloMK7
 avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
 - utility
+color: '#8a959b'
+color_bg: '#727b80'
 created: '2022-05-23T21:53:52Z'
 description: Easy Boot9Strap Updater for the 3DS
 download_page: https://github.com/PabloMK7/EzB9SUpdater/releases

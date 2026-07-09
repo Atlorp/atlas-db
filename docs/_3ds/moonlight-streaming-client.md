@@ -3,6 +3,8 @@ author: zoeyjodon
 avatar: https://avatars.githubusercontent.com/u/76182954?v=4
 categories:
 - utility
+color: '#91959a'
+color_bg: '#787b80'
 created: '2023-10-17T20:37:53Z'
 description: Gamestream client for the New 3DS
 download_page: https://github.com/zoeyjodon/moonlight-N3DS/releases
