@@ -4,6 +4,8 @@ autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/160427994?v=4
 categories:
 - game
+color: '#5f6dc0'
+color_bg: '#3f4880'
 created: '2020-02-12T20:02:49Z'
 description: The full port of the SMBX engine from VB6 into C++ and SDL2, FreeImage
   and MixerX

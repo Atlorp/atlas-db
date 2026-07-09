@@ -134,5 +134,4 @@ update_notes: '<p dir="auto">CyberCamera Update<br>
 updated: '2026-07-07T22:03:18Z'
 version: 1.0.2
 version_title: CyberCamera
-wiki: https://github.com/Taifuoguru/CyberCamera/wiki
 ---

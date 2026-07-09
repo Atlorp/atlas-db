@@ -20,7 +20,6 @@ downloads:
 github: Menshion01/CSTimer-3DS
 icon: https://raw.githubusercontent.com/Menshion01/CSTimer-3DS/refs/heads/main/icon/icon.png
 image: https://raw.githubusercontent.com/Menshion01/CSTimer-3DS/refs/heads/main/icon/banner.png
-image_length: 8258
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0

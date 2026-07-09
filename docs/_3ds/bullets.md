@@ -27,5 +27,6 @@ systems:
 - 3DS
 title: Bullets
 updated: '---'
+wiki: https://github.com/1Setherson1/Bullets/wiki
 ---
 Bullets is a very simple and lightweight game for the nintendo 3ds. i made bullets to challenge myself to make a game with no game engine. Dpad to controll player. Start to exit (takes a couple seconds)

@@ -33,4 +33,5 @@ unique_ids:
 updated: '2016-07-23T23:51:20Z'
 version: v2.1.1
 version_title: CIA for TitleDB.com
+wiki: https://github.com/gnmmarechal/easyrpgdlre/wiki
 ---

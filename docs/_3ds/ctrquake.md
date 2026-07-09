@@ -3,8 +3,6 @@ author: Felipe Izzo
 avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
 - game
-color: '#44291b'
-color_bg: '#44291b'
 created: '2015-10-20T01:25:02Z'
 description: Port of quake for the Nintendo 3DS
 download_page: https://github.com/masterfeizz/ctrQuake/releases
@@ -48,13 +46,6 @@ version_title: 8th Release - Online MP
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>ctrQuake.3dsx</summary>
-<ol>
-<li>Download <code>ctrQuake.zip</code></li>
-<li>Extract everything from the zip to the root of your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>ctrQuake.cia</summary>
 <ol>
 <li>Download <code>ctrQuake.zip</code></li>
@@ -62,6 +53,13 @@ version_title: 8th Release - Online MP
 <li>Download <code>ctrQuake.cia</code> to <code>/cias/ctrQuake.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/ctrQuake.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ctrQuake.3dsx</summary>
+<ol>
+<li>Download <code>ctrQuake.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

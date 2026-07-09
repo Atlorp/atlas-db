@@ -3,6 +3,8 @@ author: selloa
 avatar: https://avatars.githubusercontent.com/u/65969186?v=4
 categories:
 - utility
+color: '#c2c2c2'
+color_bg: '#808080'
 created: '2025-09-07T15:52:26Z'
 description: Pick a random game from your SD card or NAND and launch it. SMDH title
   names, filters, and persistent options.

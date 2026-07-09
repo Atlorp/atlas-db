@@ -21,7 +21,6 @@ downloads:
 github: Zachary-Rude/CIA-Installer
 icon: https://raw.githubusercontent.com/Zachary-Rude/CIA-Installer/refs/heads/main/app/icon.png
 image: https://raw.githubusercontent.com/Zachary-Rude/CIA-Installer/refs/heads/main/app/banner.png
-image_length: 3243
 layout: app
 license: mit
 license_name: MIT License

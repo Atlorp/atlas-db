@@ -3,8 +3,6 @@ author: xPsycho999
 avatar: https://avatars.githubusercontent.com/u/47577362?v=4
 categories:
 - utility
-color: '#4d5261'
-color_bg: '#4d5261'
 created: '2026-06-20T01:49:35Z'
 description: A fastfetch-style system info tool for the Nintendo 3DS
 download_page: https://github.com/xPsycho999/3ds-fastfetch/releases
@@ -16,7 +14,6 @@ downloads:
 github: xPsycho999/3ds-fastfetch
 icon: https://raw.githubusercontent.com/xPsycho999/3ds-fastfetch/main/icons/iconA_device.png
 image: https://raw.githubusercontent.com/xPsycho999/3ds-fastfetch/main/icons/iconA_device_big.png
-image_length: 5587
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

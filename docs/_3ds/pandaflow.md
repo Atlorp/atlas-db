@@ -3,6 +3,8 @@ author: Sergio Cubelli
 avatar: https://avatars.githubusercontent.com/u/168790740?v=4
 categories:
 - app
+color: '#201c2c'
+color_bg: '#201c2c'
 created: '2026-06-11T02:28:08Z'
 description: Reproductor de musica para Nintendo 3DS (suena con la tapa cerrada, estilo
   Mixtape). MP3/FLAC/WAV/AAC, caratulas, letras .lrc, shuffle/repeat.

@@ -44,4 +44,5 @@ update_notes: <p dir="auto">V0.93 - version en test (bannière V2, animation de 
 updated: '2026-06-02T16:07:45Z'
 version: Alpha
 version_title: 3DSoundShell - V0.93 - Alpha
+wiki: https://github.com/Adritrain09/3DSoundShell/wiki
 ---

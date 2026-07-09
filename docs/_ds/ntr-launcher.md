@@ -64,6 +64,7 @@ update_notes: '<ul dir="auto">
 updated: '2024-12-12T02:44:18Z'
 version: '3.2'
 version_title: 3.2 Release Build
+wiki: https://github.com/ApacheThunder/NTR_Launcher/wiki
 ---
 A DS Slot-1 Launcher. Original code from NitroHax but with cheat engine/menu stripped out. Useful for launching older DS flashcarts.
 Credits go to Chishm for NitroHax which this source is based from and WinterMute for dslink source/reset code.

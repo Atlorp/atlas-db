@@ -33,4 +33,5 @@ update_notes: '<p dir="auto">Initial good release. Checks for a lot of different
 updated: '2022-05-24T12:59:01Z'
 version: v2.0
 version_title: There's a lot of firms out there
+wiki: https://github.com/zoogie/b9s_check/wiki
 ---

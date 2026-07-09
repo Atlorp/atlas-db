@@ -55,6 +55,7 @@ update_notes: '<p dir="auto">Codebase was refactored and was introduced Leaderbo
 updated: '2026-03-19T21:43:32Z'
 version: v1.1.1
 version_title: Introduces Leaderboard
+wiki: https://github.com/0rientd/2048-port-3ds/wiki
 ---
 This project is an unofficial Nintendo 3DS port of the excellent 2048.c implementation by Maurits van der Schee.
 The original game is a minimalist implementation of the popular 2048 puzzle for Linux terminals, and now you can play it on your 3DS console!

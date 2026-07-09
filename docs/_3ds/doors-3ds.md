@@ -3,8 +3,6 @@ author: Carmander152
 avatar: https://avatars.githubusercontent.com/u/226231353?v=4
 categories:
 - game
-color: '#6b594c'
-color_bg: '#6b594c'
 created: '2026-03-13T00:47:39Z'
 description: This is a fan demake of the Roblox horror game Doors which was originally
   made by LSplash. This is being built completely from the ground up as obviously,

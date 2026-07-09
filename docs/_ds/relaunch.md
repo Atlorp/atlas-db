@@ -3,8 +3,6 @@ author: Universal-Team
 avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - utility
-color: '#282928'
-color_bg: '#282928'
 created: '2019-04-27T19:07:23Z'
 description: Open-Source lookalike of nocash’s Unlaunch.dsi
 download_page: https://github.com/Universal-Team/Relaunch/releases
@@ -14,7 +12,7 @@ downloads:
     size_str: 145 KiB
     url: https://github.com/Universal-Team/Relaunch/releases/download/v4.0.1/Relaunch.7z
 github: Universal-Team/Relaunch
-icon: https://db.universal-team.net/assets/images/icons/relaunch.png
+icon: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
 image_length: 510792
 layout: app

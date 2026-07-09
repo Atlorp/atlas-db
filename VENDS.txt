@@ -1,7 +1,7 @@
 1
 	
 NTR Launcher	nds	ANY	3.2	Apache Thunder	https://github.com/ApacheThunder/NTR_Launcher/releases/download/3.2/NTR_Launcher.zip	NTR_Launcher.zip	4556042	https://db.universal-team.net/assets/images/images/ntr-launcher.png
-lolSnes	nds	ANY	v1.0	Arisotura	http://lolsnes.kuribo64.net/lolsnes.7z	lolsnes.7z	104976	https://db.universal-team.net/assets/images/images/lolsnes.png	lolSnes.nds	lolsnes/lolSnes.nds
+lolSnes	nds	ANY	v1.0	Arisotura	http://lolsnes.kuribo64.net/lolsnes.7z	lolsnes.7z	0	https://db.universal-team.net/assets/images/images/lolsnes.png	lolSnes.nds	lolsnes/lolSnes.nds
 MicroCityNDS	nds	ANY	v1.0	AzizBgBoss	https://github.com/AzizBgBoss/MicroCityNDS/releases/download/v1.0/MicroCityNDS.nds	MicroCityNDS.nds	224256	https://avatars.githubusercontent.com/u/83554824?v=4&size=128
 TerrariaDS	nds	ANY	0.2	AzizBgBoss	https://github.com/AzizBgBoss/TerrariaDS/releases/download/0.2/TerrariaDS.nds	TerrariaDS.nds	16017408	https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/logo.png
 Derailed!	nds	ANY	1.1alpha	AzizBgBoss	https://github.com/AzizBgBoss/derailed/releases/download/1.1alpha/derailed.nds	derailed.nds	697344	https://raw.githubusercontent.com/AzizBgBoss/derailed/refs/heads/main/media/banner.png
@@ -34,7 +34,7 @@ d-Elusion	nds	ANY	0.3	N•I•L	https://github.com/NotImplementedLife/d-Elusion/
 Monty Hall DS	nds	ANY	v2.0	Rph	https://github.com/Rph-nsmb/MontyHallDS/releases/download/v2.0/Monty.Hall.DS.v2.0.zip	Monty.Hall.DS.v2.0.zip	480680	https://db.universal-team.net/assets/images/icons/monty-hall-ds.png
 Protista	nds	ANY		Clark Morse, Corey Ross, Jonathan Bryant	https://db.universal-team.net/assets/files/Protista_manual.zip	Protista_manual.zip	209517	
 Raptor DS/3DS	nds	ANY	MultiSys-V1.0.4	RetroGamer02/Ryan	https://github.com/RetroGamer02/raptor-consoles/releases/download/MultiSys-V1.0.4/RAPTOR-NDS-V1.1.0.zip	RAPTOR-NDS-V1.1.0.zip	1866951	https://raw.githubusercontent.com/RetroGamer02/raptor-consoles/multi-sys/rsrc/raptor3dsbanner.png	RAPTOR-NDS-V1.1.0.nds	RAPTOR-NDS-V1.1.0.nds
-DS Forwarder Packs	nds	ANY	SD-29	RocketRobz	https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z	DS.Game.Forwarder.pack.nds-bootstrap.7z	473415	https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
+DS Forwarder Packs	nds	ANY	SD-29	RocketRobz	https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z	DS.Game.Forwarder.pack.nds-bootstrap.7z	473415	https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD_Card/sd/icon.bmp
 Super Photo Studio	nds	ANY	v1.1.0	RocketRobz	https://github.com/RocketRobz/SuperAllStarPhotoStudio/releases/download/v1.1.0/SuperPhotoStudio.nds	SuperPhotoStudio.nds	279469056	https://raw.githubusercontent.com/RocketRobz/SuperPhotoStudio/master/3ds/app/banner.png
 LudoNDS	nds	ANY	v0.1.0	StackZ	https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/download/v0.1.0/LudoNDS.nds	LudoNDS.nds	977920	https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/Cover_ReadMe.png
 PKCount	nds	ANY	v0.0.2	StackZ	https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds	PKCount.nds	719872	https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png

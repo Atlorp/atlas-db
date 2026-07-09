@@ -20,6 +20,7 @@ downloads:
 github: Milk-Cool/Notebook3DS
 icon: https://raw.githubusercontent.com/Milk-Cool/Notebook3DS/refs/tags/release-1.0.0/res/icon.png
 image: https://raw.githubusercontent.com/Milk-Cool/Notebook3DS/refs/tags/release-1.0.0/res/banner.png
+image_length: 16398
 layout: app
 license: mit
 license_name: MIT License

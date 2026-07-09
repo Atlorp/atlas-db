@@ -17,7 +17,6 @@ downloads:
 github: dotMizi/StarCruiser7
 icon: https://raw.githubusercontent.com/dotMizi/StarCruiser7/main/logo.png
 image: https://raw.githubusercontent.com/dotMizi/StarCruiser7/main/logo.png
-image_length: 9292
 layout: app
 license: mit
 license_name: MIT License

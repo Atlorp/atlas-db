@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/95235529?v=4
 categories:
 - app
 - media
+color: '#2d3213'
+color_bg: '#2d3213'
 created: '2026-07-06T13:48:43Z'
 description: music tracker + synthesizer for the New Nintendo 3DS — song/chain/phrase
   sequencer, 5 synth engines, 23 FX commands, KAOSS pad, mic sampling
@@ -20,7 +22,6 @@ downloads:
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
-image_length: 987
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

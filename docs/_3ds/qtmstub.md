@@ -3,8 +3,6 @@ author: SNBeast
 avatar: https://avatars.githubusercontent.com/u/21327530?v=4
 categories:
 - utility
-color: '#f79e69'
-color_bg: '#805236'
 created: '2026-01-19T18:04:47Z'
 description: A patch to bypass qtm error 0xf9605002
 download_page: https://github.com/SNBeast/qtmStub/releases
@@ -16,7 +14,6 @@ downloads:
 github: SNBeast/qtmStub
 icon: https://raw.githubusercontent.com/SNBeast/qtmStub/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/SNBeast/qtmStub/refs/heads/main/icon.png
-image_length: 3202
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -30,6 +27,7 @@ update_notes: <p dir="auto">Patch for error 0xf9605002</p>
 updated: '2026-01-19T18:06:38Z'
 version: v1.0.0
 version_title: Initial Release
+wiki: https://github.com/SNBeast/qtmStub/wiki
 ---
 # qtmStub
 

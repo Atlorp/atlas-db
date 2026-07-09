@@ -3,6 +3,8 @@ author: bubble2k16 / matbo87 / willjow / Xeddius-Network
 avatar: https://avatars.githubusercontent.com/u/4026393?v=4
 categories:
 - emulator
+color: '#635e5e'
+color_bg: '#635e5e'
 created: '2019-01-15T09:19:13Z'
 description: SNES9x Port for 3DS / 2DS
 download_page: https://github.com/matbo87/snes9x_3ds/releases

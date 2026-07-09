@@ -3,6 +3,8 @@ author: TehFridge
 avatar: https://avatars.githubusercontent.com/u/85436576?v=4
 categories:
 - app
+color: '#ffd01b'
+color_bg: '#80680d'
 created: '2026-02-09T15:36:55Z'
 description: Klient InPost na Nintendo 3DS
 download_page: https://github.com/TehFridge/InPost3DS/releases
@@ -18,7 +20,6 @@ downloads:
 github: TehFridge/InPost3DS
 icon: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/gfx/logo_inpost.png
-image_length: 20744
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
