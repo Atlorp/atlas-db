@@ -1,5 +1,6 @@
 ---
 author: Efim
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/120276090?v=4
 categories:
 - game
@@ -94,3 +95,13 @@ updated: '2026-06-11T21:29:59Z'
 version: v1.2
 version_title: Merged PR from EPDN
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>UNDERTALE</summary>
+<ol>
+<li>Download <code>Undertale.rar</code> to <code>/Undertale.rar</code> on your SD card</li>
+<li>Extract everything from the rar to <code>/3ds/butterscotch/</code> on your SD card</li>
+</ol>
+</details>
+
