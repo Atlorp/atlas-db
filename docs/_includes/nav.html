@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
 	<div class="container-fluid maxwidth">
-		<a class="navbar-brand" href="/vendb/" accesskey="h">{{ site.title }}</a>
+		<a class="navbar-brand" href="{{ '/' | relative_url }}" accesskey="h">{{ site.title }}</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -45,7 +45,7 @@
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
 					<li><a class="dropdown-item i18n innerHTML-translate-here" href="javascript:setLang('ic-IC')" accesskey="t">Translate here</a></li>
-					<li><a id="translate-on-crowdin" class="dropdown-item i18n innerHTML-translate-on-crowdin" href="https://crowdin.com/project/universal-db" accesskey="c">Translate on Crowdin</a></li>
+					<li><a id="translate-on-crowdin" class="dropdown-item i18n innerHTML-translate-on-crowdin" href="https://crowdin.com/project/vendb" accesskey="c">Translate on Crowdin</a></li>
 				</ul>
 			</div>
 		</div>
