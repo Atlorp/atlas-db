@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Home",
-		"url": "/vendb/"
+		"url": "/"
 	},
 	{
 		"title": "3DS",
@@ -9,61 +9,61 @@
 			{
 				"title": "All",
 				"page_title": "3DS",
-				"url": "/vendb/3ds",
+				"url": "/3ds",
 				"key": "3"
 			},
 			{
 				"title": "Games",
 				"page_title":"3DS - Games",
-				"url": "/vendb/3ds/category/game",
+				"url": "/3ds/category/game",
 				"i18n": "cat-game"
 			},
 			{
 				"title": "Emulators",
 				"page_title": "3DS - Emulators",
-				"url": "/vendb/3ds/category/emulator",
+				"url": "/3ds/category/emulator",
 				"i18n": "cat-emulator"
 			},
 			{
 				"title": "Apps",
 				"page_title": "3DS - Applications",
-				"url": "/vendb/3ds/category/app",
+				"url": "/3ds/category/app",
 				"i18n": "cat-app"
 			},
 			{
 				"title": "Utilities",
 				"page_title":"3DS - Utilities",
-				"url": "/vendb/3ds/category/utility",
+				"url": "/ndb/3ds/category/utility",
 				"i18n": "cat-utility"
 			},
 			{
 				"title": "Plugins",
 				"page_title": "3DS - Plugins",
-				"url": "/vendb/3ds/category/plugin",
+				"url": "/3ds/category/plugin",
 				"i18n": "cat-plugin"
 			},
 			{
 				"title": "FIRMs",
 				"page_title":"3DS - FIRMs",
-				"url": "/vendb/3ds/category/firm",
+				"url": "/3ds/category/firm",
 				"i18n": "cat-firm"
 			},
 			{
 				"title": "Exploits",
 				"page_title": "3DS - Exploits",
-				"url": "/vendb/3ds/category/exploit",
+				"url": "/3ds/category/exploit",
 				"i18n": "cat-exploit"
 			},
 			{
 				"title": "Multimedia",
 				"page_title": "3DS - Multimedia",
-				"url": "/vendb/3ds/category/media",
+				"url": "/3ds/category/media",
 				"i18n": "cat-media"
 			},
 			{
 				"title": "Save Tools",
 				"page_title":"3DS - Save Tools",
-				"url": "/vendb/3ds/category/save-tool",
+				"url": "/3ds/category/save-tool",
 				"i18n": "cat-save-tool"
 			}
 		]
@@ -80,43 +80,43 @@
 			{
 				"title": "Games",
 				"page_title":"DS - Games",
-				"url": "/vendb/ds/category/game",
+				"url": "/ds/category/game",
 				"i18n": "cat-game"
 			},
 			{
 				"title": "Emulators",
 				"page_title": "DS - Emulators",
-				"url": "/vendb/ds/category/emulator",
+				"url": "/ds/category/emulator",
 				"i18n": "cat-emulator"
 			},
 			{
 				"title": "Apps",
 				"page_title": "DS - Applications",
-				"url": "/vendb/ds/category/app",
+				"url": "/ds/category/app",
 				"i18n": "cat-app"
 			},
 			{
 				"title": "Utilities",
 				"page_title":"DS - Utilities",
-				"url": "/vendb/ds/category/utility",
+				"url": "/ds/category/utility",
 				"i18n": "cat-utility"
 			},
 			{
 				"title": "Multimedia",
 				"page_title": "DS - Multimedia",
-				"url": "/vendb/ds/category/media",
+				"url": "/ds/category/media",
 				"i18n": "cat-media"
 			},
 			{
 				"title": "Save Tools",
 				"page_title":"DS - Save Tools",
-				"url": "/vendb/ds/category/save-tool",
+				"url": "/ds/category/save-tool",
 				"i18n": "cat-save-tool"
 			}
 		]
 	},
 	{
 		"title": "Submit app request",
-		"url": "/vendb/app-request"
+		"url": "/app-request"
 	}
 ]

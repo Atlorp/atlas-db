@@ -67,7 +67,7 @@ layout: compress
 								{% if page.category == Nil or app.categories contains page.category %}
 									<div class="col mb-3 {% if page.limit == 4 and forloop.index == 4 %}d-md-none d-xl-block{% endif %}">
 										<div class="card h-100" data-title="{{ app.title | escape}}" data-author="{{ app.author | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}" data-stars="{{ app.stars }}">
-											<a class="flex-grow-1" href="/vendb{{ app.url | remove: ".html" }}">
+											<a class="flex-grow-1" href="{{ app.url | remove: ".html" | relative_url }}">
 												{% if app.image %}
 													<div class="card-header card-image-header">
 														<img class="card-image" src="{{ app.image }}" alt="{{ app.title | escape }}" loading="lazy">
@@ -168,10 +168,10 @@ layout: compress
 	{% include footer.html %}
 
 	{% include common-js.html %}
-	<script src="/vendb/assets/js/modal.js"></script>
+	<script src="{{ '/assets/js/modal.js' | relative_url }}"></script>
 	{% if page.system %}
-	<script src="/vendb/assets/js/sort.js"></script>
+	<script src="{{ '/assets/js/sort.js' | relative_url }}"></script>
 	{% endif %}
-	<script src="/vendb/assets/js/search.js"></script>
+	<script src="{{ '/assets/js/search.js' | relative_url}}"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 				{% for item in site.data.nav %}
 					{% if item.url %}
 						<li class="nav-item">
-							<a class="nav-link {% if item.title == page.title %}active{% endif %} i18n innerHTML-{%if item.i18n %}{{ item.i18n }}{% else %}{{ item.title | downcase | replace: " ", "-" }}{% endif %}" href="{{ item.url }}" {% if item.key %}accesskey="{{ item.key }}"{% endif %}>{{ item.title }}</a>
+							<a class="nav-link {% if item.title == page.title %}active{% endif %} i18n innerHTML-{%if item.i18n %}{{ item.i18n }}{% else %}{{ item.title | downcase | replace: " ", "-" }}{% endif %}" href="{{ item.url | relative_url }}" {% if item.key %}accesskey="{{ item.key }}"{% endif %}>{{ item.title }}</a>
 						</li>
 					{% elsif item.items %}
 						<li class="nav-item dropdown">
