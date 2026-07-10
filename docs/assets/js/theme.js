@@ -2,10 +2,10 @@ function loadTheme() {
 	const themeCSS = document.getElementById("theme-css");
 	const today = new Date();
 	if(today.getMonth() == 3 && today.getDate() == 1) {
-		themeCSS.href = "/vendb/assets/css/83-percent.css";
+		themeCSS.href = "{{ '/assets/css/83-percent.css' | relative_url }}";
 	} else {
 		if(!localStorage.theme || localStorage.theme == "default") {
-			themeCSS.href = "/vendb/assets/css/style.css";
+			themeCSS.href = "{{ '/assets/css/style.css' | relative_url }}";
 			window.addEventListener("prefersColorScheme", event => console.log(event));
 			var darkMatch = window.matchMedia("(prefers-color-scheme: dark)");
 			if(darkMatch.addEventListener) {
@@ -16,7 +16,7 @@ function loadTheme() {
 
 			document.documentElement.dataset.bsTheme = darkMatch.matches ? "dark" : "light";
 		} else {			
-			themeCSS.href = "/vendb/assets/css/" + localStorage.theme + ".css";
+			themeCSS.href = "{{ '/assets/css/' | relative_url }}" + localStorage.theme + ".css";
 			document.documentElement.dataset.bsTheme = localStorage.theme == "dark" ? "dark" : "light";
 		}
 	}
