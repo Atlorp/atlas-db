@@ -39,7 +39,11 @@ jobs:
           python3 source/generate.py all --priority
         fi
 
-      # Pull origin in case a commit has been done while updating
+    - name: kekatsu
+      run: |
+        set -e
+        python3 makedb.py
+
     - name: Pull origin
       run: |
         git config --global --add safe.directory /__w/vendb/vendb
