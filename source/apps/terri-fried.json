@@ -1,0 +1,42 @@
+{
+	"title": "Terri-Fried",
+	"description": "A multi-platform C++ game made for Ludum Dare 46.",
+	"categories": [
+		"game"
+	],
+	"downloads": {
+		"terri.nds": {
+			"url": "http://venkeyz.github.io/vendb/assets/files/terri.nds"
+		},
+		"terri-nofat.nds": {
+			"url": "http://venkeyz.github.io/vendb/assets/files/terri-nofat.nds"
+		}
+	},
+	"author": "PolyMars",
+	"website": "https://polymars.itch.io/",
+	"download_page": "https://polymars.itch.io/terri-fried",
+	"version": "1.0.0",
+	"updated": "2026-07-09T00:00:00Z",
+	"systems": [
+		"DS"
+	],
+	"installed_files": [
+		"%NDS%/Terri-Fried.nds"
+	],
+	"scripts": {
+		"Terri-Fried.nds": [
+			{
+				"type": "downloadFile",
+				"file": "http://venkeyz.github.io/vendb/assets/files/terri.nds",
+				"output": "%NDS%/Terri-Fried.nds"
+			}
+		],
+		"Terri-Fried (No FAT).nds": [
+			{
+				"type": "downloadFile",
+				"file": "http://venkeyz.github.io/vendb/assets/files/terri-nofat.nds",
+				"output": "%NDS%/Terri-Fried.nds"
+			}
+		]
+	}
+}

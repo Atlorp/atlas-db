@@ -1,0 +1,11 @@
+{
+	"github": "EGAMatsu/OpenBLOX",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/EGAMatsu/Roblox_DS/refs/heads/main/Game/icon.bmp"
+}
