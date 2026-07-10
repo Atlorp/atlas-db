@@ -6,6 +6,26 @@
 	"categories": [
 		"game"
 	],
-  "llm_generation": "yes",
-  "icon": "https://raw.githubusercontent.com/efimandreev0/Butterscotch/main/3ds/icon.png"
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/efimandreev0/Butterscotch/main/3ds/icon.png",
+	"autogen_scripts": true,
+	"scripts": {
+		"UNDERTALE": [
+			{
+				"type": "downloadFile",
+				"file": "https://archive.org/download/undertale_202607/Undertale.rar",
+				"output": "/Undertale.rar"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Undertale.rar",
+				"input": "",
+				"output": "/3ds/butterscotch/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Undertale.rar"
+			}
+		]
+	}
 }
