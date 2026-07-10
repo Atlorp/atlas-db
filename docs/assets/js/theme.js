@@ -1,11 +1,15 @@
+function assetPath(path) {
+	return (window.siteBaseUrl || "") + path;
+}
+
 function loadTheme() {
 	const themeCSS = document.getElementById("theme-css");
 	const today = new Date();
 	if(today.getMonth() == 3 && today.getDate() == 1) {
-		themeCSS.href = "{{ '/assets/css/83-percent.css' | relative_url }}";
+		themeCSS.href = assetPath("/assets/css/83-percent.css");
 	} else {
 		if(!localStorage.theme || localStorage.theme == "default") {
-			themeCSS.href = "{{ '/assets/css/style.css' | relative_url }}";
+			themeCSS.href = assetPath("/assets/css/style.css");
 			window.addEventListener("prefersColorScheme", event => console.log(event));
 			var darkMatch = window.matchMedia("(prefers-color-scheme: dark)");
 			if(darkMatch.addEventListener) {
@@ -16,7 +20,7 @@ function loadTheme() {
 
 			document.documentElement.dataset.bsTheme = darkMatch.matches ? "dark" : "light";
 		} else {			
-			themeCSS.href = "{{ '/assets/css/' | relative_url }}" + localStorage.theme + ".css";
+			themeCSS.href = assetPath("/assets/css/" + localStorage.theme + ".css");
 			document.documentElement.dataset.bsTheme = localStorage.theme == "dark" ? "dark" : "light";
 		}
 	}
