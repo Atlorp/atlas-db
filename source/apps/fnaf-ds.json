@@ -1,0 +1,58 @@
+{
+	"title": "FNAF DS",
+	"author": "TrueNTG",
+	"categories": [
+		"game"
+	],
+	"systems": [
+		"DS"
+	],
+	"downloads": {
+		"FNAF_v4.2.7z": {
+			"url": "https://dlhb.gamebrew.org/dshomebrew2/FNAF_v4.2.7z"
+		}
+	},
+	"download_page": "https://www.gamebrew.org/wiki/FNAF_DS",
+	"website": "https://www.gamebrew.org/wiki/FNAF_DS",
+	"version": "v4.2",
+	"installed_files": [
+		"%NDS%/FNAF v4.2.nds",
+		"%NDS%/FNAF v4.2 Sound.nds"
+	],
+	"scripts": {
+		"FNAF v4.2.nds": [
+			{
+				"type": "downloadFile",
+				"file": "https://dlhb.gamebrew.org/dshomebrew2/FNAF_v4.2.7z",
+				"output": "/FNAF_v4.2.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/FNAF_v4.2.7z",
+				"input": "^FNAF v4.2.nds",
+				"output": "%NDS%/FNAF v4.2.nds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/FNAF_v4.2.7z"
+			}
+		],
+		"FNAF v4.2 Sound.nds": [
+			{
+				"type": "downloadFile",
+				"file": "https://dlhb.gamebrew.org/dshomebrew2/FNAF_v4.2.7z",
+				"output": "/FNAF_v4.2.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/FNAF_v4.2.7z",
+				"input": "^FNAF v4.2 Sound.nds",
+				"output": "%NDS%/FNAF v4.2 Sound.nds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/FNAF_v4.2.7z"
+			}
+		]
+	}
+}
