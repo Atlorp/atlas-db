@@ -3,6 +3,8 @@
 QR Code (scan in universal updater)
 i'll add a qr code soon
 
+[![Crowdin](https://badges.crowdin.net/vendb/localized.svg)](https://crowdin.com/project/vendb)
+
 # repos used
 
 https://github.com/cavv-dev/UDB-Kekatsu-DS/blob/main/makedb.py (kekatsu)
