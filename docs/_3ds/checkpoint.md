@@ -284,6 +284,13 @@ update_notes: '<p dir="auto">This is genuinely the largest Checkpoint update sin
 
   <hr>
 
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b261080b-ef0d-4a2f-a711-207a4554d311"><img
+  width="181" height="183" alt="qr" src="https://github.com/user-attachments/assets/b261080b-ef0d-4a2f-a711-207a4554d311"
+  style="max-width: 100%; height: auto; max-height: 183px;; aspect-ratio: 181 / 183;
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
+
+  <hr>
+
   <p dir="auto">If you wish to contribute, pull requests are highly appreciated.</p>
 
   <hr>
