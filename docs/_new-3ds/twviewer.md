@@ -24,7 +24,7 @@ llm_generation: unknown
 source: https://github.com/gamerboyrts-a11y/twviewer
 stars: 1
 systems:
-- 3DS
+- New 3DS
 title: twviewer
 update_notes: '<p dir="auto"><strong>Install:</strong> copy <code class="notranslate">twviewer.3dsx</code>
   to <code class="notranslate">sd:/3ds/</code> and launch from the Homebrew Launcher.
