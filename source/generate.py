@@ -908,7 +908,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		"https://venkeyz.github.io/vendb/unistore/atlas-db.unistore",
 		[f"https://venkeyz.github.io/vendb/unistore/atlas-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
 		"https://venkeyz.github.io/vendb/unistore/atlas-db.tdx",
-		"https://venkeyz.github.io/vendb/unistore/atlas-info.json",
+		"https://venkeyz.github.io/vendb/unistore/atlas-db-info.json",
 		bool(BG_IMAGE)
 	)
 
