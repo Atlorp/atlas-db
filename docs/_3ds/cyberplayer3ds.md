@@ -11,12 +11,12 @@ description: A retro-styled audio/visual experience for the Nintendo 3DS, heavil
 download_page: https://github.com/Taifuoguru/CyberPlayer3DS/releases
 downloads:
   CyberPlayer3DS.3dsx:
-    size: 15213396
+    size: 15214644
     size_str: 14 MiB
     url: https://github.com/Taifuoguru/CyberPlayer3DS/releases/download/1.0.6/CyberPlayer3DS.3dsx
   CyberPlayer3DS.cia:
-    size: 836544
-    size_str: 816 KiB
+    size: 837568
+    size_str: 817 KiB
     url: https://github.com/Taifuoguru/CyberPlayer3DS/releases/download/1.0.6/CyberPlayer3DS.cia
 github: Taifuoguru/CyberPlayer3DS
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/icon.png
@@ -62,7 +62,16 @@ update_notes: '<h2 dir="auto">Old 3DS / 2DS Optimization Update</h2>
   <li>Improved low-spec image rendering while preserving the normal Custom Visualizer
   panel size.</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">(Unfortunately, playing FLAC files with sampling rates higher than
+  44.1 kHz or bit depths above 16-bit is too demanding for both Old 3DS and New 3DS
+  models. Currently, it is not possible to play these high-res files while simultaneously
+  rendering visual effects and graphics.</p>
+
+  <p dir="auto">To address this, I have added a new error-handling function: if you
+  attempt to load an unsupported audio format, the app will now display an error message
+  stating that the file is not supported, rather than crashing.)</p>'
 updated: '2026-07-13T16:25:42Z'
 version: 1.0.1
 version_title: CyberPlayer3DS
