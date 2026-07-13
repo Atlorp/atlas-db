@@ -7,7 +7,7 @@ import logging
 import os
 from typing import List, Dict, Any
 
-DB_FILENAME = "VENDS.txt"
+DB_FILENAME = "ATLASDS.txt"
 DB_VERSION = 1
 DB_DELIMITER = "\t"
 

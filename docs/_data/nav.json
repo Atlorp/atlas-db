@@ -37,10 +37,16 @@
 				"i18n": "cat-utility"
 			},
 			{
-				"title": "Plugins",
-				"page_title": "3DS - Plugins",
+				"title": "Luma Plugins",
+				"page_title": "3DS - Luma Plugins",
 				"url": "/3ds/category/plugin",
 				"i18n": "cat-plugin"
+			},
+			{
+				"title": "NTR Plugins",
+				"page_title": "3DS - NTR Plugins",
+				"url": "/3ds/category/ntrplugins",
+				"i18n": "cat-ntrplugin"
 			},
 			{
 				"title": "FIRMs",
@@ -64,6 +70,71 @@
 				"title": "Save Tools",
 				"page_title":"3DS - Save Tools",
 				"url": "/3ds/category/save-tool",
+				"i18n": "cat-save-tool"
+			}
+		]
+	},
+	{
+		"title": "New 3DS",
+		"items": [
+			{
+				"title": "All",
+				"page_title": "New 3DS",
+				"url": "/new-3ds",
+				"key": "3"
+			},
+			{
+				"title": "Games",
+				"page_title":"New 3DS - Games",
+				"url": "/new-3ds/category/game",
+				"i18n": "cat-game"
+			},
+			{
+				"title": "Emulators",
+				"page_title": "New 3DS - Emulators",
+				"url": "/new-3ds/category/emulator",
+				"i18n": "cat-emulator"
+			},
+			{
+				"title": "Apps",
+				"page_title": "New 3DS - Applications",
+				"url": "/new-3ds/category/app",
+				"i18n": "cat-app"
+			},
+			{
+				"title": "Utilities",
+				"page_title":"New 3DS - Utilities",
+				"url": "/new-3ds/category/utility",
+				"i18n": "cat-utility"
+			},
+			{
+				"title": "Plugins",
+				"page_title": "New 3DS - Plugins",
+				"url": "/new-3ds/category/plugin",
+				"i18n": "cat-plugin"
+			},
+			{
+				"title": "FIRMs",
+				"page_title":"New 3DS - FIRMs",
+				"url": "/new-3ds/category/firm",
+				"i18n": "cat-firm"
+			},
+			{
+				"title": "Exploits",
+				"page_title": "New 3DS - Exploits",
+				"url": "/new-3ds/category/exploit",
+				"i18n": "cat-exploit"
+			},
+			{
+				"title": "Multimedia",
+				"page_title": "New 3DS - Multimedia",
+				"url": "/new-3ds/category/media",
+				"i18n": "cat-media"
+			},
+			{
+				"title": "Save Tools",
+				"page_title":"New 3DS - Save Tools",
+				"url": "/new-3ds/category/save-tool",
 				"i18n": "cat-save-tool"
 			}
 		]
@@ -111,6 +182,53 @@
 				"title": "Save Tools",
 				"page_title":"DS - Save Tools",
 				"url": "/ds/category/save-tool",
+				"i18n": "cat-save-tool"
+			}
+		]
+	},
+	{
+		"title": "DSi",
+		"items": [
+			{
+				"title": "All",
+				"page_title": "DSi",
+				"url": "/dsi",
+				"key": "3"
+			},
+			{
+				"title": "Games",
+				"page_title":"DSi - Games",
+				"url": "/dsi/category/game",
+				"i18n": "cat-game"
+			},
+			{
+				"title": "Emulators",
+				"page_title": "DSi - Emulators",
+				"url": "/dsi/category/emulator",
+				"i18n": "cat-emulator"
+			},
+			{
+				"title": "Apps",
+				"page_title": "DSi - Applications",
+				"url": "/dsi/category/app",
+				"i18n": "cat-app"
+			},
+			{
+				"title": "Utilities",
+				"page_title":"DSi - Utilities",
+				"url": "/dsi/category/utility",
+				"i18n": "cat-utility"
+			},
+			{
+				"title": "Multimedia",
+				"page_title": "DSi - Multimedia",
+				"url": "/dsi/category/media",
+				"i18n": "cat-media"
+			},
+			{
+				"title": "Save Tools",
+				"page_title":"DSi - Save Tools",
+				"url": "/dsi/category/save-tool",
 				"i18n": "cat-save-tool"
 			}
 		]

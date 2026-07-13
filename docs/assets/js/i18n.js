@@ -95,7 +95,7 @@ function loadLang(initing) {
 					if(match[2])
 						element.dataset[match[2]] = str.replace(/\${(.*)}/g, function(full, capture) { return element.dataset[capture]; });
 					else
-						element[match[1]] = str.replace(/\${(.*)}/g, function(full, capture) { return element.dataset[capture]; });
+						element[match[1]] = str.replace(/\${(.*)}/g, function(full, capture) { return element.dataset[capture]; }).replace(/href="\//g, 'href="' + (window.siteBaseUrl || "") + '/');
 				} else {
 					console.warn("Translation is missing string", match[3]);
 				}

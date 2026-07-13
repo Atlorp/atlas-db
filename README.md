@@ -1,4 +1,4 @@
-# VenDB
+# Atlas-DB
 
 QR Code (scan in universal updater)
 i'll add a qr code soon

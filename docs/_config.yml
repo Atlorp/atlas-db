@@ -1,6 +1,6 @@
 # theme       : jekyll-theme-slate
-title       : "VenDB"
-description : "VenDB - A unrestricted database of DS and 3DS homebrew"
+title       : "Atlorp-DB"
+description : "Atlorp-DB - A unrestricted database of DS and 3DS homebrew"
 repo        : "venkeyz/vendb"
 color       : "#1d8056"
 image       : "https://universal-team.net/images/icons/universal-team.png"
@@ -12,4 +12,8 @@ collections:
   3ds:
     output: true
   ds:
+    output: true
+  dsi:
+    output: true
+  new-3ds:
     output: true

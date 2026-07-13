@@ -31,7 +31,7 @@ from unistore import StoreEntry, UniStore, ICONS_PER_SHEET
 from utils import (format_to_web_name, format_traceback, get_matching_app,
                    to_friendly_bytes, was_recently_updated, create_installation_instructions)
 
-DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.flatpak|\.dmg|\.dol|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|\.nso|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
+DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.flatpak|\.dmg|\.dol|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|\.nsp|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
 DOCS_DIR: Optional[pathlib.Path] = None
 PRIORITY_MODE = True
 SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
@@ -902,13 +902,13 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	github = GitHubAPI(token=ghToken)
 
 	unistore = UniStore(
-		"VenDB",
-		"venkeyz",
-		"VenDB",
-		"https://venkeyz.github.io/vendb/unistore/vendb.unistore",
-		[f"https://venkeyz.github.io/vendb/unistore/vendb-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
-		"https://venkeyz.github.io/vendb/unistore/vendb.tdx",
-		"https://venkeyz.github.io/vendb/unistore/vendb-info.json",
+		"Atlas-DB",
+		"Atlas-Team",
+		"whats this for",
+		"https://venkeyz.github.io/vendb/unistore/atlas-db.unistore",
+		[f"https://venkeyz.github.io/vendb/unistore/atlas-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
+		"https://venkeyz.github.io/vendb/unistore/atlas-db.tdx",
+		"https://venkeyz.github.io/vendb/unistore/atlas-info.json",
 		bool(BG_IMAGE)
 	)
 

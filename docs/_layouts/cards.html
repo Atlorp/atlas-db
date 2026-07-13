@@ -45,10 +45,14 @@ layout: compress
 
 						{% if page.system == "3ds" %}
 							{% assign cards = site["3ds"] %}
+						{% elsif page.system == "new-3ds" %}
+							{% assign cards = site["new-3ds"] %}
 						{% elsif page.system == "ds" %}
 							{% assign cards = site.ds %}
+						{% elsif page.system =="dsi" %}
+							{% assign cards = site.dsi %}
 						{% elsif page.title == "Home" %}
-							{% assign temp = site["3ds"] | concat: site.ds %}
+							{% assign temp = site["3ds"] | concat: site["new-3ds"] | concat: site.ds  | concat: site.dsi%}
 							{% for item in temp %}
 								{% assign id = item.author | append: item.title %}
 								{% unless existing contains id %}
@@ -72,7 +76,7 @@ layout: compress
 													<div class="card-header card-image-header">
 														<img class="card-image" src="{{ app.image }}" alt="{{ app.title | escape }}" loading="lazy">
 													</div>
-												{% else if app.icon %}
+												{% elsif app.icon %}
 													<div class="card-header card-image-header">
 														<img class="card-image" src="{{ app.icon }}" alt="{{ app.title | escape }}" loading="lazy">
 													</div>
@@ -136,7 +140,7 @@ layout: compress
 															{% if app.version %}<br>{% endif %}
 															<span class="i18n innerHTML-last-updated">Last updated: </span><time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
 														{% endif %}
-														{% if page.system == "3ds" and app.unique_ids.size >= 1 %}
+														{% if (page.system == "3ds" or page.system == "new-3ds") and app.unique_ids.size >= 1 %}
 															{% if app.updated != "---" %}<br>{% endif %}
 															{% if app.unique_ids.size == 1 %}
 																<span class="i18n innerHTML-unique-id">Unique ID:</span>

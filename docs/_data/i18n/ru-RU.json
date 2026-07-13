@@ -1,8 +1,8 @@
 {
-	"title-home": "Home | VenDB",
-	"title-3ds": "3DS | VenDB",
+	"title-home": "Home | Atlas-DB",
+	"title-3ds": "3DS | Atlas-DB",
 	"title-ds": "DS | VenDB",
-	"title-app-request": "App Request | VenDB",
+	"title-app-request": "App Request | Atlas-DB",
 	"title-error-404": "Error 404 | VenDB",
 	"by": "By: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Published with <a href=\"https://pages.github.com\">GitHub Pages</a>, view <a href=\"https://github.com/${repo}\">the source</a> on GitHub.",
