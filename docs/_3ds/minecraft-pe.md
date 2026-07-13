@@ -8,11 +8,7 @@ color_bg: '#806346'
 created: '2026-03-10T21:20:54Z'
 description: Port of MCPE Alpha 0.6.1 to Nintendo Switch and 3DS.
 download_page: https://github.com/efimandreev0/minecraftpe-nx-ctr/releases
-downloads:
-  Minecraft.PE.01b90fc1020b0000.nsp:
-    size: 378584
-    size_str: 369 KiB
-    url: https://github.com/efimandreev0/minecraftpe-nx-ctr/releases/download/v1.0.0/Minecraft.PE.01b90fc1020b0000.nsp
+downloads: {}
 github: efimandreev0/minecraftpe-nx-ctr
 image: https://avatars.githubusercontent.com/u/120276090?v=4&size=128
 image_length: 3897
