@@ -93,7 +93,7 @@ prerelease:
   version: v0.8.4
   version_title: 3DS Release!
 source: https://github.com/efimandreev0/minecraftpe-nx-ctr
-stars: 69
+stars: 71
 systems:
 - 3DS
 title: Minecraft PE
