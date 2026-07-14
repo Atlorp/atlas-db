@@ -70,14 +70,11 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   </ul>
 
-  <h3 dir="auto">The file can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
+  <h3 dir="auto">The plugin can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
   rel="nofollow">Universal-Updater</a></strong></h3>
 
   <p dir="auto"><em>Make sure to delete any <code class="notranslate">_beta</code>
-  named files as they will conflict with the download</em><br>
-
-  <em>The icon in the Universal-Updater will take a bit to update, just search <code
-  class="notranslate">Time Trials Revamped</code></em></p>'
+  named files as they will conflict with the download</em></p>'
 updated: '2026-07-12T00:08:35Z'
 version: latest
 version_title: v1.0.0
