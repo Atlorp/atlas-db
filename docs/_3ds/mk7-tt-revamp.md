@@ -32,7 +32,8 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Caution</p><p dir="auto"><strong>This is
   release version is considered experimental as its a <em>open beta</em></strong><br>
 
-  Expect issues or bugs and make sure to report them accordingly</p>
+  Expect issues or bugs and make sure to <strong><a href="https://github.com/mainexploit/mk7-tt-revamp/blob/main/README.md#any-questions-or-ran-into-issues">report
+  them</a></strong> accordingly</p>
 
   </div>
 
@@ -62,7 +63,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <ul dir="auto">
 
-  <li>Added particle anti freeze which can occur in DK Pass and Mushroom, Gorge</li>
+  <li>Added particle anti freeze which can occur in DK Pass and Mushroom Gorge</li>
 
   <li>Fixed an issue that made coins not respawn when creating new snapshots</li>
 
