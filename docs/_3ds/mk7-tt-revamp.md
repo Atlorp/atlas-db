@@ -14,7 +14,7 @@ downloads:
 github: mainexploit/mk7-tt-revamp
 icon: https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/icon.png
 image: https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/banner_small.png
-image_length: 4783
+image_length: 6953
 layout: app
 llm_generation: 'no'
 source: https://github.com/mainexploit/mk7-tt-revamp
@@ -37,7 +37,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   </div>
 
-  <h1 dir="auto"></h1>
+  <hr>
 
   <div class="markdown-alert markdown-alert-important" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg data-component="Octicon" class="octicon octicon-report mr-2" viewBox="0
@@ -57,7 +57,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <blockquote>
 
-  <p dir="auto">Latest change: 07/13/2026</p>
+  <p dir="auto">Latest change: 07/14/2026</p>
 
   </blockquote>
 
