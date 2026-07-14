@@ -8,7 +8,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 2002136
+    size: 2002240
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -67,7 +67,11 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <li>Fixed an issue that made coins not respawn when creating new snapshots</li>
 
-  <li>Attempted to fix a crash when powering off your system</li>
+  <li>Fixed a crash that could occur when you are powering off your system</li>
+
+  <li>Added basic translation (JPN -&gt; japanese, EUR &amp; USA -&gt; english)</li>
+
+  <li>Added hotkey filter checks when loading the configuration file</li>
 
   </ul>
 
