@@ -130,6 +130,7 @@ update_notes: '<p dir="auto">Change-log 0.1.2:</p>
 updated: '2025-08-15T02:34:34Z'
 version: v0.1.2
 version_title: Gen 6 CTRPluginFramework v0.1.2
+wiki: https://github.com/biometrix76/Gen6CTRPluginFramework/wiki
 ---
 ### Installation instructions
 
