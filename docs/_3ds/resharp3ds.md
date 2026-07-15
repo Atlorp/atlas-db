@@ -38,7 +38,7 @@ qr:
 script_message: Remember to create a folder named “ReSharp3DS” at the root of your
   SD card
 source: https://github.com/saiitanaa/ReSharp3DS
-stars: 22
+stars: 23
 systems:
 - 3DS
 title: ReSharp3DS
