@@ -29,20 +29,34 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3006052
+      size: 3054312
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2479040
+      size: 2507712
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">Pk11 - Store proxy URL as  if using system proxy</p>
-  update_notes_md: Pk11 - Store proxy URL as <DEFAULT> if using system proxy
-  updated: '2026-07-14T01:31:27Z'
+  update_notes: '<p dir="auto">Pk11 - theme: Convert to RapidJSON, refactor to not
+    store JSON</p>
+
+    <p dir="auto">This one looks big, but its not too too scary. Most of the changes
+    are because I changed the global from "std::unique_ptr UIThemes" to "Theme UITheme"
+    because there''s no compelling reason for it to be a pointer The other reason
+    its so big is that the Theme now represents one single theme where before it was
+    both a single theme <em>and</em> all the themes</p>'
+  update_notes_md: 'Pk11 - theme: Convert to RapidJSON, refactor to not store JSON
+
+
+    This one looks big, but its not too too scary. Most of the changes are because
+    I changed the global from "std::unique_ptr<Theme> UIThemes" to "Theme UITheme"
+    because there''s no compelling reason for it to be a pointer The other reason
+    its so big is that the Theme now represents one single theme where before it was
+    both a single theme *and* all the themes'
+  updated: '2026-07-15T00:03:03Z'
   version: git
-  version_title: Continuous Build - 1012c62
+  version_title: Continuous Build - 2238fd0
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
