@@ -18,7 +18,7 @@ image_length: 6953
 layout: app
 llm_generation: 'no'
 source: https://github.com/mainexploit/mk7-tt-revamp
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: mk7-tt-revamp
