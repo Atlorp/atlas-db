@@ -19,8 +19,8 @@ downloads:
     size_str: 617 KiB
     url: https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia
   ClassiCube.nds:
-    size: 717824
-    size_str: 701 KiB
+    size: 719872
+    size_str: 703 KiB
     url: https://cdn.classicube.net/client/latest/ClassiCube.nds
 github: ClassiCube/ClassiCube
 icon: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/icon.png
