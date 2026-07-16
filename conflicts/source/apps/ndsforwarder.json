@@ -1,0 +1,39 @@
+{
+	"github": "volkanturkut/NDSForwarder",
+	"author": "MechanicalDragon / Volkan Turkut",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/volkanturkut/ndsForwarder/refs/heads/master/icon.png",
+	"long_description": "### Installing\n1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)\n1. Extract the contents of the `for SD card root` folder to the root of your SD card\n\nWhen installing with Universal-Updater this is done automatically.",
+	"wiki": "https://wiki.ds-homebrew.com/ds-index/forwarders?tab=3ds-sd-card/",
+	"installed_files": ["%3DSX%/ndsForwarder.3dsx"],
+	"scripts": {
+		"ndsForwarder.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "volkanturkut/NDSForwarder",
+				"file": "ndsForwarder.3dsx",
+				"output": "%3DSX%/ndsForwarder.3dsx"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+				"output": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+				"input": "^for SD Card root/",
+				"output": "/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
+			}
+		]
+	}
+}
