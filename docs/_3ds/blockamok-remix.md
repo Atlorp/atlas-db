@@ -69,3 +69,11 @@ New 3DS is recommended; performance is poor on O3DS.
 </ol>
 </details>
 
+<details class="alert alert-secondary"><summary>BlockamokRemix.cia</summary>
+<ol>
+<li>Download <code>BlockamokRemix-v*-3ds.cia</code> to <code>/cias/BlockamokRemix.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/BlockamokRemix.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
