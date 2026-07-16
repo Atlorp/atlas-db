@@ -40,7 +40,7 @@ function loadHead(lang) {
 	}
 
 	if(languageID == "ic-IC") {
-		_jipt.push(['project', 'universal-db']);
+		_jipt.push(['project', 'vendb']);
 		_jipt.push(['escape', function() {
 			delete localStorage.language;
 			location.reload();
