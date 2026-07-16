@@ -9,12 +9,14 @@
 	"image": "https://github.com/Mode8fx/blockamok/raw/main/release-resources/banner_3ds.png",
 	"icon": "https://github.com/Mode8fx/blockamok/raw/main/release-resources/logo_icon_48.png",
 	"long_description": "Fly through a 3D world of never-ending blocks and survive for as long as you can! Includes customization options for gameplay and visuals, along with five music tracks.\n\nNew 3DS is recommended; performance is poor on O3DS.",
-	"installed_files": ["%3DSX%/BlockamokRemix.3dsx"],
+	"installed_files": [
+		"%3DSX%/BlockamokRemix.3dsx"
+	],
 	"scripts": {
 		"BlockamokRemix.3dsx": [
 			{
 				"type": "downloadRelease",
-				"repo": "Mode8fx/BlockamokRemix",
+				"repo": "Mode8fx/blockamok",
 				"file": "BlockamokRemix-v.*-3ds\\.zip",
 				"output": "/BlockamokRemix.zip"
 			},
@@ -27,6 +29,22 @@
 			{
 				"type": "deleteFile",
 				"file": "/BlockamokRemix.zip"
+			}
+		],
+		"BlockamokRemix.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "Mode8fx/blockamok",
+				"file": "BlockamokRemix-v.*-3ds\\.cia",
+				"output": "/BlockamokRemix.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/BlockamokRemix.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/BlockamokRemix.cia"
 			}
 		]
 	}
