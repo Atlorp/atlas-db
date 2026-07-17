@@ -15,6 +15,7 @@ hiyaCFW	nds	ANY	v1.6.2	DS-Homebrew	https://github.com/DS-Homebrew/hiyaCFW/releas
 nds-bootstrap	nds	ANY	v2.16.0	DS-Homebrew	https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.16.0/nds-bootstrap.zip	nds-bootstrap.zip	1204507	https://i.imgur.com/BFIu7xX.png
 Parkin'Rampage	nds	ANY	02012021	Tim 'Mighty Max' Seidel	https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds	ParkingRampage.nds	691200	https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/gfx/title.png
 GameYob	nds	ANY	v0.5.2	Stewmath	https://github.com/Stewmath/GameYob/releases/download/v0.5.2/gameyob.zip	gameyob.zip	627066	https://db.universal-team.net/assets/images/images/gameyob.png	gameyob.nds	gameyob.nds
+NTM	nds	ANY	v0.5.1	Pk11	https://github.com/Epicpkmn11/NTM/releases/download/v0.5.1/NTM.dsi	NTM.dsi	160256	https://raw.githubusercontent.com/Epicpkmn11/NTM/master/icon.png
 NitroHax3DS	nds	ANY	0.101	Pk11	https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.101/NitroHax.dsi	NitroHax.dsi	1298432	https://db.universal-team.net/assets/images/images/nitrohax3ds.png
 Wordle DS	nds	ANY	v3.2.3	Pk11	https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.3/WordleDS.nds	WordleDS.nds	978880	https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 dsi-camera	nds	ANY	v1.1.0	Pk11	https://github.com/Epicpkmn11/dsi-camera/releases/download/v1.1.0/dsi-camera.nds	dsi-camera.nds	287744	https://db.universal-team.net/assets/images/icons/dsi-camera.png
@@ -58,6 +59,7 @@ NDSForwarder-DSi	nds	ANY	v0.3.1	lifehackerhansol	https://github.com/lifehackerha
 ftpd	nds	ANY	v3.2.1	mtheall	https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd.nds	ftpd.nds	431104	https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png
 kirikou	nds	ANY	v1.0.2	rayasticot	https://github.com/rayasticot/kirikou/releases/download/v1.0.2/kirikou2.nds	kirikou2.nds	8355840	https://db.universal-team.net/assets/images/icons/kirikou.png
 dslibris	nds	ANY	v1.5.2-2	Ray Haleblian	https://github.com/rhaleblian/dslibris/releases/download/v1.5.2-2/dslibris-1.5.2-2.zip	dslibris-1.5.2-2.zip	1242044	https://db.universal-team.net/assets/images/images/dslibris.png
+scummvm	nds	ANY	v2026.3.0	ScummVM	https://downloads.scummvm.org/frs/scummvm/2026.3.0/scummvm-2026.3.0-ds.zip	scummvm-ds.zip	None	https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/banner.png
 DScraft	nds	ANY	v310811	smea	https://db.universal-team.net/assets/files/DScraft_fat_310811.7z	DScraft_fat_310811.7z	4989338	https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png
 portalDS	nds	ANY	r1	smea	https://github.com/smealum/portalDS/releases/download/r1/ASDS_r1.zip	ASDS_r1.zip	1397420	https://db.universal-team.net/assets/images/images/portalds.png
 CerealBoxSnow	nds	ANY	v1.2.0	tallHouse64	https://github.com/tallHouse64/CerealBoxSnow/releases/download/v1.2.0/CerealBoxSnowNds1.2.0.nds	CerealBoxSnowNds1.2.0.nds	465920	https://raw.githubusercontent.com/tallHouse64/CerealBoxSnow/0754a741579cb8ab276df2faa0316160519e3482/CerealBoxSnowLogo.png
