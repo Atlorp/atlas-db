@@ -1,0 +1,12 @@
+{
+	"github": "AntiMach/simple-badge-injector",
+	"description": "Inject, dump or delete badge data as simple as possible.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"llm_generation": "no"
+}
