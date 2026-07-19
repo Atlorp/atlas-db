@@ -38,63 +38,49 @@ jobs:
           gh issue view "$ISSUE_NUMBER" \
             --json body,title,author \
             > issue-data.json
-
           echo "ISSUE_BODY<<EOF" >> "$GITHUB_ENV"
           jq -r '.body' issue-data.json >> "$GITHUB_ENV"
           echo "EOF" >> "$GITHUB_ENV"
-
           echo "ISSUE_USER=$(jq -r '.author.login' issue-data.json)" >> "$GITHUB_ENV"
           echo "ISSUE_TITLE=$(jq -r '.title' issue-data.json)" >> "$GITHUB_ENV"
-
       - name: Get issue data (automatic run)
         if: github.event_name == 'issues'
         run: |
           echo "ISSUE_BODY<<EOF" >> "$GITHUB_ENV"
           echo '${{ github.event.issue.body }}' >> "$GITHUB_ENV"
           echo "EOF" >> "$GITHUB_ENV"
-
           echo "ISSUE_USER=${{ github.event.issue.user.login }}" >> "$GITHUB_ENV"
           echo "ISSUE_TITLE=${{ github.event.issue.title }}" >> "$GITHUB_ENV"
-
       - name: Extract JSON attachment
         id: json
         env:
           ISSUE_BODY: ${{ env.ISSUE_BODY }}
         run: |
           echo "$ISSUE_BODY" > issue.txt
-
           URL=$(grep -oE 'https://[^ )"]+\.json' issue.txt | head -1)
-
           if [ -z "$URL" ]; then
             echo "No JSON attachment found"
             exit 1
           fi
-
           NAME=$(basename "$URL")
-
           if ! echo "$NAME" | grep -qE '^[a-z0-9-]+\.json$'; then
             echo "Invalid filename: $NAME"
             exit 1
           fi
-
           echo "url=$URL" >> "$GITHUB_OUTPUT"
           echo "name=$NAME" >> "$GITHUB_OUTPUT"
-
       - name: Check developer permission
         run: |
           if ! grep -qi "I am the app developer or have permission" issue.txt; then
             echo "Developer permission checkbox was not accepted"
             exit 1
           fi
-
       - name: Download JSON
         run: |
           mkdir -p source/apps
-
           curl -L \
             "${{ steps.json.outputs.url }}" \
             -o "source/apps/${{ steps.json.outputs.name }}"
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -105,48 +91,38 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - name: Test generator priority
         working-directory: source
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python generate.py -t "$TOKEN" -p
-
       - name: Reset repository
         run: |
           git reset --hard
           git clean -fdx
-
       - name: Restore submitted JSON
         run: |
           mkdir -p source/apps
-
           curl -L \
             "${{ steps.json.outputs.url }}" \
             -o "source/apps/${{ steps.json.outputs.name }}"
-
       - name: Create branch
         run: |
           git checkout -b "app-request-${ISSUE_NUMBER}"
-
       - name: Commit app
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add \
             "source/apps/${{ steps.json.outputs.name }}"
-
           git commit \
             -m "Add ${{ steps.json.outputs.name }}"
-
       - name: Push branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git push origin "app-request-${ISSUE_NUMBER}"
-
       - name: Create pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -155,6 +131,14 @@ jobs:
             --title "Add ${{ steps.json.outputs.name }}" \
             --body "generated from #${ISSUE_NUMBER}.
 Submitted by @${ISSUE_USER}" \
+
+Check failure on line 157 in .github/workflows/app-request.yml
+GitHub Actions / .github/workflows/app-request.yml
+
+Invalid workflow file
+
+You have an error in your yaml syntax on line 157
+
             --base main \
             --head "app-request-${ISSUE_NUMBER}"
 
