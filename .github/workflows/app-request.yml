@@ -5,6 +5,13 @@ on:
     types:
       - opened
 
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "what issue number twin"
+        required: true
+        type: string
+
 permissions:
   contents: write
   pull-requests: write
@@ -14,20 +21,49 @@ jobs:
   app-request:
     runs-on: ubuntu-latest
 
+    env:
+      ISSUE_NUMBER: ${{ github.event.issue.number || inputs.issue_number }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      - name: Get issue data (manual run)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue view "$ISSUE_NUMBER" \
+            --json body,title,author \
+            > issue-data.json
+
+          echo "ISSUE_BODY<<EOF" >> "$GITHUB_ENV"
+          jq -r '.body' issue-data.json >> "$GITHUB_ENV"
+          echo "EOF" >> "$GITHUB_ENV"
+
+          echo "ISSUE_USER=$(jq -r '.author.login' issue-data.json)" >> "$GITHUB_ENV"
+          echo "ISSUE_TITLE=$(jq -r '.title' issue-data.json)" >> "$GITHUB_ENV"
+
+      - name: Get issue data (automatic run)
+        if: github.event_name == 'issues'
+        run: |
+          echo "ISSUE_BODY<<EOF" >> "$GITHUB_ENV"
+          echo '${{ github.event.issue.body }}' >> "$GITHUB_ENV"
+          echo "EOF"
+
+          echo "ISSUE_USER=${{ github.event.issue.user.login }}" >> "$GITHUB_ENV"
+          echo "ISSUE_TITLE=${{ github.event.issue.title }}" >> "$GITHUB_ENV"
+
       - name: Extract JSON attachment
         id: json
         env:
-          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_BODY: ${{ env.ISSUE_BODY }}
         run: |
           echo "$ISSUE_BODY" > issue.txt
 
-          URL=$(grep -oE 'https://[^ )]+\.json' issue.txt | head -1)
+          URL=$(grep -oE 'https://[^ )"]+\.json' issue.txt | head -1)
 
           if [ -z "$URL" ]; then
             echo "No JSON attachment found"
@@ -77,7 +113,6 @@ jobs:
         run: |
           python generate.py -t "$TOKEN" -p
 
-      # Remove generated files after testing
       - name: Reset repository
         run: |
           git reset --hard
@@ -94,7 +129,7 @@ jobs:
       - name: Create branch
         run: |
           git checkout -b \
-            app-request-${{ github.event.issue.number }}
+            app-request-${ISSUE_NUMBER}
 
       - name: Commit app
         run: |
@@ -112,7 +147,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git push origin \
-            app-request-${{ github.event.issue.number }}
+            app-request-${ISSUE_NUMBER}
 
       - name: Create pull request
         env:
@@ -120,15 +155,15 @@ jobs:
         run: |
           gh pr create \
             --title "Add ${{ steps.json.outputs.name }}" \
-            --body "Automatically generated from #${{ github.event.issue.number }}.
-          Submitted by @${{ github.event.issue.user.login }}" \
+            --body "generated from #${ISSUE_NUMBER}.
+Submitted by @${ISSUE_USER}" \
             --base main \
-            --head app-request-${{ github.event.issue.number }}
+            --head app-request-${ISSUE_NUMBER}
 
       - name: Comment on issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue comment \
-            ${{ github.event.issue.number }} \
-            --body "@${{ github.event.issue.user.login }} your app request has been converted into a pull request."
+            "$ISSUE_NUMBER" \
+            --body "@${ISSUE_USER} we made a pull request from ts"
