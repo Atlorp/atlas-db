@@ -1,0 +1,11 @@
+{
+	"github": "zylonity/PapasPizzeria-n3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/zylonity/PapasPizzeria-n3DS/develop/data/images/icons/logo.png"
+}
