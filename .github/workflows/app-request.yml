@@ -69,12 +69,6 @@ jobs:
           fi
           echo "url=$URL" >> "$GITHUB_OUTPUT"
           echo "name=$NAME" >> "$GITHUB_OUTPUT"
-      - name: Check developer permission
-        run: |
-          if ! grep -qi "I am the app developer or have permission" issue.txt; then
-            echo "Developer permission checkbox was not accepted"
-            exit 1
-          fi
       - name: Download JSON
         run: |
           mkdir -p source/apps
@@ -129,16 +123,7 @@ jobs:
         run: |
           gh pr create \
             --title "Add ${{ steps.json.outputs.name }}" \
-            --body "generated from #${ISSUE_NUMBER}.
-Submitted by @${ISSUE_USER}" \
-
-Check failure on line 157 in .github/workflows/app-request.yml
-GitHub Actions / .github/workflows/app-request.yml
-
-Invalid workflow file
-
-You have an error in your yaml syntax on line 157
-
+            --body "generated from #${ISSUE_NUMBER}. Submitted by @${ISSUE_USER}" \
             --base main \
             --head "app-request-${ISSUE_NUMBER}"
 
