@@ -904,11 +904,11 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	unistore = UniStore(
 		"Atlas-DB",
 		"Atlas-Team",
-		"whats this for",
-		"https://venkeyz.github.io/vendb/unistore/atlas-db.unistore",
-		[f"https://venkeyz.github.io/vendb/unistore/atlas-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
-		"https://venkeyz.github.io/vendb/unistore/atlas-db.tdx",
-		"https://venkeyz.github.io/vendb/unistore/atlas-db-info.json",
+		"An unrestricted DB of homebrew",
+		"https://atlorp.github.io/atlas-db/unistore/atlas-db.unistore",
+		[f"https://atlorp.github.io/atlas-db/unistore/atlas-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
+		"https://atlorp.github.io/atlas-db/unistore/atlas-db.tdx",
+		"https://atlorp.github.io/atlas-db/unistore/atlas-db-info.json",
 		bool(BG_IMAGE)
 	)
 

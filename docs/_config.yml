@@ -1,7 +1,7 @@
 # theme       : jekyll-theme-slate
 title       : "Atlas-DB"
 description : "Atlas-DB - An unrestricted database of DS and 3DS homebrew"
-repo        : "venkeyz/vendb"
+repo        : "atlorp/atlas-db"
 color       : "#1d8056"
 image       : "https://universal-team.net/images/icons/universal-team.png"
 

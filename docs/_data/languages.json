@@ -92,6 +92,16 @@
 		"id": "zh-TW",
 		"dir": "ltr"
 	},
+	"Lolcat": {
+		"id": "lol-US",
+		"dir": "ltr",
+		"crowdin": "lol"
+	},
+	"Bruh": {
+		"id": "bruh-US",
+		"dir": "ltr",
+		"crowdin": "bruh"
+	},
 	"Crowdin In-Context": {
 		"id": "ic-IC",
 		"dir": "ltr",

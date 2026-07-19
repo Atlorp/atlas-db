@@ -1,4 +1,4 @@
-const ISSUE_URL = "https://github.com/venkeyz/vendb/issues/new?template=app-request.yml&title=";
+const ISSUE_URL = "https://github.com/atlorp/atlas-db/issues/new?template=app-request.yml&title=";
 const GITHUB_API = "api.github.com";
 const GITLAB_BASE = "gitlab.com";
 const CODEBERG_BASE = "codeberg.org";
