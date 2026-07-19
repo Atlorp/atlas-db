@@ -87,7 +87,7 @@ jobs:
 
     - name: Pull origin
       run: |
-        git config --global --add safe.directory /__w/vendb/vendb
+        git config --global --add safe.directory /__w/atlas-db/atlas-db
         git pull origin master --ff-only
 
     - name: Push changes
