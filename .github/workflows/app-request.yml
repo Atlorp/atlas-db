@@ -92,7 +92,7 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python generate.py all -t "$TOKEN" -p
+          python generate.py -t "$TOKEN" -p
       - name: Reset repository
         run: |
           git reset --hard
@@ -119,6 +119,20 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git push --force origin "app-request-${ISSUE_NUMBER}"
+          echo "PUSHED_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Verify branch is visible on remote
+        run: |
+          for i in $(seq 1 12); do
+            REMOTE_SHA=$(git ls-remote origin "refs/heads/app-request-${ISSUE_NUMBER}" | cut -f1)
+            if [ "$REMOTE_SHA" = "$PUSHED_SHA" ]; then
+              echo "Remote branch is up to date ($REMOTE_SHA)"
+              exit 0
+            fi
+            echo "Attempt $i: remote sha is '$REMOTE_SHA', expected '$PUSHED_SHA'. Waiting 5s..."
+            sleep 5
+          done
+          echo "Remote branch never matched the pushed commit after 60s"
+          exit 1
       - name: Create pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -127,7 +141,7 @@ jobs:
             if gh pr create \
               --title "Add ${{ steps.json.outputs.name }}" \
               --body "generated from #${ISSUE_NUMBER}. Submitted by @${ISSUE_USER}" \
-              --base main \
+              --base master \
               --head "app-request-${ISSUE_NUMBER}"; then
               exit 0
             fi
