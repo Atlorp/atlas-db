@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   app-request:
-    if: contains(github.event.issue.title, '')
     runs-on: ubuntu-latest
 
     steps:
@@ -45,6 +44,13 @@ jobs:
           echo "url=$URL" >> "$GITHUB_OUTPUT"
           echo "name=$NAME" >> "$GITHUB_OUTPUT"
 
+      - name: Check developer permission
+        run: |
+          if ! grep -qi "I am the app developer or have permission" issue.txt; then
+            echo "Developer permission checkbox was not accepted"
+            exit 1
+          fi
+
       - name: Download JSON
         run: |
           mkdir -p source/apps
@@ -52,13 +58,6 @@ jobs:
           curl -L \
             "${{ steps.json.outputs.url }}" \
             -o "source/apps/${{ steps.json.outputs.name }}"
-
-      - name: Check developer permission
-        run: |
-          if ! grep -qi "I am the app developer or have permission" issue.txt; then
-            echo "Developer permission checkbox was not accepted"
-            exit 1
-          fi
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -78,7 +77,7 @@ jobs:
         run: |
           python generate.py -t "$TOKEN" -p
 
-      # Remove generated files and return to clean state
+      # Remove generated files after testing
       - name: Reset repository
         run: |
           git reset --hard
@@ -99,8 +98,8 @@ jobs:
 
       - name: Commit app
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add \
             "source/apps/${{ steps.json.outputs.name }}"
@@ -109,6 +108,8 @@ jobs:
             -m "Add ${{ steps.json.outputs.name }}"
 
       - name: Push branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git push origin \
             app-request-${{ github.event.issue.number }}
@@ -120,8 +121,7 @@ jobs:
           gh pr create \
             --title "Add ${{ steps.json.outputs.name }}" \
             --body "Automatically generated from #${{ github.event.issue.number }}.
-
-Submitted by @${{ github.event.issue.user.login }}" \
+          Submitted by @${{ github.event.issue.user.login }}" \
             --base main \
             --head app-request-${{ github.event.issue.number }}
 
