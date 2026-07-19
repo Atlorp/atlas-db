@@ -6,12 +6,8 @@ description: A multi-platform C++ game made for Ludum Dare 46.
 download_page: https://polymars.itch.io/terri-fried
 downloads:
   terri-nofat.nds:
-    size: 162889
-    size_str: 159 KiB
     url: http://venkeyz.github.io/vendb/assets/files/terri-nofat.nds
   terri.nds:
-    size: 304666
-    size_str: 297 KiB
     url: http://venkeyz.github.io/vendb/assets/files/terri.nds
 layout: app
 llm_generation: unknown

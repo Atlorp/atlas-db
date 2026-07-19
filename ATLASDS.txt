@@ -41,7 +41,7 @@ DS Forwarder Packs	nds	ANY	SD-29	RocketRobz	https://github.com/RocketRobz/NTR_Fo
 Super Photo Studio	nds	ANY	v1.1.0	RocketRobz	https://github.com/RocketRobz/SuperAllStarPhotoStudio/releases/download/v1.1.0/SuperPhotoStudio.nds	SuperPhotoStudio.nds	279469056	https://raw.githubusercontent.com/RocketRobz/SuperPhotoStudio/master/3ds/app/banner.png
 LudoNDS	nds	ANY	v0.1.0	StackZ	https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/download/v0.1.0/LudoNDS.nds	LudoNDS.nds	977920	https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/Cover_ReadMe.png
 PKCount	nds	ANY	v0.0.2	StackZ	https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds	PKCount.nds	719872	https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png
-Terri-Fried	nds	ANY	1.0.0	PolyMars	http://venkeyz.github.io/vendb/assets/files/terri.nds	terri.nds	304666	
+Terri-Fried	nds	ANY	1.0.0	PolyMars	http://venkeyz.github.io/vendb/assets/files/terri.nds	terri.nds	0	
 Relaunch	nds	ANY	v4.0.1	Universal-Team	https://github.com/Universal-Team/Relaunch/releases/download/v4.0.1/Relaunch.7z	Relaunch.7z	148518	https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
 pkmn-chest	nds	ANY	v2.2	Universal-Team	https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.nds	pkmn-chest.nds	7269376	https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 Better Call Saul DS	nds	ANY	1.0	William278	https://github.com/WiIIiam278/BCSDS/releases/download/1.0/bcsds.nds	bcsds.nds	844800	https://db.universal-team.net/assets/images/icons/better-call-saul-ds.png
