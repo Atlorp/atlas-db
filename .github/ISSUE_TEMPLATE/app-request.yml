@@ -5,7 +5,7 @@ assignees: ["Epicpkmn11"]
 body:
   - type: markdown
     attributes:
-      value: "**Please ensure your app complies with the [Universal-DB guidelines](https://github.com/Universal-Team/db/blob/master/CONTRIBUTING.md#app-requests) before submitting a request.**"
+      value: "**Please ensure your app complies with the [Atlas-DB guidelines](https://github.com/venkeyz/vendb/blob/master/CONTRIBUTING.md#app-requests) before submitting a request.**"
   - type: markdown
     attributes:
       value: "Go to [the app request web page](https://db.universal-team.net/app-request) and fill out the form to create a JSON for submission then come back here to submit it. Note that rarely used features are currently missing from the form, see [the wiki](https://github.com/Universal-Team/db/wiki/App-Template) for more information."
@@ -17,10 +17,3 @@ body:
       label: Submission form
       description: Upload your JSON file here. You can also upload screenshots here.
       placeholder: You can drag drop the file into the text area or click the text below it.
-  - type: checkboxes
-    attributes:
-      label: Developer permission
-      description: If you aren't a developer of the app, then please actually check it's alright with them.
-      options:
-        - label: I am the app developer or have permission from the app developer to make this request; my request is compliant with the [Universal-DB guidelines](https://github.com/Universal-Team/db/blob/da0f7076fa5632294af0c597efe315bcc86acab4/CONTRIBUTING.md#app-requests)
-          required: true
