@@ -92,7 +92,7 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python generate.py -t "$TOKEN" -p
+          python generate.py all -t "$TOKEN" -p
       - name: Reset repository
         run: |
           git reset --hard
