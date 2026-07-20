@@ -1,21 +1,18 @@
 ## App Requests
 
-NOTE: Even if your app complies with our rules, we (Universal-Team members) reserve the right to remove your app from our database for any reason at any time.
+NOTE: Even if your app complies with our rules, we (Atlorp Team members) reserve the right to remove your app from our database for any reason at any time.
 
 ### Rules
 
 Any app requests must conform to the following rules before they can be added to the database:
 
-1. Do not include any copyrighted content that you don't have the rights to use (i.e. piracy)
-   - This includes apps developed with Unity as "Unity for 3DS" can only be legally acquired by signing an NDA that prevents you from developing homebrew with it
-   - Loading copyrighted assets externally from the SD card is fine as long as it's not shipped with the application, whether from the script or in the app itself
 1. There should be no NSFW content
 1. Must have some description of what the app does, whether in the README or in the submitted app description
 1. Must have some meaningful functionality (e.g. not just a testing app or a utility that works on outdated ideas)
 1. Any forks of existing apps must achieve a different goal/target audience than their base app
     - Ideally, forks that only add "more functionality" or different translations should be Pull Requests into the original project's repository rather than being a separate app.
     - If the project that you're forking doesn't have translations, chances are it's not needed.
-1. App must be for the 3DS or DS (e.g. not a VC inject)
+1. App must be for the 3DS or DS
 1. LLM generated content must be properly declared
    - Any app found to have deliberately misdeclared LLM usage may be removed, if LLM usage changes after submission please just notify the maintainers
 
@@ -43,7 +40,7 @@ These are not strict requirements, but are strongly recommended:
 
 ## LLM/AI Agent Policy
 
-- Usage of LLM tools in the process of making apps being submitted to Universal-DB is **okay** so long as it is indicated properly
-- Usage of LLM tools to generate code or other assets for Universal-DB **itself** is **prohibited**
+- Usage of LLM tools in the process of making apps being submitted to Atlas-DB is **okay** so long as it is indicated properly
+- Usage of LLM tools to generate code or other assets for Atlas-DB **itself** is **prohibited**
 - Usage of LLM tools to write descriptions for pull requests or issues is **prohibited**
    - Please just take a second to write it yourself, a sentence or two usually suffices
