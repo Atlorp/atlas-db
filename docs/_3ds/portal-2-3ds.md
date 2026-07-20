@@ -4,6 +4,8 @@ category:
 - game
 downloads:
   Portal-2-Launcher.3dsx:
+    size: 139047
+    size_str: 135 KiB
     url: https://venkeyz.github.io/vendb/assets/files/Portal-2-Launcher.3dsx
 layout: app
 llm_generation: unknown
