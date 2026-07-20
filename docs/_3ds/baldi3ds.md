@@ -28,7 +28,7 @@ qr:
   Baldi3DS.cia: https://db.universal-team.net/assets/images/qr/baldi3ds-cia.png
   Baldi3DS_Dec2024Ver.cia: https://db.universal-team.net/assets/images/qr/baldi3ds_dec2024ver-cia.png
 source: https://github.com/QuadraticRiotz/Baldi3DS
-stars: 2
+stars: 1
 systems:
 - 3DS
 title: Baldi3DS
