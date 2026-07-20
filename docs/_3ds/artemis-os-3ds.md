@@ -3,6 +3,8 @@ author: Snow
 avatar: https://avatars.githubusercontent.com/u/184155563?v=4
 categories:
 - app
+color: '#6792a6'
+color_bg: '#4f7080'
 created: '2026-05-10T11:08:28Z'
 description: A tiny Windows 95-style desktop shell for the Nintendo 3DS
 download_page: https://github.com/SnowyStorm00/artemis-os-3ds/releases
