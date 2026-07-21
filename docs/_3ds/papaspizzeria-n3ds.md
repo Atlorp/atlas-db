@@ -27,7 +27,7 @@ llm_generation: minor
 qr:
   PapasPizzeria.cia: https://db.universal-team.net/assets/images/qr/papaspizzeria-cia.png
 source: https://github.com/zylonity/PapasPizzeria-n3DS
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: PapasPizzeria-n3DS

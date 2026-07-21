@@ -18,21 +18,21 @@ llm_generation: 'no'
 nightly:
   download_page: https://github.com/Atlorp/Atlas-Updater/releases/tag/git
   downloads:
-    Universal-Updater.3dsx:
-      size: 3008100
+    Atlas-Updater.3dsx:
+      size: 3008040
       size_str: 2 MiB
-      url: https://github.com/Atlorp/Atlas-Updater/releases/download/git/Universal-Updater.3dsx
-    Universal-Updater.cia:
+      url: https://github.com/Atlorp/Atlas-Updater/releases/download/git/Atlas-Updater.3dsx
+    Atlas-Updater.cia:
       size: 2479040
       size_str: 2 MiB
-      url: https://github.com/Atlorp/Atlas-Updater/releases/download/git/Universal-Updater.cia
+      url: https://github.com/Atlorp/Atlas-Updater/releases/download/git/Atlas-Updater.cia
   qr:
-    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">venkeyz - make default store atlas-db</p>
-  update_notes_md: venkeyz - make default store atlas-db
-  updated: '2026-07-21T12:14:10Z'
+    Atlas-Updater.cia: https://db.universal-team.net/assets/images/qr/git/atlas-updater-cia.png
+  update_notes: <p dir="auto">venkeyz - fix the few mentions of universal</p>
+  update_notes_md: venkeyz - fix the few mentions of universal
+  updated: '2026-07-21T12:48:02Z'
   version: git
-  version_title: Continuous Build - d7cb45d
+  version_title: Continuous Build - 0d7eb50
 source: https://github.com/Atlorp/Atlas-Updater
 stars: 0
 systems:
@@ -40,8 +40,8 @@ systems:
 title: Atlas-Updater
 unique_ids:
 - '0x7C2A1'
-update_notes: <p dir="auto">venkeyz - make default store atlas-db</p>
-updated: '2026-07-21T12:14:10Z'
+update_notes: <p dir="auto">venkeyz - fix the few mentions of universal</p>
+updated: '2026-07-21T12:48:02Z'
 version: git
-version_title: Continuous Build - d7cb45d
+version_title: Continuous Build - 0d7eb50
 ---
