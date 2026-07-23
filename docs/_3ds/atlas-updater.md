@@ -28,11 +28,11 @@ nightly:
       url: https://github.com/Atlorp/Atlas-Updater/releases/download/git/Atlas-Updater.cia
   qr:
     Atlas-Updater.cia: https://db.universal-team.net/assets/images/qr/git/atlas-updater-cia.png
-  update_notes: <p dir="auto">venkeyz - fix the few mentions of universal</p>
-  update_notes_md: venkeyz - fix the few mentions of universal
-  updated: '2026-07-21T12:48:02Z'
+  update_notes: <p dir="auto">venkeyz - more among us mentions</p>
+  update_notes_md: venkeyz - more among us mentions
+  updated: '2026-07-23T09:47:27Z'
   version: git
-  version_title: Continuous Build - 0d7eb50
+  version_title: Continuous Build - 84cce29
 source: https://github.com/Atlorp/Atlas-Updater
 stars: 0
 systems:
@@ -40,8 +40,8 @@ systems:
 title: Atlas-Updater
 unique_ids:
 - '0x7C2A1'
-update_notes: <p dir="auto">venkeyz - fix the few mentions of universal</p>
-updated: '2026-07-21T12:48:02Z'
+update_notes: <p dir="auto">venkeyz - more among us mentions</p>
+updated: '2026-07-23T09:47:27Z'
 version: git
-version_title: Continuous Build - 0d7eb50
+version_title: Continuous Build - 84cce29
 ---
