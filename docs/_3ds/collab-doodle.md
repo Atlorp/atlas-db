@@ -32,6 +32,12 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/brush-select.png
 - description: Canvas
   url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/canvas.png
+- description: Color selection
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/color-selection.png
+- description: Menu
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/menu.png
+- description: Options
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/options.png
 source: https://github.com/ArmstrongThomas/Doodle
 stars: 8
 systems:
