@@ -19,7 +19,7 @@ nightly:
   download_page: https://github.com/Atlorp/Atlas-Updater/releases/tag/git
   downloads:
     Atlas-Updater.3dsx:
-      size: 3008040
+      size: 3007936
       size_str: 2 MiB
       url: https://github.com/Atlorp/Atlas-Updater/releases/download/git/Atlas-Updater.3dsx
     Atlas-Updater.cia:
@@ -28,11 +28,13 @@ nightly:
       url: https://github.com/Atlorp/Atlas-Updater/releases/download/git/Atlas-Updater.cia
   qr:
     Atlas-Updater.cia: https://db.universal-team.net/assets/images/qr/git/atlas-updater-cia.png
-  update_notes: <p dir="auto">venkeyz - more among us mentions</p>
-  update_notes_md: venkeyz - more among us mentions
-  updated: '2026-07-23T09:47:27Z'
+  update_notes: <p dir="auto">venkeyz - add atlas-db to unistores and change information
+    from universal to atlas-updater</p>
+  update_notes_md: venkeyz - add atlas-db to unistores and change information from
+    universal to atlas-updater
+  updated: '2026-07-24T09:45:47Z'
   version: git
-  version_title: Continuous Build - 84cce29
+  version_title: Continuous Build - 2d012a3
 source: https://github.com/Atlorp/Atlas-Updater
 stars: 0
 systems:
@@ -40,8 +42,9 @@ systems:
 title: Atlas-Updater
 unique_ids:
 - '0x7C2A1'
-update_notes: <p dir="auto">venkeyz - more among us mentions</p>
-updated: '2026-07-23T09:47:27Z'
+update_notes: <p dir="auto">venkeyz - add atlas-db to unistores and change information
+  from universal to atlas-updater</p>
+updated: '2026-07-24T09:45:47Z'
 version: git
-version_title: Continuous Build - 84cce29
+version_title: Continuous Build - 2d012a3
 ---
