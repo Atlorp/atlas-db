@@ -43,6 +43,7 @@ jobs:
           echo "EOF" >> "$GITHUB_ENV"
           echo "ISSUE_USER=$(jq -r '.author.login' issue-data.json)" >> "$GITHUB_ENV"
           echo "ISSUE_TITLE=$(jq -r '.title' issue-data.json)" >> "$GITHUB_ENV"
+
       - name: Get issue data (automatic run)
         if: github.event_name == 'issues'
         run: |
@@ -51,6 +52,7 @@ jobs:
           echo "EOF" >> "$GITHUB_ENV"
           echo "ISSUE_USER=${{ github.event.issue.user.login }}" >> "$GITHUB_ENV"
           echo "ISSUE_TITLE=${{ github.event.issue.title }}" >> "$GITHUB_ENV"
+
       - name: Extract JSON attachment
         id: json
         env:
@@ -69,12 +71,14 @@ jobs:
           fi
           echo "url=$URL" >> "$GITHUB_OUTPUT"
           echo "name=$NAME" >> "$GITHUB_OUTPUT"
+
       - name: Download JSON
         run: |
           mkdir -p source/apps
           curl -L \
             "${{ steps.json.outputs.url }}" \
             -o "source/apps/${{ steps.json.outputs.name }}"
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -87,39 +91,44 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: Test generator priority
         working-directory: source
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python generate.py all -t "$TOKEN" -p
+
       - name: Reset repository
         run: |
           git reset --hard
           git clean -fdx
+
       - name: Restore submitted JSON
         run: |
           mkdir -p source/apps
           curl -L \
             "${{ steps.json.outputs.url }}" \
             -o "source/apps/${{ steps.json.outputs.name }}"
+
       - name: Create branch
         run: |
           git checkout -b "app-request-${ISSUE_NUMBER}"
+
       - name: Commit app
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            "source/apps/${{ steps.json.outputs.name }}"
-          git commit \
-            -m "Add ${{ steps.json.outputs.name }}"
+          git add "source/apps/${{ steps.json.outputs.name }}"
+          git commit -m "Add ${{ steps.json.outputs.name }}"
+
       - name: Push branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git push --force origin "app-request-${ISSUE_NUMBER}"
           echo "PUSHED_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
       - name: Verify branch is visible on remote
         run: |
           for i in $(seq 1 12); do
@@ -133,14 +142,24 @@ jobs:
           done
           echo "Remote branch never matched the pushed commit after 60s"
           exit 1
+
       - name: Create pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          PR_BODY=$(cat <<EOF
+          Generated from #${ISSUE_NUMBER}
+
+          Submitted by @${ISSUE_USER}
+
+          Closes #${ISSUE_NUMBER}
+          EOF
+          )
+
           for i in 1 2 3 4 5; do
             if gh pr create \
               --title "Add ${{ steps.json.outputs.name }}" \
-              --body "generated from #${ISSUE_NUMBER}. Submitted by @${ISSUE_USER}" \
+              --body "$PR_BODY" \
               --base master \
               --head "app-request-${ISSUE_NUMBER}"; then
               exit 0
@@ -148,6 +167,7 @@ jobs:
             echo "PR creation failed (attempt $i), retrying in 5s..."
             sleep 5
           done
+
           echo "Failed to create PR after 5 attempts"
           exit 1
 
