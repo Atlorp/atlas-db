@@ -1,0 +1,17 @@
+{
+	"github": "venkeyz/CTRPluginFramework-BlankTemplate",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"plugin"
+	],
+	"llm_generation": "minor",
+	"files": [
+		{
+			"name": "[git] EUR Rev1 2.0",
+			"url": "https://github.com/venkeyz/CTRPluginFramework-BlankTemplate/releases/download/git/CTRPluginFramework-BlankTemplate.3gx",
+			"output": "sdmc:/luma/plugins/000400000008C400/plugin.3gx"
+		}
+	]
+}
