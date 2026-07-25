@@ -11,13 +11,13 @@ description: 'A virtual StreePass pet for Nintendo 3DS '
 download_page: https://github.com/PetPal-Team/PetPal/releases
 downloads:
   PetPal.3dsx:
-    size: 31234388
+    size: 31236436
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/Announcement/PetPal.3dsx
+    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.6-1/PetPal.3dsx
   PetPal.cia:
-    size: 31404992
+    size: 31409088
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/Announcement/PetPal.cia
+    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.6-1/PetPal.cia
 github: PetPal-Team/PetPal
 icon: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/Pet%20Pal.png
 image: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/banner.png
@@ -42,22 +42,52 @@ systems:
 title: PetPal
 unique_ids:
 - '0xF00D5'
-update_notes: '<h1 dir="auto">Development has been paused...</h1>
+update_notes: '<h1 dir="auto">🐾 PetPal v0.1.6 — Nintendo 3DS</h1>
 
-  <p dir="auto">Hey, I am taking a break from almost everything. This includes Juxt,
-  Discord, And PetPal Development. Im in a really bad mindset and have a lot of personal
-  issues to deal with. I will be back when I feel better and have the time to work
-  on PetPal again.</p>
+  <p dir="auto">A maintenance release that keeps the pass network healthy and makes
+  sure every<br>
 
-  <p dir="auto">All PetPal functions will continue to work as expected during this
-  pause, no new updates will be released.<br>
+  pet is correctly on file.</p>
 
-  Thanks to everyone who supported the project, I hope to return soon.<br>
+  <h2 dir="auto">🐛 Fixes</h2>
 
-  Thanks pals, <a href="https://github.com/DisLoPik">Abi</a></p>'
-updated: '2026-07-25T00:01:36Z'
-version: Announcement
-version_title: 'Announcement - No new Version '
+  <ul dir="auto">
+
+  <li><strong>Your pet’s name now registers with your PetPal account the moment you
+  name<br>
+
+  it.</strong> Previously a pet’s name was only sent on a <em>later</em> online boot,
+  so a<br>
+
+  console that was only online once could end up with no name attached to its<br>
+
+  account (this is the name used for cross-device linking and support). New pets<br>
+
+  are now on file right away.</li>
+
+  </ul>
+
+  <h2 dir="auto">📥 Installing / updating</h2>
+
+  <ul dir="auto">
+
+  <li><strong>CIA:</strong> reinstall <code class="notranslate">PetPal.cia</code>
+  over your existing copy with FBI.</li>
+
+  <li><strong>3DSX:</strong> copy <code class="notranslate">PetPal.3dsx</code> to
+  <code class="notranslate">sdmc:/3ds/</code>.</li>
+
+  <li>Your pet and save carry over automatically — no reset needed.</li>
+
+  </ul>
+
+  <hr>
+
+  <p dir="auto"><em>Requires a modded 3DS (Luma3DS / CFW). Homebrew, non-commercial
+  — not affiliated with Nintendo.</em></p>'
+updated: '2026-07-25T14:27:00Z'
+version: v0.1.6-1
+version_title: Minor Update to fix Server Name Error
 website: https://teampetpal.com
 wiki: https://teampetpal.com/wiki
 ---
