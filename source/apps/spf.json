@@ -1,0 +1,11 @@
+{
+	"github": "harrisonmg/SPF",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/harrisonmg/SPF/master/rgb.png"
+}
