@@ -21,7 +21,7 @@ nightly:
   download_page: https://github.com/venkeyz/CTRPluginFramework-BlankTemplate/releases/tag/git
   downloads:
     CTRPluginFramework-BlankTemplate.3gx:
-      size: 734889
+      size: 735132
       size_str: 717 KiB
       url: https://github.com/venkeyz/CTRPluginFramework-BlankTemplate/releases/download/git/CTRPluginFramework-BlankTemplate.3gx
   updated: '2026-07-25T07:30:07Z'
