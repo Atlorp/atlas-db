@@ -31,6 +31,7 @@ TMFH	nds	ANY	v0.7.0	JeffRuLz	https://github.com/JeffRuLz/TMFH/releases/download/
 Pistol Pong DS	nds	ANY	v1.0	Jonatan	https://github.com/Jonatan6/Pistol-Pong-DS/releases/download/v1.0/Pistol-Pong-DS.nds	Pistol-Pong-DS.nds	190976	https://db.universal-team.net/assets/images/images/pistol-pong-ds.png
 Tic-Tac-DS	nds	ANY	v3.1	Jonatan	https://github.com/Jonatan6/Tic-Tac-DS/releases/download/v3.1/tic-tac-ds.nds	tic-tac-ds.nds	160256	https://db.universal-team.net/assets/images/images/tic-tac-ds.png
 SpiritedDS	nds	ANY	Version1.0	KahnerC	https://github.com/KahnerC/SpiritedDS/releases/download/Version1.0/spirited_ds.nds	spirited_ds.nds	1821696	https://raw.githubusercontent.com/KahnerC/SpiritedDS/main/banner.png
+TwilightBoxart	nds	ANY	2.2.0	KirovAir	https://github.com/KirovAir/TwilightBoxart/releases/download/2.2.0/TwilightBoxart-DS-DSi.nds	TwilightBoxart-DS-DSi.nds	2644480	https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-banner.png
 blimp-chicken-ds	nds	ANY	NdsFile	My-name-is-TJ	https://github.com/My-name-is-TJ/blimp-chicken-ds/releases/download/NdsFile/BlimpChicken.nds	BlimpChicken.nds	1145856	https://raw.githubusercontent.com/My-name-is-TJ/blimp-chicken-ds/main/Blimp%20Chicken%20DS%20banner.png
 FSPDS	nds	ANY	V1.0	N•I•L	https://github.com/NotImplementedLife/FSPDS/releases/download/V1.0/FSPDS-V1.0.79212842R.nds	FSPDS-V1.0.79212842R.nds	749568	https://db.universal-team.net/assets/images/icons/fspds.png
 d-Elusion	nds	ANY	0.3	N•I•L	https://github.com/NotImplementedLife/d-Elusion/releases/download/0.3/d-Elusion.nds	d-Elusion.nds	1780736	https://db.universal-team.net/assets/images/icons/d-elusion.png
@@ -51,7 +52,7 @@ IkachanDS	nds	ANY	0.2.1	tilderain / Vladimir Kosickij	https://github.com/awkitsu
 IkuReader	nds	ANY	6.5_modern	Vladimir Kosickij	https://github.com/awkitsune/IkuReader/releases/download/6.5_modern/sdcard-root.zip	sdcard-root.zip	379282	https://db.universal-team.net/assets/images/icons/ikureader.png
 Kekatsu	nds	ANY	v1.2.0	Cavv	https://github.com/cavv-dev/Kekatsu-DS/releases/download/v1.2.0/Kekatsu.nds	Kekatsu.nds	1884160	https://github.com/cavv-dev/Kekatsu-DS/raw/main/icon.png
 WHITE SPACE DS	nds	ANY	v1.0.0	Cavv	https://github.com/cavv-dev/WHITE-SPACE-DS/releases/download/v1.0.0/WHITE-SPACE-DS.nds	WHITE-SPACE-DS.nds	5796864	https://db.universal-team.net/assets/images/icons/white-space-ds.png
-nitrohax	nds	ANY	v0.94	Michael Chisholm	https://www.chishm.com/NitroHax/NitroHax.zip	NitroHax.zip	188591	https://db.universal-team.net/assets/images/images/nitrohax.png
+nitrohax	nds	ANY	v0.94	Michael Chisholm	https://www.chishm.com/NitroHax/NitroHax.zip	NitroHax.zip	0	https://db.universal-team.net/assets/images/images/nitrohax.png
 ndsi-savedumper	nds	ANY	1.2	Edoardo Lolletti	https://github.com/edo9300/ndsi-savedumper/releases/download/1.2/savedumper.nds	savedumper.nds	505344	https://avatars.githubusercontent.com/u/18705342?v=4&size=128
 SPF	nds	ANY	1.1	Harrison	https://github.com/harrisonmg/SPF/releases/download/1.1/SPF.3dsx	SPF.3dsx	192068	https://raw.githubusercontent.com/harrisonmg/SPF/master/rgb.png
 jEnesisDS	nds	ANY	v0.7.4	Lordus	https://db.universal-team.net/assets/files/JEnesisDS0174.zip	JEnesisDS0174.zip	139176	https://db.universal-team.net/assets/images/images/jenesisds.png	jEnesisDS.nds	jEnesisDS.nds
