@@ -13,7 +13,7 @@ download_filter: \.nds$
 download_page: https://github.com/KirovAir/TwilightBoxart/releases
 downloads:
   TwilightBoxart-DS-DSi.nds:
-    size: 2652672
+    size: 2652160
     size_str: 2 MiB
     url: https://github.com/KirovAir/TwilightBoxart/releases/download/2.3.0/TwilightBoxart-DS-DSi.nds
 github: KirovAir/TwilightBoxart
@@ -41,6 +41,9 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   <li><strong>DS(i)</strong> Way faster downloading. (I''d say around 4x in testing,
   even more on regular DS)</li>
+
+  <li>If you downloaded the DS(i) version quickly after release please redownload
+  it. The automated build broke the downloader.. this is now fixed.</li>
 
   </ul>
 
