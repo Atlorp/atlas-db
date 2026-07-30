@@ -28,7 +28,7 @@ qr:
 script_message: Place encoded .mivf videos in sdmc:/mivf/ or sdmc:/3ds/mivf_player_3ds/.
   PC video encoding requires the separate encode_mivf tool from the GitHub release.
 source: https://github.com/Oldhimaster1/MIVF
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: MIVF Player
