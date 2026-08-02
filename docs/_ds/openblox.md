@@ -35,7 +35,7 @@ prerelease:
   version: v0.0.3_patch0
   version_title: v0.0.3_patch0
 source: https://github.com/EGAMatsu/OpenBLOX
-stars: 75
+stars: 76
 systems:
 - DS
 title: OpenBLOX
