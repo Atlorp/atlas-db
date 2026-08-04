@@ -11,10 +11,14 @@ description: '🥧 An open source re-implementation of GameMaker: Studio''s runn
   Runner), targeting Undertale v1.08 (Bytecode Version 16)'
 download_page: https://github.com/efimandreev0/Butterscotch/releases
 downloads:
+  QR-v1.3-github.png:
+    size: 1084
+    size_str: 1 KiB
+    url: https://github.com/efimandreev0/Butterscotch/releases/download/v1.3/QR-v1.3-github.png
   butterscotch.cia:
-    size: 2223552
+    size: 2325952
     size_str: 2 MiB
-    url: https://github.com/efimandreev0/Butterscotch/releases/download/v1.2/butterscotch.cia
+    url: https://github.com/efimandreev0/Butterscotch/releases/download/v1.3/butterscotch.cia
 github: efimandreev0/Butterscotch
 icon: https://raw.githubusercontent.com/efimandreev0/Butterscotch/main/3ds/icon.png
 image: https://raw.githubusercontent.com/efimandreev0/Butterscotch/main/3ds/icon.png
@@ -34,47 +38,37 @@ update_notes: '<h2 dir="auto">Changelog:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed UNDERTALE music stopping after random battles and some events.</li>
+  <li>Added the latest UNDERTALE and DELTARUNE compatibility work from EPDN.</li>
 
-  <li>Fixed UNDERTALE music transitions, including Papyrus TV and Toriel house music.</li>
+  <li>Fixed DELTARUNE startup and texture issues after switching from UNDERTALE.</li>
 
-  <li>Fixed special characters for Spanish and other language mods.</li>
+  <li>Reduced DELTARUNE Chapter 2 gameplay stutters.</li>
 
-  <li>Fixed DELTARUNE music not playing.</li>
+  <li>Fixed DELTARUNE music-timed events and animations that could get stuck.</li>
 
-  <li>Added more DELTARUNE compatibility fixes.</li>
+  <li>Improved DELTARUNE Chapter 2 rendering, including battle UI, TP bar, surfaces
+  and layer/tilemap behavior.</li>
 
-  <li>Fixed several DELTARUNE texture/layer issues where some textures stayed on screen
-  or did not appear correctly.</li>
+  <li>Fixed grey or transparent room/background issues across relaunch and affected
+  Chapter 2 rooms.</li>
 
-  <li>Fixed DELTARUNE UI/text issues, including HP text and choice options like YES
-  / NO.<br>
+  <li>Improved DELTARUNE save path and chapter-save compatibility.</li>
 
-  Added missing GameMaker runtime functions used by DELTARUNE.</li>
+  <li>Added New 3DS C-Stick movement support.</li>
 
-  <li>Added internal compatibility profiles for UNDERTALE and DELTARUNE, so game-specific
-  fixes do not break the other game.</li>
+  <li>Fixed shutdown, HOME-close and launcher-transition issues.</li>
 
-  <li>Added cache clearing from the 3DS launcher.</li>
+  <li>Added Debug Mode toggle for START/SELECT developer actions.</li>
 
-  <li>Fixed a Mettaton battle issue where some SFX were cutting/replacing the music</li>
-
-  <li>Improved the Omega Flowey fight a bit because it was still very laggy,</li>
-
-  <li>Fixed the Omega Flowey Game Over audio bug where the music could keep playing
-  when it should stop.</li>
-
-  <li>Added some crash fixes and other</li>
-
-  <li>Added "Ultra-wide" display mode, you can now extend the game view wider. It
-  works, but some areas can show visual bugs.</li>
+  <li>Added a DELTARUNE-only native obj_teacup draw path for the remaining Chapter
+  2 teacup/elevator screw flicker experiment.</li>
 
   </ul>
 
   <p dir="auto">Big thanks <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/EstebanPdN/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/EstebanPdN">@EstebanPdN</a>
-  for his good work! Without he this update cannot exists!</p>
+  for his good work!</p>
 
   <h2 dir="auto">Updating</h2>
 
@@ -90,10 +84,14 @@ update_notes: '<h2 dir="auto">Changelog:</h2>
 
   <li>Play!</li>
 
-  </ol>'
-updated: '2026-06-11T21:29:59Z'
-version: v1.2
-version_title: Merged PR from EPDN
+  </ol>
+
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/efimandreev0/Butterscotch/releases/download/v1.3/QR-v1.3-github.png"><img
+  src="https://github.com/efimandreev0/Butterscotch/releases/download/v1.3/QR-v1.3-github.png"
+  alt="QR-v1.3-github.png" style="max-width: 100%;"></a></p>'
+updated: '2026-08-04T18:36:57Z'
+version: v1.3
+version_title: v1.3
 ---
 ### Installation instructions
 

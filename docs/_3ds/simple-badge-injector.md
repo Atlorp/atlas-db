@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   SimpleBadgeInjector.cia: https://db.universal-team.net/assets/images/qr/simplebadgeinjector-cia.png
 source: https://github.com/AntiMach/simple-badge-injector
-stars: 39
+stars: 40
 systems:
 - 3DS
 title: simple-badge-injector
