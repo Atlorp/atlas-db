@@ -53,7 +53,7 @@ IkuReader	nds	ANY	6.5_modern	Vladimir Kosickij	https://github.com/awkitsune/IkuR
 Videogame	nds	ANY	v1.0.4	BarBroth1	https://github.com/babro1/Videogame/releases/download/v1.0.4/Videogame.nds	Videogame.nds	181248	https://raw.githubusercontent.com/babro1/Videogame/refs/heads/main/logo.png
 Kekatsu	nds	ANY	v1.2.0	Cavv	https://github.com/cavv-dev/Kekatsu-DS/releases/download/v1.2.0/Kekatsu.nds	Kekatsu.nds	1884160	https://github.com/cavv-dev/Kekatsu-DS/raw/main/icon.png
 WHITE SPACE DS	nds	ANY	v1.0.0	Cavv	https://github.com/cavv-dev/WHITE-SPACE-DS/releases/download/v1.0.0/WHITE-SPACE-DS.nds	WHITE-SPACE-DS.nds	5796864	https://db.universal-team.net/assets/images/icons/white-space-ds.png
-nitrohax	nds	ANY	v0.94	Michael Chisholm	https://www.chishm.com/NitroHax/NitroHax.zip	NitroHax.zip	188591	https://db.universal-team.net/assets/images/images/nitrohax.png
+nitrohax	nds	ANY	v0.94	Michael Chisholm	https://www.chishm.com/NitroHax/NitroHax.zip	NitroHax.zip	11956	https://db.universal-team.net/assets/images/images/nitrohax.png
 ndsi-savedumper	nds	ANY	1.2	Edoardo Lolletti	https://github.com/edo9300/ndsi-savedumper/releases/download/1.2/savedumper.nds	savedumper.nds	505344	https://avatars.githubusercontent.com/u/18705342?v=4&size=128
 SPF	nds	ANY	1.1	Harrison	https://github.com/harrisonmg/SPF/releases/download/1.1/SPF.3dsx	SPF.3dsx	192068	https://raw.githubusercontent.com/harrisonmg/SPF/master/rgb.png
 jEnesisDS	nds	ANY	v0.7.4	Lordus	https://db.universal-team.net/assets/files/JEnesisDS0174.zip	JEnesisDS0174.zip	139176	https://db.universal-team.net/assets/images/images/jenesisds.png	jEnesisDS.nds	jEnesisDS.nds

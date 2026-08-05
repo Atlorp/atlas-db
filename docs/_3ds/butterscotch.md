@@ -65,11 +65,6 @@ update_notes: '<h2 dir="auto">Changelog:</h2>
 
   </ul>
 
-  <p dir="auto">Big thanks <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/EstebanPdN/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/EstebanPdN">@EstebanPdN</a>
-  for his good work!</p>
-
   <h2 dir="auto">Updating</h2>
 
   <ol dir="auto">
