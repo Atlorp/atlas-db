@@ -30,7 +30,7 @@
 				"type": "extractFile",
 				"file": "/minecraftpe.rar",
 				"input": "",
-				"output": "/3ds"
+				"output": "/3ds/"
 			},
 			{
 				"type": "deleteFile",
