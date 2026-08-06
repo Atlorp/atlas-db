@@ -109,7 +109,7 @@ version_title: v1.0.0
 <ol>
 <li>Download <code>minecraftcpp.cia</code> to <code>/cias/minecraftcpp.cia</code> on your SD card</li>
 <li>Download <code>minecraftpe.rar</code> to <code>/minecraftpe.rar</code> on your SD card</li>
-<li>Extract everything from the rar to <code>/3ds</code> on your SD card</li>
+<li>Extract everything from the rar to <code>/3ds/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/minecraftcpp.cia</code> using FBI or GodMode9</li>
 </ol>
