@@ -27,5 +27,5 @@ systems:
 - 3DS
 title: hShop
 updated: '---'
-version: 1.5.11
+version: v1.5.11.1
 ---
