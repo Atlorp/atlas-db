@@ -10,8 +10,8 @@
 		"utility"
 	],
 	"llm_generation": "no",
-	"icon": "https://raw.githubusercontent.com/SlabyLol/foxwebchat-/refs/heads/main/resources/icon.png",
-	"image": "https://raw.githubusercontent.com/SlabyLol/foxwebchat-/refs/heads/main/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/SlabyLol/foxwebchat/refs/heads/main/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/SlabyLol/foxwebchat/refs/heads/main/resources/banner.png",
 	"unique_ids": [
 		983057
 	],
