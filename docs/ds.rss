@@ -29,7 +29,7 @@ layout: compress
 					{% endif %}
 					{{ app.update_notes | escape }}
 				</description>
-				<author>{{ app.author }}</author>
+				<dc:creator>{{ app.author }}</dc:creator>
 				<pubDate>{{ app.updated | date_to_rfc822 }}</pubDate>
 				<guid isPermaLink="false">{{ app.title }} - {{ app.version }}</guid>
 				{% if app.image %}
