@@ -1,0 +1,44 @@
+{
+  "title": "revNet",
+  "icon": "https://revtendo.com/global/tabicon.png",
+  "image": "https://revtendo.com//global/image/logo.png",
+  "categories": [
+    "utility"
+  ],
+  "downloads": {
+    "revNet.zip": {
+      "url": "https://revtendo.com/revNet.zip"
+    }
+  },
+  "author": "revTendo",
+  "version": "v1.0.0",
+  "systems": [
+    "3DS"
+  ],
+  "scripts": {
+    "revNet.zip": [
+      {
+        "type": "downloadFile",
+        "file": "https://revtendo.com/revNet.zip",
+        "output": "/revNet.zip"
+      },
+      {
+        "type": "extractArchive",
+        "file": "/revNet.zip",
+        "path": "/"
+      },
+      {
+        "type": "installCia",
+        "file": "/revTendoNetSelect_3DS.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/revNet.zip"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/revTendoNetSelect_3DS.cia"
+      }
+    ]
+  }
+}
