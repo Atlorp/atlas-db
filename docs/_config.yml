@@ -4,6 +4,7 @@ description : "Atlas-DB - An unrestricted database of DS and 3DS homebrew"
 repo        : "atlorp/atlas-db"
 color       : "#1d8056"
 image       : "https://universal-team.net/images/icons/universal-team.png"
+baseurl: "/atlas-db"
 
 sass:
   sass_dir: _sass
