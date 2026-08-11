@@ -42,6 +42,8 @@ version: idk i got this from r/3dsqrcodes
 <details class="alert alert-secondary"><summary>New 3DS</summary>
 <ol>
 <li>Download <code>wf306.standard.cia</code> to <code>/cias/wf306.standard.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/wf306.standard.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
