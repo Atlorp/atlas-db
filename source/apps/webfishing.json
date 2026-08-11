@@ -41,7 +41,7 @@
         "output": "/wf306.standard.cia"
       },
       {
-        "type": "installCIA",
+        "type": "installCia",
         "file": "/wf306.standard.cia"
       },
       {
