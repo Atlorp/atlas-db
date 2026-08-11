@@ -1,0 +1,22 @@
+{
+    "title": "Remove old Unistore",
+    "description": "Removes VenDB",
+    "categories": [
+        "utility"
+    ],
+    "version": "1.0.0",
+    "script": [
+        {
+            "type": "deleteFile",
+            "file": "sdmc:/3ds/Universal-Updater/stores/vendb.unistore"
+        },
+        {
+            "type": "deleteFile",
+            "file": "sdmc:/3ds/Universal-Updater/stores/vendb-0.t3x"
+        },
+        {
+            "type": "deleteFile",
+            "file": "sdmc:/3ds/Universal-Updater/stores/vendb-1.t3x"
+        }
+    ]
+}
