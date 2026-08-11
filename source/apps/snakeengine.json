@@ -1,0 +1,31 @@
+{
+  "title": "snakeengine",
+  "categories": [
+    "game"
+  ],
+  "downloads": {
+    "snakeengine.cia": {
+      "url": "https://archive.org/download/snakeengine_202607/snakeengine.cia"
+    }
+  },
+  "systems": [
+    "3DS"
+  ],
+  "scripts": {
+    "snakeengine.cia": [
+      {
+        "type": "downloadFile",
+        "file": "https://archive.org/download/snakeengine_202607/snakeengine.cia",
+        "output": "/snakeengine.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/snakeengine.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/snakeengine.cia"
+      }
+    ]
+  }
+}

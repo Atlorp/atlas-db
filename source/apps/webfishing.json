@@ -11,6 +11,7 @@
       "url": "https://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia"
     }
   },
+  "icon": "https://gcdn.thunderstore.io/assets/webfishing/webfishing-icon-192x192.webp",
   "systems": [
     "3DS",
     "New 3DS"

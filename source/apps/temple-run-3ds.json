@@ -1,0 +1,31 @@
+{
+  "title": "Temple Run 3DS",
+  "categories": [
+    "game"
+  ],
+  "downloads": {
+    "Temple Run 3DS.cia": {
+      "url": "https://archive.org/download/3DSCIAs3DS/Temple%20Run%203DS.cia"
+    }
+  },
+  "systems": [
+    "3DS"
+  ],
+  "scripts": {
+    "Temple Run 3DS.cia": [
+      {
+        "type": "downloadFile",
+        "file": "https://archive.org/download/3DSCIAs3DS/Temple%20Run%203DS.cia",
+        "output": "/Temple Run 3DS.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/Temple Run 3DS.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/Temple Run 3DS.cia"
+      }
+    ]
+  }
+}
