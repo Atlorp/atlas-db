@@ -11,8 +11,8 @@
       "url": "https://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia"
     }
   },
-  "icon": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3146520/f59f42d0b227a8161ac5bc5106d17fe6ba146157.jpg",
-  "image": "https://shared.steamstatic.com/store_item_assets/steam/apps/3146520/header.jpg",
+  "icon": "https://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingicon.jpg",
+  "image": "https://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingbanner.jpg",
   "systems": [
     "3DS",
     "New 3DS"
