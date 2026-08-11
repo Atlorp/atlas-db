@@ -22,6 +22,8 @@ updated: '---'
 <details class="alert alert-secondary"><summary>Temple Run 3DS.cia</summary>
 <ol>
 <li>Download <code>Temple%20Run%203DS.cia</code> to <code>/cias/Temple Run 3DS.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Temple Run 3DS.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
