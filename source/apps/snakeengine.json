@@ -5,7 +5,7 @@
   ],
   "downloads": {
     "snakeengine.cia": {
-      "url": "https://archive.org/download/snakeengine_202607/snakeengine.cia"
+      "url": "https://www.dropbox.com/scl/fi/fpco7wu5sqh0n4b89zhjs/snakeengine.cia?rlkey=s785ezpa7jvo56nwybvhyk7g4&st=51at5i2c&dl=1"
     }
   },
   "systems": [
@@ -15,11 +15,11 @@
     "snakeengine.cia": [
       {
         "type": "downloadFile",
-        "file": "https://archive.org/download/snakeengine_202607/snakeengine.cia",
+        "file": "https://www.dropbox.com/scl/fi/fpco7wu5sqh0n4b89zhjs/snakeengine.cia?rlkey=s785ezpa7jvo56nwybvhyk7g4&st=51at5i2c&dl=1",
         "output": "/snakeengine.cia"
       },
       {
-        "type": "installCia",
+        "type": "installCIA",
         "file": "/snakeengine.cia"
       },
       {
