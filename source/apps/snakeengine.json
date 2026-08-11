@@ -19,7 +19,7 @@
         "output": "/snakeengine.cia"
       },
       {
-        "type": "installCIA",
+        "type": "installCia",
         "file": "/snakeengine.cia"
       },
       {
