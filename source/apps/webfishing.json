@@ -26,7 +26,7 @@
         "output": "/wfl233.standard.cia"
       },
       {
-        "type": "installCIA",
+        "type": "installCia",
         "file": "/wfl233.standard.cia"
       },
       {

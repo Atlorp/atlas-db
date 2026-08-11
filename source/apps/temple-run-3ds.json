@@ -19,7 +19,7 @@
         "output": "/Temple Run 3DS.cia"
       },
       {
-        "type": "installCIA",
+        "type": "installCia",
         "file": "/Temple Run 3DS.cia"
       },
       {
