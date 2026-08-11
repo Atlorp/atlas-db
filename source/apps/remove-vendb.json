@@ -4,6 +4,9 @@
     "categories": [
         "utility"
     ],
+    "systems": [
+        "3DS"
+    ],
     "version": "1.0.0",
     "script": [
         {
