@@ -7,13 +7,13 @@ downloads:
   wf306.standard.cia:
     size: 37114816
     size_str: 35 MiB
-    url: https://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia
+    url: http://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia
   wfl233.standard.cia:
     size: 32334784
     size_str: 30 MiB
-    url: https://archive.org/download/wfl233.standard/wfl233.standard.cia
-icon: https://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingicon.jpg
-image: https://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingbanner.jpg
+    url: http://archive.org/download/wfl233.standard/wfl233.standard.cia
+icon: http://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingicon.jpg
+image: http://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingbanner.jpg
 image_length: 35199
 layout: app
 llm_generation: unknown
