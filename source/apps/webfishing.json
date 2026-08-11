@@ -1,0 +1,50 @@
+{
+  "title": "Webfishing",
+  "categories": [
+    "game"
+  ],
+  "downloads": {
+    "wfl233.standard.cia": {
+      "url": "https://archive.org/download/wfl233.standard/wfl233.standard.cia"
+    },
+    "wf306.standard.cia": {
+      "url": "https://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia"
+    }
+  },
+  "systems": [
+    "3DS",
+    "New 3DS"
+  ],
+  "scripts": {
+    "Old 3DS": [
+      {
+        "type": "downloadFile",
+        "file": "https://archive.org/download/wfl233.standard/wfl233.standard.cia",
+        "output": "/wfl233.standard.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/wfl233.standard.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/wfl233.standard.cia"
+      }
+    ],
+    "New 3DS": [
+      {
+        "type": "downloadFile",
+        "file": "https://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia",
+        "output": "/wf306.standard.cia"
+      },
+      {
+        "type": "installCIA",
+        "file": "/wf306.standard.cia"
+      },
+      {
+        "type": "deleteFile",
+        "file": "/wf306.standard.cia"
+      }
+    ]
+  }
+}

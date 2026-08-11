@@ -40,11 +40,11 @@ let appSchema = {
 	author: {label: "Author's Name", type: "string", required: true},
 	avatar: {label: "Author's Avatar", type: "image"},
 	// Required
-	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3DS", "DS"], labels: ["3DS", "DS"]},
-	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "app", "utility", "plugin", "firm", "exploit", "media", "save-tool"], labels: ["Game", "Emulator", "App", "Utility", "Plugin", "FIRM", "Exploit", "Multimedia", "Save Tool"]},
+	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3DS", "New 3DS", "DS", "DSi"], labels: ["3DS", "New 3DS", "DS", "DSi"]},
+	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "virtual-console", "emulator", "app", "utility", "plugin", "ntrplugin", "firm", "exploit", "media", "save-tool"], labels: ["Game", "Virtual Console", "Emulator", "App", "Utility", "Luma Plugins", "NTR Plugins" "FIRM", "Exploit", "Multimedia", "Save Tool"]},
 	llm_generation: {label: "LLM Generated Content", type: "radio", required: true, values: ["yes", "minor", "no"], labels: ["Yes", "Minor (see guidelines!)", "No"], help: "If you have directly included the output of an LLM in any form in your work, then this should be 'yes'. This includes code, art, music, documentation, etc.\n\nIf you would like to self declare 'minor' LLM genertion, please make sure to check see the definition in the contribution guidelines linked above.\n\nLLM assistance (code analysis and review, debugging, etc) does not necessarily count as LLM generated content as long as the output is not directly incorporated into the work."},
 	icon: {label: "Icon", help: "Preferably 48x48 or 32x32. The icon is not technically necessary, avatar will be used as a fallback, but I didn't want people to skip it. Copy the avatar URL if you don't have an icon.", type: "image", required: false},
-	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Universal-DB website.", type: "image"},
+	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Atlas-DB website.", type: "image"},
 	// Common
 	unique_ids: {
 		label: "CIA Unique ID(s)",
@@ -64,7 +64,7 @@ let appSchema = {
 			return {status: !!output.length, value: output};
 		}
 	},
-	long_description: {label: "Long Description (Markdown)", help: "This is displayed on the Unviersal-DB website.", type: "textarea"},
+	long_description: {label: "Long Description (Markdown)", help: "This is displayed on the Atlas-DB website.", type: "textarea"},
 	website: {label: "App's Website", type: "string"},
 	wiki: {label: "App's Wiki", help: "If left blank this will be autofilled with the GitHub Wiki, I just haven't implemented the check for that into this form.", type: "string"},
 	license: {label: "License", help: "If this autofilled please do not change it, this exists for Forgejo.\n\nThis is the short form of the license ideally matching the GitHub API.\n\nEx: 'gpl-3.0', 'mit', 'cc0-1.0'.", type: "string"},
