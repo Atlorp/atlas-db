@@ -20,6 +20,8 @@ updated: '---'
 <details class="alert alert-secondary"><summary>snakeengine.cia</summary>
 <ol>
 <li>Download <code>snakeengine.cia?rlkey=s785ezpa7jvo56nwybvhyk7g4&st=51at5i2c&dl=1</code> to <code>/cias/snakeengine.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/snakeengine.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
