@@ -5,14 +5,14 @@
   ],
   "downloads": {
     "wfl233.standard.cia": {
-      "url": "https://archive.org/download/wfl233.standard/wfl233.standard.cia"
+      "url": "http://archive.org/download/wfl233.standard/wfl233.standard.cia"
     },
     "wf306.standard.cia": {
-      "url": "https://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia"
+      "url": "http://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia"
     }
   },
-  "icon": "https://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingicon.jpg",
-  "image": "https://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingbanner.jpg",
+  "icon": "http://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingicon.jpg",
+  "image": "http://raw.githubusercontent.com/Atlorp/atlas-db/master/source/images/webfishingbanner.jpg",
   "systems": [
     "3DS",
     "New 3DS"
@@ -22,7 +22,7 @@
     "Old 3DS": [
       {
         "type": "downloadFile",
-        "file": "https://archive.org/download/wfl233.standard/wfl233.standard.cia",
+        "file": "http://archive.org/download/wfl233.standard/wfl233.standard.cia",
         "output": "/wfl233.standard.cia"
       },
       {
@@ -37,7 +37,7 @@
     "New 3DS": [
       {
         "type": "downloadFile",
-        "file": "https://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia",
+        "file": "http://archive.org/download/lone-fishing-homebrew-v-3/wf306.standard.cia",
         "output": "/wf306.standard.cia"
       },
       {
