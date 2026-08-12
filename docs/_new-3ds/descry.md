@@ -45,7 +45,7 @@ screenshots:
 source: https://github.com/patausx/descry
 stars: 13
 systems:
-- 3DS
+- New 3DS
 title: descry
 unique_ids:
 - '0xDE5C1'
