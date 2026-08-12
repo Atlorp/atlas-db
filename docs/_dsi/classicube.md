@@ -34,7 +34,7 @@ qr:
   ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/classicube-3ds-cia.png
   ClassiCube.nds: https://db.universal-team.net/assets/images/qr/classicube-nds.png
 source: https://github.com/ClassiCube/ClassiCube
-stars: 2025
+stars: 2026
 systems:
 - 3DS
 - DS
