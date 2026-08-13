@@ -26,7 +26,7 @@ llm_generation: 'no'
 qr:
   FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoin-cia.png
 source: https://github.com/CorySanin/FastPlayCoin
-stars: 40
+stars: 41
 systems:
 - 3DS
 title: FastPlayCoin
