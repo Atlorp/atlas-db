@@ -1,0 +1,119 @@
+{
+	"title": "BlazerTube",
+	"description": "Native YouTube 3DS app revival",
+	"categories": [
+		"revival"
+	],
+	"downloads": {
+		"code.ips": {
+			"url": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/eu/code.ips"
+		},
+		"code.ips": {
+			"url": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/us/code.ips"
+		},
+		"code.ips": {
+			"url": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/jp/code.ips"
+		}
+	},
+	"author": "idkwh, nebulagamez",
+	"version": "v1.801",
+	"updated": "2026-08-07 at 14:09 (UTC)",
+	"systems": [
+		"3DS"
+	],
+	"scripts": {
+		"Install... (EUR)": [
+			{
+				"type": "promptMessage",
+				"message": "Be sure to enable game patching in Luma3DS (hold SELECT while booting your console, then enable \"Enable Game Patching\")."
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need Pretendo Network installed and enabled to use this (via Nimbus)."
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need a copy of YouTube v2080 installed."
+			},
+			{
+				"type": "promptMessage",
+				"message": "Videos play smoothly on New 3DS consoles only. Do you wish to proceed?"
+			},
+			{
+				"type": "promptMessage",
+				"message": "The service is in public beta, it may not work as expected."
+			},
+			{
+				"type": "mkdir",
+				"directory": "sdmc:/luma/titles/00040000000CCD00/"
+			},
+			{
+				"type": "downloadFile",
+				"file": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/eu/code.ips",
+				"output": "sdmc:/luma/titles/00040000000CCD00/code.ips"
+			}
+		],
+		"Install... (USA)": [
+			{
+				"type": "promptMessage",
+				"message": "Be sure to enable game patching in Luma3DS (hold SELECT while booting your console, then enable \"Enable Game Patching\")."
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need Pretendo Network installed and enabled to use this (via Nimbus)."
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need a copy of YouTube v2096 installed."
+			},
+			{
+				"type": "promptMessage",
+				"message": "Videos play smoothly on New 3DS consoles only. Do you wish to proceed?"
+			},
+			{
+				"type": "promptMessage",
+				"message": "The service is in public beta, it may not work as expected."
+			},
+			{
+				"type": "mkdir",
+				"directory": "sdmc:/luma/titles/00040000000B0F00/"
+			},
+			{
+				"type": "downloadFile",
+				"file": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/us/code.ips",
+				"output": "sdmc:/luma/titles/00040000000B0F00/code.ips"
+			}
+		],
+		"Install... (JPN)": [
+			{
+				"type": "promptMessage",
+				"message": "Be sure to enable game patching in Luma3DS (hold SELECT while booting your console, then enable \"Enable Game Patching\")."
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need Pretendo Network installed and enabled to use this (via Nimbus)."
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need a copy of YouTube v2096 installed."
+			},
+			{
+				"type": "promptMessage",
+				"message": "Videos play smoothly on New 3DS consoles only. Do you wish to proceed?"
+			},
+			{
+				"type": "promptMessage",
+				"message": "The service is in public beta, it may not work as expected."
+			},
+			{
+				"type": "mkdir",
+				"directory": "sdmc:/luma/titles/00040000000D3000/"
+			},
+			{
+				"type": "downloadFile",
+				"file": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/jp/code.ips",
+				"output": "sdmc:/luma/titles/00040000000D3000/code.ips"
+			}
+		]
+	}
+}
