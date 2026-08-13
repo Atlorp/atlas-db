@@ -4,20 +4,9 @@
 	"categories": [
 		"revival"
 	],
-	"downloads": {
-		"code.ips": {
-			"url": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/eu/code.ips"
-		},
-		"code.ips": {
-			"url": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/us/code.ips"
-		},
-		"code.ips": {
-			"url": "http://unistore.3ds.idkwh.ct8.pl/my/store/lp1/youtube/jp/code.ips"
-		}
-	},
 	"author": "idkwh, nebulagamez",
 	"version": "v1.801",
-	"updated": "2026-08-07 at 14:09 (UTC)",
+	"updated": "2026-08-07T14:09:00Z",
 	"systems": [
 		"3DS"
 	],
