@@ -20,7 +20,6 @@ NitroHax3DS	nds	ANY	0.101	Pk11	https://github.com/Epicpkmn11/NitroHax3DS/release
 Wordle DS	nds	ANY	v3.2.3	Pk11	https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.3/WordleDS.nds	WordleDS.nds	978880	https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 dsi-camera	nds	ANY	v1.1.0	Pk11	https://github.com/Epicpkmn11/dsi-camera/releases/download/v1.1.0/dsi-camera.nds	dsi-camera.nds	287744	https://db.universal-team.net/assets/images/icons/dsi-camera.png
 FNAF DS	nds	ANY	v4.2	TrueNTG	https://dlhb.gamebrew.org/dshomebrew2/FNAF_v4.2.7z	FNAF_v4.2.7z	0	
-Counter-Strike-Nintendo-DS	nds	ANY	1.0.0	Fewnity	https://github.com/Fewnity/Counter-Strike-Nintendo-DS/releases/download/1.0.0/Counter.Strike.DS.1.0.0.zip	Counter.Strike.DS.1.0.0.zip	3133189	https://db.universal-team.net/assets/images/icons/counter-strike-nintendo-ds.png
 NitroSwan	nds	ANY	v0.7.7	Fredrik Ahlström	https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.7/NitroSwan.zip	NitroSwan.zip	154596	https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png	NitroSwan.nds	NitroSwan.nds
 S8DS	nds	ANY	v1.1.8	Fredrik Ahlström	https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.8/S8DS.zip	S8DS.zip	188182	https://db.universal-team.net/assets/images/icons/s8ds.png	S8DS.nds	S8DS.nds
 Box	nds	ANY	v1.0.0.0	Garhoogin	https://github.com/Garhoogin/Box/releases/download/v1.0.0.0/box.nds	box.nds	445440	https://db.universal-team.net/assets/images/images/box.png
