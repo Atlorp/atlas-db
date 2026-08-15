@@ -20,7 +20,7 @@ image_length: 130872
 layout: app
 llm_generation: 'no'
 source: https://github.com/harrisonmg/SPF
-stars: 13
+stars: 14
 systems:
 - DS
 title: SPF
