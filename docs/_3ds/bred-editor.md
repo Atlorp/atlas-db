@@ -31,7 +31,7 @@ qr:
 script_message: Put your Pokémon Blue/Red save file at "SD:/3ds/bedit/SAVE.sav" (case-sensitive)
   before launching the app.
 source: https://github.com/AtexBg/bred-editor
-stars: 1
+stars: 0
 systems:
 - 3DS
 title: BRED Editor
