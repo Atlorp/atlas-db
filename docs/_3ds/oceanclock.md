@@ -3,8 +3,6 @@ author: Michele
 avatar: https://avatars.githubusercontent.com/u/292736788?v=4
 categories:
 - app
-color: '#2d3f56'
-color_bg: '#2d3f56'
 created: '2026-07-20T07:46:28Z'
 description: a relaxing clock app for Nintendo 3ds from the creator of NightClock
 download_page: https://github.com/Michele-3ds/OceanClock/releases

@@ -3,6 +3,8 @@ author: Adrix12team
 avatar: https://avatars.githubusercontent.com/u/167570806?v=4
 categories:
 - utility
+color: '#4393ff'
+color_bg: '#214a80'
 created: '2026-05-09T14:14:35Z'
 description: Luma3DS screenshot to 3DS camera JPG converter
 download_page: https://github.com/Adrix12team/SCR2JPG/releases

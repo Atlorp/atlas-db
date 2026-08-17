@@ -22,7 +22,7 @@ dsi-camera	nds	ANY	v1.1.0	Pk11	https://github.com/Epicpkmn11/dsi-camera/releases
 FNAF DS	nds	ANY	v4.2	TrueNTG	https://dlhb.gamebrew.org/dshomebrew2/FNAF_v4.2.7z	FNAF_v4.2.7z	0	
 Counter-Strike-Nintendo-DS	nds	ANY	1.0.0	Fewnity	https://github.com/Fewnity/Counter-Strike-Nintendo-DS/releases/download/1.0.0/Counter.Strike.DS.1.0.0.zip	Counter.Strike.DS.1.0.0.zip	3133189	https://db.universal-team.net/assets/images/icons/counter-strike-nintendo-ds.png
 NitroSwan	nds	ANY	v0.7.7	Fredrik Ahlström	https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.7/NitroSwan.zip	NitroSwan.zip	154596	https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png	NitroSwan.nds	NitroSwan.nds
-S8DS	nds	ANY	v1.1.8	Fredrik Ahlström	https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.8/S8DS.zip	S8DS.zip	188182	https://db.universal-team.net/assets/images/icons/s8ds.png	S8DS.nds	S8DS.nds
+S8DS	nds	ANY	v1.1.8	Fredrik Ahlström	https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.8/S8DS.zip	S8DS.zip	188182	https://raw.githubusercontent.com/FluBBaOfWard/S8DS/main/Sms.bmp	S8DS.nds	S8DS.nds
 Box	nds	ANY	v1.0.0.0	Garhoogin	https://github.com/Garhoogin/Box/releases/download/v1.0.0.0/box.nds	box.nds	445440	https://db.universal-team.net/assets/images/images/box.png
 Gravity	nds	ANY	v1.0.0.0	Garhoogin	https://github.com/Garhoogin/Gravity/releases/download/v1.0.0.0/gravity.nds	gravity.nds	386048	https://db.universal-team.net/assets/images/icons/gravity.png
 GBARunner2	nds	ANY	v20200812-131430_6e4ce45	Gericom	https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm9dldi_ds.nds	GBARunner2_arm9dldi_ds.nds	264768	https://db.universal-team.net/assets/images/images/gbarunner2.png

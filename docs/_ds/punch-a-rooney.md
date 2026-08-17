@@ -57,7 +57,6 @@ update_notes: '<h2 dir="auto">Change Notes</h2>
 updated: '2026-08-07T03:11:38Z'
 version: 1.0.1
 version_title: Punch-A-Rooney v1.0.1
-wiki: https://github.com/seaners42/Punch-A-Rooney/wiki
 ---
 ### Quick Guide
 ## Career

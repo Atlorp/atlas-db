@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/12686734?v=4
 categories:
 - app
 - utility
+color: '#536152'
+color_bg: '#536152'
 created: '2026-07-13T12:10:39Z'
 description: A DS/DSi homebrew application to backup and restore raw flash images
   to/from Slot-1 flashcarts

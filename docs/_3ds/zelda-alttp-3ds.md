@@ -3,6 +3,8 @@ author: estebanpdn
 avatar: https://avatars.githubusercontent.com/u/72305261?v=4
 categories:
 - game
+color: '#a58c65'
+color_bg: '#806c4e'
 created: '2026-07-27T22:06:01Z'
 description: Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3
 download_filter: 3dsx|cia

@@ -3,6 +3,8 @@ author: TogeToge & MarioGames
 avatar: https://avatars.githubusercontent.com/u/176740851?v=4
 categories:
 - game
+color: '#9e4d4d'
+color_bg: '#803e3e'
 created: '2024-07-27T07:58:35Z'
 description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
@@ -18,7 +20,6 @@ downloads:
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
-image_length: 17026
 layout: app
 llm_generation: unknown
 qr:

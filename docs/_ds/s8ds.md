@@ -3,8 +3,6 @@ author: Fredrik Ahlström
 avatar: https://avatars.githubusercontent.com/u/2324920?v=4
 categories:
 - emulator
-color: '#594648'
-color_bg: '#594648'
 created: '2021-09-05T11:34:00Z'
 description: A Sega 8bit systems emulator for Nintendo DS(i)/3DS
 download_page: https://github.com/FluBBaOfWard/S8DS/releases
@@ -14,9 +12,8 @@ downloads:
     size_str: 183 KiB
     url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.8/S8DS.zip
 github: FluBBaOfWard/S8DS
-icon: https://db.universal-team.net/assets/images/icons/s8ds.png
-image: https://db.universal-team.net/assets/images/icons/s8ds.png
-image_length: 630
+icon: https://raw.githubusercontent.com/FluBBaOfWard/S8DS/main/Sms.bmp
+image: https://raw.githubusercontent.com/FluBBaOfWard/S8DS/main/Sms.bmp
 layout: app
 llm_generation: unknown
 source: https://github.com/FluBBaOfWard/S8DS
@@ -44,6 +41,7 @@ update_notes: '<ul dir="auto">
 updated: '2026-07-30T11:09:21Z'
 version: v1.1.8
 version_title: V1.1.8
+wiki: https://github.com/FluBBaOfWard/S8DS/wiki
 ---
 ### Installation instructions
 
