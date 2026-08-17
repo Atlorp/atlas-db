@@ -21,7 +21,6 @@ downloads:
 github: zylonity/PapasPizzeria-n3DS
 icon: https://raw.githubusercontent.com/zylonity/PapasPizzeria-n3DS/develop/data/images/icons/logo.png
 image: https://raw.githubusercontent.com/zylonity/PapasPizzeria-n3DS/develop/data/images/icons/logo.png
-image_length: 22914
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -129,4 +128,5 @@ update_notes: '<h2 dir="auto">v0.6.0</h2>
 updated: '2026-08-11T20:53:48Z'
 version: v0.6-alpha
 version_title: closing the gap
+wiki: https://github.com/zylonity/PapasPizzeria-n3DS/wiki
 ---

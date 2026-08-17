@@ -3,8 +3,6 @@ author: Sean David
 avatar: https://avatars.githubusercontent.com/u/200457797?v=4
 categories:
 - game
-color: '#e82b2b'
-color_bg: '#801818'
 created: '2026-07-30T04:50:38Z'
 description: The homebrew boxing game made for the Nintendo DS!  Play as Rooney "Punchstache"
   Bafutto, a 22-year-old Italian boxer who quits his job as a plumber. Fight against
@@ -59,6 +57,7 @@ update_notes: '<h2 dir="auto">Change Notes</h2>
 updated: '2026-08-07T03:11:38Z'
 version: 1.0.1
 version_title: Punch-A-Rooney v1.0.1
+wiki: https://github.com/seaners42/Punch-A-Rooney/wiki
 ---
 ### Quick Guide
 ## Career

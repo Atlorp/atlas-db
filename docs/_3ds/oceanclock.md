@@ -20,7 +20,6 @@ downloads:
 github: Michele-3ds/OceanClock
 icon: https://raw.githubusercontent.com/Michele-3ds/OceanClock/main/icon.png
 image: https://raw.githubusercontent.com/Michele-3ds/OceanClock/main/icon.png
-image_length: 3962
 layout: app
 license: mit
 license_name: MIT License

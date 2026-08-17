@@ -25,7 +25,6 @@ downloads:
 github: AleFunky/gd3ds
 icon: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
 image: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
-image_length: 5535
 layout: app
 llm_generation: minor
 qr:

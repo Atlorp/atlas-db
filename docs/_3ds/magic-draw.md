@@ -71,4 +71,5 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 updated: '2026-07-31T16:46:17Z'
 version: v2.1.0
 version_title: v2.1.0
+wiki: https://github.com/natsuneco/magic-draw/wiki
 ---

@@ -3,8 +3,6 @@ author: Stefano Borra
 avatar: https://avatars.githubusercontent.com/u/81436798?v=4
 categories:
 - app
-color: '#283951'
-color_bg: '#283951'
 created: '2025-11-27T17:53:43Z'
 description: Retro-styled Gemini client for the Nintendo 3DS.
 download_page: https://github.com/stefanoborra20/Gemini3DS/releases
@@ -16,7 +14,6 @@ downloads:
 github: stefanoborra20/Gemini3DS
 icon: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
 image: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
-image_length: 3675
 layout: app
 license: mit
 license_name: MIT License

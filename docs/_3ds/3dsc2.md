@@ -3,8 +3,6 @@ author: cylin577
 avatar: https://avatars.githubusercontent.com/u/78150792?v=4
 categories:
 - app
-color: '#191919'
-color_bg: '#191919'
 created: '2025-08-19T21:40:47Z'
 description: A universal 3DS screen capture and control software
 download_page: https://github.com/cylin577/3DSC2/releases

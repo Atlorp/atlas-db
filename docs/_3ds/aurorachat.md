@@ -20,7 +20,6 @@ downloads:
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
-image_length: 28629
 layout: app
 license: mit
 license_name: MIT License

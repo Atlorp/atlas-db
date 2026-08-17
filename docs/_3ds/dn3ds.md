@@ -3,8 +3,6 @@ author: ada t
 avatar: https://avatars.githubusercontent.com/u/79297197?v=4
 categories:
 - game
-color: '#442923'
-color_bg: '#442923'
 created: '2026-08-01T23:03:51Z'
 description: The definitive port of Duke Nukem 3d to the 3DS - now open source!
 download_page: https://github.com/cmdada/dn3ds/releases
@@ -41,6 +39,7 @@ unique_ids:
 updated: '2026-08-04T05:28:59Z'
 version: v1.1
 version_title: V1.1
+wiki: https://github.com/cmdada/dn3ds/wiki
 ---
 Duke Nukem 3D on the New Nintendo 3DS, ported from
 [the 2003 GPL source release](https://github.com/videogamepreservation/dukenukem3d), with stereoscopic 3D and a few other improvements for the 3ds.

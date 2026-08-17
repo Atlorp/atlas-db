@@ -4,8 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/1339200?v=4
 categories:
 - utility
 - app
-color: '#76558e'
-color_bg: '#6a4c80'
 created: '2019-09-18T13:32:06Z'
 description: Automatically download box art/covers for TWiLightMenu++ and Pico Launcher,
   straight onto your SD card.
