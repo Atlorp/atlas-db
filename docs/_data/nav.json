@@ -234,6 +234,53 @@
 		]
 	},
 	{
+		"title": "3DS Virtual Console injects",
+		"items": [
+			{
+				"title": "work in progress, not all will work",
+				"page_title": "DSi",
+				"url": "/dsi",
+				"key": "3"
+			},
+			{
+				"title": "GBA",
+				"page_title":"DSi - Games",
+				"url": "/gba/category/gbaselect",
+				"i18n": "cat-game"
+			},
+			{
+				"title": "Emulators",
+				"page_title": "DSi - Emulators",
+				"url": "/dsi/category/emulator",
+				"i18n": "cat-emulator"
+			},
+			{
+				"title": "Apps",
+				"page_title": "DSi - Applications",
+				"url": "/dsi/category/app",
+				"i18n": "cat-app"
+			},
+			{
+				"title": "Utilities",
+				"page_title":"DSi - Utilities",
+				"url": "/dsi/category/utility",
+				"i18n": "cat-utility"
+			},
+			{
+				"title": "Multimedia",
+				"page_title": "DSi - Multimedia",
+				"url": "/dsi/category/media",
+				"i18n": "cat-media"
+			},
+			{
+				"title": "Save Tools",
+				"page_title":"DSi - Save Tools",
+				"url": "/dsi/category/save-tool",
+				"i18n": "cat-save-tool"
+			}
+		]
+	},
+	{
 		"title": "Submit app request",
 		"url": "/app-request"
 	}
