@@ -34,5 +34,4 @@ update_notes: '<ul dir="auto">
 updated: '2026-08-02T05:20:35Z'
 version: port-3ds/v0.4.1
 version_title: atari800-3ds 0.4.1
-wiki: https://github.com/asiekierka/atari800-3ds/wiki
 ---

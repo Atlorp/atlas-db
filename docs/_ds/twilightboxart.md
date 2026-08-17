@@ -19,6 +19,7 @@ downloads:
 github: KirovAir/TwilightBoxart
 icon: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-icon.png
 image: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-banner.png
+image_length: 62176
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -112,7 +113,6 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 updated: '2026-08-10T18:47:48Z'
 version: 2.3.1
 version_title: TwilightBoxart 2.3.1
-wiki: https://github.com/KirovAir/TwilightBoxart/wiki
 ---
 TwilightBoxart fills your launcher's box art folder from the console itself. TwilightMenu++ and DSPico are currently supported.
 Connect to WiFi and it scans your card and downloads the right cover at the size your launcher

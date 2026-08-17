@@ -20,6 +20,7 @@ downloads:
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
+image_length: 17026
 layout: app
 llm_generation: unknown
 qr:

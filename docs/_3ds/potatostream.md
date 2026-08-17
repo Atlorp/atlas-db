@@ -20,6 +20,7 @@ downloads:
 github: PainDe0Mie/PotatoStream
 icon: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/ic_streampotato.png
 image: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/banner.png
+image_length: 11016
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -3,6 +3,8 @@ author: hmderdoc
 avatar: https://avatars.githubusercontent.com/u/242463512?v=4
 categories:
 - app
+color: '#2b2d40'
+color_bg: '#2b2d40'
 created: '2026-07-28T19:55:28Z'
 description: 'A BBS terminal for the Nintendo 3DS: stereoscopic 3D scenes, sixel graphics
   and streamed audio driven by the BBS, while staying a faithful SyncTERM/CTerm-compatible
