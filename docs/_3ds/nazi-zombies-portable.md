@@ -3,6 +3,8 @@ author: NZ:P Team & masterfeizz
 avatar: https://avatars.githubusercontent.com/u/91418801?v=4
 categories:
 - game
+color: '#441616'
+color_bg: '#441616'
 created: '2022-02-08T23:52:38Z'
 description: 'Call of Duty: Zombies demake, powered by various Quake sourceports.
   https://docs.nzp.gay/'
@@ -82,7 +84,6 @@ updated: '2026-08-16T07:38:40Z'
 version: nightly
 version_title: 2.0.0-indev+20260816073712
 website: https://github.com/nzp-team/nzportable
-wiki: https://github.com/nzp-team/nzportable/wiki
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
 
