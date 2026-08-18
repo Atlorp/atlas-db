@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/84681078?v=4
 categories:
 - app
 - utility
+color: '#ffffff'
+color_bg: '#808080'
 created: '2025-06-07T18:17:19Z'
 description: Simple app for installing CIA files
 download_page: https://github.com/Zachary-Rude/CIA-Installer/releases

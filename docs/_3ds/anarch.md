@@ -10,6 +10,8 @@ description: A suckless FPS game developed by Miloslav Ciz, ported to the 3DS by
   using devkitpro.
 downloads:
   3DS_1.0.zip:
+    size: 218362
+    size_str: 213 KiB
     url: https://github.com/blitzdoughnuts/AnarchDEVKIT/raw/refs/heads/master/bin/3DS_1.0.zip
 github: blitzdoughnuts/AnarchDEVKIT
 icon: https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/icon.png
