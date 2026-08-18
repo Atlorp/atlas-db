@@ -30,7 +30,7 @@ llm_generation: 'yes'
 qr:
   butterscotch.cia: https://db.universal-team.net/assets/images/qr/butterscotch-cia.png
 source: https://github.com/efimandreev0/Butterscotch
-stars: 62
+stars: 63
 systems:
 - 3DS
 title: Butterscotch
