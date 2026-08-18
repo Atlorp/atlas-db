@@ -3,8 +3,6 @@ author: NPI-D7
 avatar: https://avatars.githubusercontent.com/u/71648010?v=4
 categories:
 - game
-color: '#6eb16f'
-color_bg: '#4f8050'
 created: '2022-04-07T14:05:08Z'
 description: A Clone of Flappy-Bird for the 3ds.
 download_page: https://github.com/npid7/Flappy-Bird/releases
