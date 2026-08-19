@@ -13,14 +13,6 @@ downloads:
     size: 8975720
     size_str: 8 MiB
     url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.1.0/aurorachat-3ds.3dsx
-  aurorachat-v7.3dsx:
-    size: 176372
-    size_str: 172 KiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/pre1-v7.0.0/aurorachat.3dsx
-  aurorachat-v7.cia:
-    size: 505280
-    size_str: 493 KiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/pre1-v7.0.0/aurorachat.cia
   aurorachat.cia:
     size: 9544640
     size_str: 9 MiB
@@ -101,7 +93,6 @@ prerelease:
   version: pre1-v7.0.0
   version_title: 'v7 Pre-release 1: Talk about low-budget graphics!'
 qr:
-  aurorachat-v7.cia: https://db.universal-team.net/assets/images/qr/aurorachat-v7-cia.png
   aurorachat.cia: https://db.universal-team.net/assets/images/qr/aurorachat-cia.png
 source: https://github.com/Unitendo/aurorachat
 stars: 21
