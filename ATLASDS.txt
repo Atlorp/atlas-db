@@ -78,3 +78,4 @@ ColecoDS	nds	ANY	10.9a	AlekMaul / wavemotion-dave	https://github.com/wavemotion-
 Nintellivision	nds	ANY	6.3	wavemotion-dave	https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.3/NINTV-DS.nds	NINTV-DS.nds	790016	https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
 StellaDS	nds	ANY	8.4a	AlekMaul / wavemotion-dave	https://github.com/wavemotion-dave/StellaDS/releases/download/8.4a/StellaDS.nds	StellaDS.nds	1699328	https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
 DSFetch	nds	ANY	v1.0.0	xPsycho999	https://github.com/xPsycho999/DSFetch/releases/download/v1.0.0/DSFetch.nds	DSFetch.nds	285696	https://raw.githubusercontent.com/xPsycho999/DSFetch/main/icons/banner.png
+Bazado-DS	nds	ANY	v1.0.0	zdextiny	https://github.com/zdextiny/Bazado-DS/releases/download/v1.0.0/Bazado-DS.nds	Bazado-DS.nds	5755904	https://raw.githubusercontent.com/zdextiny/Bazado-DS/main/gfx/banner.png
