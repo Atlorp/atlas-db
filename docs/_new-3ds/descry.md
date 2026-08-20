@@ -15,6 +15,10 @@ downloads:
     size: 535528
     size_str: 522 KiB
     url: https://github.com/patausx/descry/releases/download/v1.0.7/descry.3dsx
+  descry.cia:
+    size: 566208
+    size_str: 552 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.7/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -23,6 +27,8 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'yes'
+qr:
+  descry.cia: https://db.universal-team.net/assets/images/qr/descry-cia.png
 screenshots:
 - description: Fm editor
   url: https://db.universal-team.net/assets/images/screenshots/descry/fm-editor.png
@@ -159,9 +165,25 @@ update_notes: '<h1 dir="auto">descry v1.0.7 — precise cuts, dry stems</h1>
 
   <tr>
 
+  <td><code class="notranslate">descry.cia</code></td>
+
+  <td>Home Menu install with FBI</td>
+
+  </tr>
+
+  <tr>
+
   <td><code class="notranslate">descry.3dsx</code></td>
 
   <td>Homebrew Launcher — copy to <code class="notranslate">/3ds/descry/descry.3dsx</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td><code class="notranslate">descry.3ds</code></td>
+
+  <td>compatible flashcart / emulator</td>
 
   </tr>
 
