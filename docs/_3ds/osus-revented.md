@@ -14,8 +14,8 @@ icon: https://raw.githubusercontent.com/ohasanov-hbrw/osus-revented/3ds-pc-merge
 image: https://raw.githubusercontent.com/ohasanov-hbrw/osus-revented/3ds-pc-merge/meta/icon.png
 image_length: 6776
 layout: app
-license: other
-license_name: Other
+license: bsd-3-clause
+license_name: BSD 3-Clause "New" or "Revised" License
 llm_generation: unknown
 prerelease:
   download_page: https://github.com/ohasanov-hbrw/osus-revented/releases/tag/v0.0.2-alpha
