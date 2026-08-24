@@ -35,7 +35,7 @@ qr:
 script_message: this web browser will run slow for most websites but better than the
   normal 3ds browser.
 source: https://github.com/coderman64/netsurf-3ds
-stars: 192
+stars: 193
 systems:
 - 3DS
 title: netsurf-3ds
