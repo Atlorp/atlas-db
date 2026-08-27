@@ -46,7 +46,7 @@ prerelease:
   version: v0.0.2-alpha
   version_title: 'Alpha Release Two: 3DS? Hell Yeah!'
 source: https://github.com/ohasanov-hbrw/osus-revented
-stars: 56
+stars: 57
 systems:
 - 3DS
 title: osus-revented
