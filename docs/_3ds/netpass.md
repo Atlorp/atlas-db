@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 8036960
+    size: 8218356
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/b24f1236ee814f33a21f0839087d4ca324b11166/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/34ea4f3b8634671119d1f03ddca36146fe4d0b15/netpass.3dsx
   netpass.cia:
-    size: 8102848
+    size: 8274880
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/b24f1236ee814f33a21f0839087d4ca324b11166/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/34ea4f3b8634671119d1f03ddca36146fe4d0b15/netpass.cia
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -36,28 +36,18 @@ unique_ids:
 - '0xF6574'
 update_notes: '<ul>
 
-  <li>Prepare for something....moving 😉</li>
+  <li>Fix Poke Transporter</li>
 
-  <li>Fix crash with bottom screen logs being on when joining a location</li>
+  <li>Hide error 1 that some are experiencing</li>
 
-  <li>Implement news feed for community news via SpotPass</li>
-
-  <li>Update a few sound tracks</li>
-
-  <li>Fix NetPass patches conflicting with Pokemon Bank</li>
-
-  <li>Add reminder to enable luma patches, if they are disabled</li>
-
-  <li>More natural line wrapping for Chinese and Japanese</li>
-
-  <li>Download updates in the background with SpotPass</li>
+  <li>Update Back Alley music</li>
 
   </ul>
 
   '
-updated: '2026-08-09T19:43:24.420Z'
-version: v2.1.0
-version_title: v2.1.0
+updated: '2026-08-27T10:15:45.000Z'
+version: v2.1.1
+version_title: v2.1.1
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world
