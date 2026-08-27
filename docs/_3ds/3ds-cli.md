@@ -6,17 +6,17 @@ categories:
 color: '#433943'
 color_bg: '#433943'
 created: '2026-05-10T04:52:37Z'
-description: Run full RISCV Linux on (almost) every single Nintendo console
+description: Run full RISCV Linux on many game consoles
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 60157455
-    size_str: 57 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/4.2/3ds_cli.zip
+    size: 62771845
+    size_str: 59 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.0/3ds_cli.zip
   Image:
     size: 59691300
     size_str: 56 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/4.2/Image
+    url: https://github.com/cmdada/3DS-CLI/releases/download/5.0/Image
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -104,6 +104,26 @@ update_notes: '<h2 dir="auto">Install</h2>
 
   <tr>
 
+  <td>PSP</td>
+
+  <td><code class="notranslate">psp/EBOOT.PBP</code></td>
+
+  <td><code class="notranslate">ms0:/PSP/GAME/3ds-cli/</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td>PS Vita</td>
+
+  <td><code class="notranslate">vita/3ds-cli.vpk</code></td>
+
+  <td>install with VitaShell</td>
+
+  </tr>
+
+  <tr>
+
   <td>GameCube</td>
 
   <td><code class="notranslate">gamecube/3ds-cli.dol</code></td>
@@ -119,9 +139,9 @@ update_notes: '<h2 dir="auto">Install</h2>
   <p dir="auto">That''s it. The other zips below are for the Open Shop Channel and<br>
 
   the Homebrew App Store to install from, not for copying by hand.</p>'
-updated: '2026-08-26T02:57:39Z'
-version: '4.2'
-version_title: V4.2 - clearer install instructions
+updated: '2026-08-27T21:56:09Z'
+version: '5.0'
+version_title: V5.0 Sony Handheld Support!!
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
