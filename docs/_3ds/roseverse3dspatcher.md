@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   Roseverse3DSPatcher.cia: https://db.universal-team.net/assets/images/qr/roseverse3dspatcher-cia.png
 source: https://github.com/Project-Rose/Roseverse3DSPatcher
-stars: 1
+stars: 3
 systems:
 - 3DS
 title: Roseverse3DSPatcher
