@@ -30,7 +30,7 @@ qr:
 script_message: If your screenshots don't appear in the camera app, check the README
   from the GitHub (github.com/Adrix12team/SCR2JPG).
 source: https://github.com/Adrix12team/SCR2JPG
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: SCR2JPG
