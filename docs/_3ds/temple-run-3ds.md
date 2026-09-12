@@ -3,6 +3,8 @@ categories:
 - game
 downloads:
   Temple Run 3DS.cia:
+    size: 762816
+    size_str: 744 KiB
     url: http://archive.org/download/3DSCIAs3DS/Temple%20Run%203DS.cia
 layout: app
 llm_generation: unknown
