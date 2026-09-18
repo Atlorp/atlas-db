@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/4749645?v=4
 categories:
 - save-tool
 - utility
+color: '#e6acfb'
+color_bg: '#755780'
 created: '2025-11-28T10:52:26Z'
 description: Bringing modern cloud save to 3DS.
 download_page: https://github.com/dwalker109/cloudpoint/releases
@@ -19,6 +21,7 @@ downloads:
 github: dwalker109/cloudpoint
 icon: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png
 image: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png
+image_length: 34580
 layout: app
 license: mit
 license_name: MIT License
@@ -26,7 +29,7 @@ llm_generation: unknown
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 69
+stars: 70
 systems:
 - 3DS
 title: Cloudpoint

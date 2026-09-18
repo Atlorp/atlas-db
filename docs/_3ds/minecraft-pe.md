@@ -3,12 +3,15 @@ author: Efim
 avatar: https://avatars.githubusercontent.com/u/120276090?v=4
 categories:
 - game
+color: '#846748'
+color_bg: '#806346'
 created: '2026-03-10T21:20:54Z'
 description: Port of MCPE Alpha 0.6.1 to Nintendo Switch and 3DS.
 download_page: https://github.com/efimandreev0/minecraftpe-nx-ctr/releases
 downloads: {}
 github: efimandreev0/minecraftpe-nx-ctr
 image: https://avatars.githubusercontent.com/u/120276090?v=4&size=128
+image_length: 3897
 layout: app
 llm_generation: 'yes'
 prerelease:
