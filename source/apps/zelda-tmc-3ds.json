@@ -1,0 +1,16 @@
+{
+	"github": "EstebanPdN/zelda-tmc-3ds",
+	"systems": [
+		"3DS",
+		"New 3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/EstebanPdN/zelda-tmc-3ds/main/platform/3ds/assets/icon-48.png",
+	"image": "https://raw.githubusercontent.com/EstebanPdN/zelda-tmc-3ds/main/platform/3ds/assets/banner.png",
+	"unique_ids": [
+		369197
+	]
+}
