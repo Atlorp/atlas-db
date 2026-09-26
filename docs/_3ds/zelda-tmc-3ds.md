@@ -37,7 +37,7 @@ llm_generation: minor
 qr:
   tmc-3ds-v2.1.cia: https://db.universal-team.net/assets/images/qr/tmc-3ds-v2-1-cia.png
 source: https://github.com/EstebanPdN/zelda-tmc-3ds
-stars: 708
+stars: 709
 systems:
 - 3DS
 - New 3DS
