@@ -63,6 +63,7 @@ NDSForwarder-DSi	nds	ANY	v0.3.1	lifehackerhansol	https://github.com/lifehackerha
 ftpd	nds	ANY	v3.2.1	mtheall	https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd.nds	ftpd.nds	431104	https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png
 kirikou	nds	ANY	v1.0.2	rayasticot	https://github.com/rayasticot/kirikou/releases/download/v1.0.2/kirikou2.nds	kirikou2.nds	8355840	https://db.universal-team.net/assets/images/icons/kirikou.png
 dslibris	nds	ANY	v1.5.2-2	Ray Haleblian	https://github.com/rhaleblian/dslibris/releases/download/v1.5.2-2/dslibris-1.5.2-2.zip	dslibris-1.5.2-2.zip	1242044	https://db.universal-team.net/assets/images/images/dslibris.png
+3DSLink	nds	ANY	1.0.0	Samantha	https://github.com/s4ammy/3DSLink/releases/download/1.0.0/3DSLink.cia	3DSLink.cia	1360832	https://raw.githubusercontent.com/s4ammy/3DSLink/main/meta/banner.png
 scummvm	nds	ANY	v2026.3.0	ScummVM	https://downloads.scummvm.org/frs/scummvm/2026.3.0/scummvm-2026.3.0-ds.zip	scummvm-ds.zip	None	https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/banner.png
 PUNCH-A-ROONEY!	nds	ANY	1.0.1	Sean David	https://github.com/seaners42/Punch-A-Rooney/releases/download/1.0.1/Punch-A-Rooney.nds	Punch-A-Rooney.nds	13714432	https://raw.githubusercontent.com/seaners42/Punch-A-Rooney/main/banner.png
 DScraft	nds	ANY	v310811	smea	https://db.universal-team.net/assets/files/DScraft_fat_310811.7z	DScraft_fat_310811.7z	4989338	https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png
