@@ -1,0 +1,16 @@
+{
+	"github": "3ds-presence/Presence3DS-Helper",
+	"description": "This application allows you to download and update the Presence 3DS files on your SD card. It also provides a way to import the configuration file using a QR code.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/3ds-presence/Presence3DS-Helper/master/icon.png",
+	"image": "https://raw.githubusercontent.com/3ds-presence/Presence3DS-Helper/master/cia/banner.png",
+	"unique_ids": [
+		20531
+	]
+}
