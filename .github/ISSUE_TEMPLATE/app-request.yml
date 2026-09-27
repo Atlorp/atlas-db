@@ -1,17 +1,17 @@
 name: App request
-description: Request an app on GitHub be added to Universal-DB
+description: Request an app on GitHub be added to Atlas-DB
 labels: ["app request"]
-assignees: ["Epicpkmn11"]
+assignees: ["venkeyz"]
 body:
   - type: markdown
     attributes:
-      value: "**Please ensure your app complies with the [Atlas-DB guidelines](https://github.com/venkeyz/vendb/blob/master/CONTRIBUTING.md#app-requests) before submitting a request.**"
+      value: "**Please ensure your app complies with the [Atlas-DB guidelines](https://github.com/atlorp/atlas-db/blob/master/CONTRIBUTING.md#app-requests) before submitting a request.**"
   - type: markdown
     attributes:
-      value: "Go to [the app request web page](https://db.universal-team.net/app-request) and fill out the form to create a JSON for submission then come back here to submit it. Note that rarely used features are currently missing from the form, see [the wiki](https://github.com/Universal-Team/db/wiki/App-Template) for more information."
+      value: "Go to [the app request web page](https://atlorp.github.io/atlas-db/app-request) and fill out the form to create a JSON for submission then come back here to submit it. Note that rarely used features are currently missing from the form, see [the wiki](https://github.com/Universal-Team/db/wiki/App-Template) for more information."
   - type: markdown
     attributes:
-      value: "Know how to use git? Consider submitting a pull request instead. (this is a hobby project, as simple as it is we don't have time to sit down and review everything all the time. Pull requests will be reviewed much faster)"
+      value: "Know how to use git? Consider submitting a pull request to save time. (we use a script to handle issues but it takes a while)"
   - type: textarea
     attributes:
       label: Submission form
