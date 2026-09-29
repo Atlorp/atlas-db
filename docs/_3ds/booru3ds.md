@@ -42,7 +42,7 @@ update_notes: '<h1 dir="auto">Booru3DS now has a CIA!</h1>
   <p dir="auto">As always, enjoy browsing and downloading art! - MisakiP</p>'
 updated: '2026-09-28T20:45:35Z'
 version: v1.4
-version_title: v1.4, CIA release!
+version_title: v1.3, CIA release!
 ---
 A booru image board browser for the **Nintendo 3DS**, written in C with
 citro2d/citro3d. Browse Safebooru or Konachan, view images on the top
