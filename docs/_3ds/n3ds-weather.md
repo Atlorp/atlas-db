@@ -3,7 +3,6 @@ author: DarkSec
 categories:
 - utility
 color: '#2e86de'
-color_bg: '#764e62'
 description: Live 3D weather for the New 3DS XL
 downloads:
   n3ds-weather.zip:
