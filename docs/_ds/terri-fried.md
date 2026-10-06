@@ -29,15 +29,15 @@ website: https://polymars.itch.io/
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>Terri-Fried (No FAT).nds</summary>
-<ol>
-<li>Download <code>terri-nofat.nds</code> to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>Terri-Fried.nds</summary>
 <ol>
 <li>Download <code>terri.nds</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Terri-Fried (No FAT).nds</summary>
+<ol>
+<li>Download <code>terri-nofat.nds</code> to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 
