@@ -3,8 +3,8 @@ author: venkeyz
 avatar: https://avatars.githubusercontent.com/u/204762893?v=4
 categories:
 - plugin
-color: '#8a2a6b'
-color_bg: '#802763'
+color: '#7f7f7f'
+color_bg: '#7f7f7f'
 created: '2026-07-25T07:13:38Z'
 description: A blank CTRPF plugin for Luma3DS
 download_page: https://github.com/venkeyz/CTRPluginFramework-BlankTemplate/releases
@@ -14,7 +14,7 @@ files:
   url: https://github.com/venkeyz/CTRPluginFramework-BlankTemplate/releases/download/git/CTRPluginFramework-BlankTemplate.3gx
 github: venkeyz/CTRPluginFramework-BlankTemplate
 image: https://avatars.githubusercontent.com/u/204762893?v=4&size=128
-image_length: 2795
+image_length: 3456
 layout: app
 llm_generation: minor
 nightly:
