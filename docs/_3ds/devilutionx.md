@@ -43,7 +43,7 @@ script_message: 'You need the game files from your CD/GOG in
 
   Diablo Spawn (shareware): "spawn.mpq"'
 source: https://github.com/diasurgical/DevilutionX
-stars: 9802
+stars: 9804
 systems:
 - 3DS
 title: DevilutionX
