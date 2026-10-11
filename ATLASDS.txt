@@ -12,7 +12,7 @@ nesDS	nds	ANY	v2.1	huiminghao / Coto	https://github.com/DS-Homebrew/NesDS/releas
 Safe NAND Manager	nds	ANY	v1.1.1	DS-Homebrew	https://github.com/DS-Homebrew/SafeNANDManager/releases/download/v1.1.1/SafeNANDManager.nds	SafeNANDManager.nds	236032	https://avatars.githubusercontent.com/u/46971470?v=4&size=128
 TWiLight Menu++	nds	ANY	v27.24.1	DS-Homebrew	https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.24.1/TWiLightMenu.7z	TWiLightMenu.7z	70154830	https://db.universal-team.net/assets/images/images/twilight-menu.png
 hiyaCFW	nds	ANY	v1.6.2	DS-Homebrew	https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.6.2/hiyaCFW.7z	hiyaCFW.7z	225404	https://raw.githubusercontent.com/DS-Homebrew/hiyaCFW/unlaunch/logo/logo.png
-nds-bootstrap	nds	ANY	v2.16.0	DS-Homebrew	https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.16.0/nds-bootstrap.zip	nds-bootstrap.zip	1204507	https://i.imgur.com/BFIu7xX.png
+nds-bootstrap	nds	ANY	v2.17.0	DS-Homebrew	https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.17.0/nds-bootstrap.zip	nds-bootstrap.zip	1212693	https://i.imgur.com/BFIu7xX.png
 Parkin'Rampage	nds	ANY	02012021	Tim 'Mighty Max' Seidel	https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds	ParkingRampage.nds	691200	https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/gfx/title.png
 GameYob	nds	ANY	v0.5.2	Stewmath	https://github.com/Stewmath/GameYob/releases/download/v0.5.2/gameyob.zip	gameyob.zip	627066	https://db.universal-team.net/assets/images/images/gameyob.png	gameyob.nds	gameyob.nds
 NTM	nds	ANY	v0.5.1	Pk11	https://github.com/Epicpkmn11/NTM/releases/download/v0.5.1/NTM.dsi	NTM.dsi	160256	https://raw.githubusercontent.com/Epicpkmn11/NTM/master/icon.png
