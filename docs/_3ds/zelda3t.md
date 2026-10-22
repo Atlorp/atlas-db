@@ -7,24 +7,12 @@ color: '#cac590'
 color_bg: '#807c5b'
 created: '2017-08-17T18:53:01Z'
 description: Port to 3ds of the Zelda fan game Zelda Time to Triumph
-download_page: https://github.com/nop90/Zelda3T/releases
-downloads:
-  Zelda3T_3DSX_v1.0.zip:
-    size: 28244793
-    size_str: 26 MiB
-    url: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_3DSX_v1.0.zip
-  Zelda3T_v1.0.cia:
-    size: 46773184
-    size_str: 44 MiB
-    url: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_v1.0.cia
 github: nop90/Zelda3T
 icon: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png
 image_length: 29329
 layout: app
-llm_generation: 'no'
-qr:
-  Zelda3T_v1.0.cia: https://db.universal-team.net/assets/images/qr/zelda3t_v1-0-cia.png
+llm_generation: unknown
 source: https://github.com/nop90/Zelda3T
 stars: 7
 systems:
@@ -32,31 +20,5 @@ systems:
 title: Zelda3T
 unique_ids:
 - '0x9974'
-update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow"
-  href="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"><img
-  src="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"
-  alt="zelda3t_v1 0 cia" style="max-width: 100%;"></a></p>
-
-  <p dir="auto">(QR code to dovnload and install the cia file with FBI)</p>'
-updated: '2017-09-24T18:25:47Z'
-version: v1.0
-version_title: Added support for touchpad
+updated: '---'
 ---
-### Installation instructions
-
-<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>Zelda3T.3dsx</summary>
-<ol>
-<li>Download <code>Zelda3T_3DSX_v1.0.zip</code></li>
-<li>Extract <code>/Zelda3T/Zelda3T.3dsx</code> from the zip to <code>/3ds/Zelda3T.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>Zelda3T_v1.0.cia</summary>
-<ol>
-<li>Download <code>Zelda3T_v1.0.cia</code> to <code>/cias/Zelda3T_v1.0.cia</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Zelda3T_v1.0.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-

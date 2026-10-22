@@ -8,7 +8,6 @@ color_bg: '#806346'
 created: '2026-03-10T21:20:54Z'
 description: Port of MCPE Alpha 0.6.1 to Nintendo Switch and 3DS.
 download_page: https://github.com/efimandreev0/minecraftpe-nx-ctr/releases
-downloads: {}
 github: efimandreev0/minecraftpe-nx-ctr
 image: https://avatars.githubusercontent.com/u/120276090?v=4&size=128
 image_length: 3897
@@ -93,14 +92,55 @@ stars: 105
 systems:
 - 3DS
 title: Minecraft PE
-update_notes: '<ul dir="auto">
+update_notes: '<h1 dir="auto">Release: Minecraft PE for 3DS!</h1>
 
-  <li>Copy minecraftcpp.nro to sdmc:/switch/, and only after this install nsp.</li>
+  <p dir="auto">It was a tough challenge, but I''ve optimized Minecraft PE as much
+  as possible to make it run on the Old 3DS. While it doesn''t run perfectly, it’s
+  been a long development journey — from working with NovaGL to heavily optimizing
+  third-party code specifically for the O3DS hardware.</p>
+
+  <p dir="auto"><strong>Features:</strong></p>
+
+  <ul dir="auto">
+
+  <li><strong>Old 3DS Support!</strong></li>
+
+  <li>Bottom screen usage!</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Installation Instructions:</strong></p>
+
+  <ol dir="auto">
+
+  <li>Download <code class="notranslate">minecraftpe.rar</code> and <code class="notranslate">minecraftcpp.cia</code>.</li>
+
+  <li>Extract the contents of the archive to your SD card at this path: <code class="notranslate">sdmc:/3ds/minecraftpe</code></li>
+
+  <li>Install the <code class="notranslate">.cia</code> file using FBI (or your preferred
+  installer).</li>
+
+  <li>Launch the game and enjoy!</li>
+
+  </ol>
+
+  <p dir="auto"><strong>Known Issues:</strong></p>
+
+  <ul dir="auto">
+
+  <li>No LAN-play support.</li>
+
+  <li>Occasional crashes.</li>
+
+  <li>Random crashes.</li>
+
+  <li>Random freezes (especially when saving the game).</li>
+
+  <li>Low framerate on Old 3DS.</li>
 
   </ul>'
-updated: '2026-03-12T15:31:31Z'
+updated: '2026-05-16T20:51:21Z'
 version: v0.8.4
-version_title: v1.0.0
 ---
 ### Installation instructions
 

@@ -9,22 +9,18 @@ created: '2017-01-31T16:20:47Z'
 description: A monkey who wants to survive!
 download_page: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases
 downloads:
-  Evolution_Sav3D_Me.cia:
-    size: 15668160
-    size_str: 14 MiB
-    url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.cia
-  Evolution_Sav3D_Me.rar:
-    size: 15800689
-    size_str: 15 MiB
-    url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.rar
+  Evolution_Sav3D_Me_Unity_Remake.cia:
+    size: 48284608
+    size_str: 46 MiB
+    url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/Unity_Remake/Evolution_Sav3D_Me_Unity_Remake.cia
 github: Manurocker95/Evolution_Sav3D_Me
 icon: https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png
 image: https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png
 image_length: 4888
 layout: app
-llm_generation: 'no'
+llm_generation: unknown
 qr:
-  Evolution_Sav3D_Me.cia: https://db.universal-team.net/assets/images/qr/evolution_sav3d_me-cia.png
+  Evolution_Sav3D_Me_Unity_Remake.cia: https://db.universal-team.net/assets/images/qr/evolution_sav3d_me_unity_remake-cia.png
 source: https://github.com/Manurocker95/Evolution_Sav3D_Me
 stars: 1
 systems:
@@ -32,8 +28,9 @@ systems:
 title: Evolution_Sav3D_Me
 unique_ids:
 - '0xFAC1C'
-update_notes: <p dir="auto">Changed the splash screen</p>
-updated: '2017-08-23T11:38:07Z'
-version: '1.1'
-version_title: 'A New Release '
+update_notes: <p dir="auto">I remade the game using Unity 5.6.6 and the official SDK.
+  Check previous versions for the devkitpro version.</p>
+updated: '2026-02-03T10:49:00Z'
+version: Unity_Remake
+version_title: New version made with Unity
 ---
