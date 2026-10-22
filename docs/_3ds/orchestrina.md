@@ -8,6 +8,12 @@ color: '#b7b7cf'
 color_bg: '#717180'
 created: '2016-07-09T04:21:45Z'
 description: A homebrew Legend of Zelda instrument player
+download_page: https://github.com/EBLeifEricson/orchestrina/releases
+downloads:
+  Orchestrina.zip:
+    size: 20274620
+    size_str: 19 MiB
+    url: https://github.com/GlimmerDev/orchestrina/releases/download/v0.5.0-beta/Orchestrina.zip
 github: EBLeifEricson/orchestrina
 icon: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png
 image: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png
@@ -15,7 +21,7 @@ image_length: 14835
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: unknown
+llm_generation: 'no'
 source: https://github.com/GlimmerDev/orchestrina
 stars: 17
 systems:
@@ -23,7 +29,26 @@ systems:
 title: Orchestrina
 unique_ids:
 - '0xF1020'
-updated: '---'
+update_notes: '<p>This release features a major redesign of the Wind Waker baton in
+  order to more closely reflect the game.</p>
+
+  <p>What''s new:</p>
+
+  <ul>
+
+  <li>Rhythm meter added for Wind Waker</li>
+
+  <li>Time signatures added for Wind Waker</li>
+
+  <li>Time signature can be changed between 3/4 (default),  4/4 (D-Pad Left) and 6/4
+  (D-Pad Right)</li>
+
+  <li>Wind Waker controls moved to ABXY so D-Pad could be used for the above</li>
+
+  </ul>'
+updated: '2017-03-30T01:49:01Z'
+version: v0.5.0-beta
+version_title: Orchestrina - Beta Release 5
 ---
 ### Installation instructions
 
@@ -64,6 +89,22 @@ updated: '---'
 <li>Download <code>Requiem-of-Spirit.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm</code> on your SD card</li>
 <li>Download <code>Song-of-Awakening.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Awakening.pcm</code> on your SD card</li>
 <li>Download <code>New-Wave-Bossa-Nova.pcm</code> to <code>/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Orchestrina.3dsx</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/3ds/Orchestrina/Orchestrina.3dsx</code> from the zip to <code>/3ds/Orchestrina.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Orchestrina.cia</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/Orchestrina.cia</code> from the zip to <code>/cias/Orchestrina.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Orchestrina.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 

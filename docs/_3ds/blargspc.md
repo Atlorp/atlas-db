@@ -4,15 +4,21 @@ avatar: https://avatars.githubusercontent.com/u/10163038?v=4
 categories:
 - app
 - media
-color: '#463c35'
-color_bg: '#463c35'
+color: '#fbfbfb'
+color_bg: '#808080'
 created: '2016-02-25T20:40:34Z'
 description: Play SNES SPC-dumped files on your 3DS
+download_page: https://github.com/DiscostewSM/blargSpc/releases
+downloads:
+  blargSpc.zip:
+    size: 101793
+    size_str: 99 KiB
+    url: https://github.com/DiscostewSM/blargSpc/releases/download/v0.1/blargSpc.zip
 github: DiscostewSM/blargSpc
 image: https://avatars.githubusercontent.com/u/10163038?v=4&size=128
-image_length: 29061
+image_length: 5065
 layout: app
-llm_generation: unknown
+llm_generation: 'no'
 screenshots:
 - description: Menu
   url: https://db.universal-team.net/assets/images/screenshots/blargspc/menu.png
@@ -21,7 +27,10 @@ stars: 3
 systems:
 - 3DS
 title: blargSpc
-updated: '---'
+update_notes: <p dir="auto">Play SNES SPC-dumped files on your 3DS</p>
+updated: '2016-02-25T20:42:30Z'
+version: v0.1
+version_title: blargSpc
 ---
 BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.
 
@@ -36,3 +45,14 @@ SPC files you may find online were dumped by other emulators that don't have thi
 Q. Wait, I can play SPC files of games with enhancement chips in them. Does that mean...
 
 No, it does not. The SPC/DSP cores are completely independant from the rest of the system with the exception of a couple of lines to the main CPU used for SPC uploading/downloading.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>blargSpc.3dsx</summary>
+<ol>
+<li>Download <code>blargSpc.zip</code></li>
+<li>Extract <code>/blargSpc.3dsx</code> from the zip to <code>/3ds/blargSpc.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
