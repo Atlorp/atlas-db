@@ -24,6 +24,78 @@ llm_generation: 'yes'
 preinstall_message: 'This game is mainly intended for New Nintendo 3DS systems.  After
   installation, place your Mario Kart 64 ROM in: sd:/3ds/MK64/  For a faster setup,
   generate `mk64.o2r` using SpaghettiKart on a computer and place it in the same folder.'
+prerelease:
+  download_page: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/tag/v2.1-E1
+  downloads:
+    mk64-3ds-v2.1-E1.3dsx:
+      size: 49703836
+      size_str: 47 MiB
+      url: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/mk64-3ds-v2.1-E1.3dsx
+    mk64-3ds-v2.1-E1.cia:
+      size: 46183360
+      size_str: 44 MiB
+      url: https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/mk64-3ds-v2.1-E1.cia
+  qr:
+    mk64-3ds-v2.1-E1.cia: https://db.universal-team.net/assets/images/qr/prerelease/mk64-3ds-v2-1-e1-cia.png
+  update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p
+    class="markdown-alert-title" dir="auto"><svg data-component="Octicon" class="octicon
+    octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path
+    d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082
+    15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25
+    0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75
+    0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p dir="auto">This
+    is an experimental version and may contain bugs.</p>
+
+    </div>
+
+    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/QR-v2.1-E1-github.png"><img
+    width="500" height="500" alt="QR code for the v2.1-E1 CIA" src="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/QR-v2.1-E1-github.png"
+    style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Added VRAM capture to diagnostic dumps.</li>
+
+    <li>Disabled dumps during AUTO mode to prevent accidental captures by the AI.</li>
+
+    </ul>
+
+    <h2 dir="auto">Bug reports</h2>
+
+    <p dir="auto">Press <code class="notranslate">L + R + SELECT</code> while the
+    issue is visible and attach the complete diagnostic dump folder from:</p>
+
+    <p dir="auto"><code class="notranslate">sd:/3ds/MK64/dump/</code></p>'
+  update_notes_md: '> [!WARNING]
+
+    > This is an experimental version and may contain bugs.
+
+
+    <img width="500" height="500" alt="QR code for the v2.1-E1 CIA" src="https://github.com/EstebanPdN/mario-kart-64-3ds/releases/download/v2.1-E1/QR-v2.1-E1-github.png"
+    />
+
+
+    ## Changelog
+
+
+    - Added VRAM capture to diagnostic dumps.
+
+    - Disabled dumps during AUTO mode to prevent accidental captures by the AI.
+
+
+    ## Bug reports
+
+
+    Press `L + R + SELECT` while the issue is visible and attach the complete diagnostic
+    dump folder from:
+
+
+    `sd:/3ds/MK64/dump/`'
+  updated: '2026-10-24T02:34:59Z'
+  version: v2.1-E1
+  version_title: v2.1-E1
 qr:
   mk64-3ds-v2.0.cia: https://db.universal-team.net/assets/images/qr/mk64-3ds-v2-0-cia.png
 source: https://github.com/EstebanPdN/mario-kart-64-3ds
