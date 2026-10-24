@@ -1,0 +1,16 @@
+{
+	"github": "Protarium-Network/nimbus-protarium",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Protarium-Network/nimbus-protarium/main/app/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/Protarium-Network/nimbus-protarium/main/app/meta/banner.png",
+	"unique_ids": [
+		868562,
+		868563
+	]
+}
