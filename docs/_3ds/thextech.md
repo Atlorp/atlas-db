@@ -20,10 +20,10 @@ downloads:
     size: 48054389
     size_str: 45 MiB
     url: https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/thextech-3ds-assets-smbx13-v1.7.4.1.zip
-  thextech-3ds-v1.7.4.1.zip:
-    size: 4227012
+  thextech-3ds-v1.7.4.2.zip:
+    size: 4227140
     size_str: 4 MiB
-    url: https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/thextech-3ds-v1.7.4.1.zip
+    url: https://github.com/TheXTech/TheXTech/releases/download/v1.7.4.1/thextech-3ds-v1.7.4.2.zip
 github: TheXTech/TheXTech
 icon: https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/icon/thextech_48.png
 image: https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/wiiu/wuhb-splash.png
@@ -46,7 +46,7 @@ screenshots:
 - description: Smbx title
   url: https://db.universal-team.net/assets/images/screenshots/thextech/smbx-title.png
 source: https://github.com/TheXTech/TheXTech
-stars: 420
+stars: 421
 systems:
 - 3DS
 title: TheXTech
@@ -218,7 +218,7 @@ This is a direct continuation of the SMBX 1.3 engine. Originally it was written 
 
 <details class="alert alert-secondary"><summary>thextech.3dsx</summary>
 <ol>
-<li>Download <code>thextech-3ds-v1.7.4.1.zip</code></li>
+<li>Download <code>thextech-3ds-v1.7.4.2.zip</code></li>
 <li>Extract <code>/thextech-3ds/thextech.3dsx</code> from the zip to <code>/3ds/thextech.3dsx</code> on your SD card</li>
 </ol>
 </details>
