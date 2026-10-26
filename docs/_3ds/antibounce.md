@@ -11,12 +11,8 @@ description: 'A Ludum Dare #34 Game'
 download_page: https://github.com/TurtleP/Antibounce/releases
 downloads:
   Antibounce.cia:
-    size: 2577344
-    size_str: 2 MiB
     url: https://github.com/TurtleP/Antibounce/releases/download/1.2.1/Antibounce.cia
   antibounce-3ds.zip:
-    size: 1761801
-    size_str: 1 MiB
     url: https://github.com/TurtleP/Antibounce/releases/download/v1.2/antibounce-3ds.zip
 github: TurtleP/Antibounce
 icon: https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/icon.png
