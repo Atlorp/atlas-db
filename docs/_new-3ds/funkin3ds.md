@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/3DSFNF/funkin3ds/releases/download/0.10/FNF.1.10.cia
 github: 3DSFNF/funkin3ds
 image: https://avatars.githubusercontent.com/u/88040620?v=4&size=128
-image_length: 1555
+image_length: 3256
 layout: app
 llm_generation: 'no'
 qr:
