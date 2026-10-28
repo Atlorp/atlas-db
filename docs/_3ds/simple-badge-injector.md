@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/AntiMach/simple-badge-injector/releases/download/1.4.2/SimpleBadgeInjector.cia
 github: AntiMach/simple-badge-injector
 image: https://avatars.githubusercontent.com/u/21265480?v=4&size=128
-image_length: 30920
+image_length: 31556
 layout: app
 license: mit
 license_name: MIT License
