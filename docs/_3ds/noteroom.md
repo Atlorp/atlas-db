@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 4529052
+    size: 4549708
     size_str: 4 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.3/NoteRoom.3dsx
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.4.1/NoteRoom.3dsx
   NoteRoom.cia:
-    size: 4826048
+    size: 4842432
     size_str: 4 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.3/NoteRoom.cia
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v3.4.1/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
@@ -34,45 +34,59 @@ systems:
 title: NoteRoom
 unique_ids:
 - '0xF9E3'
-update_notes: '<h1 dir="auto">⚡ NoteRoom v3.3 Alpha – Patch Notes</h1>
+update_notes: '<h1 dir="auto">🔧 NoteRoom v3.4.1 Alpha – Hotfix Notes</h1>
 
-  <p dir="auto">A performance and stability update focused on eliminating building
-  lag and improving room connection reliability.</p>
+  <p dir="auto">A quick hotfix addressing Wi-Fi connection stability and spell synchronization.</p>
 
   <hr>
 
-  <h3 dir="auto">⚡ Performance &amp; Bug Fixes</h3>
+  <h3 dir="auto">🐛 Bug Fixes &amp; Improvements</h3>
 
   <ul dir="auto">
 
-  <li><strong>Smooth Building (No More Lag Spikes):</strong>
+  <li><strong>Improved Weak Wi-Fi Stability &amp; Auto-Reconnect:</strong>
 
   <ul dir="auto">
 
-  <li>Fixed frame drops and stutters when placing or demolishing many tiles quickly
-  in succession.</li>
+  <li>Fixed connection drops ("Thread: Connect failed") on weaker or unstable 3DS
+  Wi-Fi connections.</li>
 
-  <li>World changes are now saved seamlessly in the background so rapid building stays
-  at a smooth 60 FPS.</li>
+  <li>Added automatic connection retries, increased handshake tolerance, and seamless
+  room rejoining after brief signal hiccups.</li>
 
   </ul>
 
   </li>
 
-  <li><strong>Improved Room Joining &amp; Connection Stability:</strong>
+  <li><strong>Spell Wheel (<code class="notranslate">[Y]</code>) Fixes:</strong>
 
   <ul dir="auto">
 
-  <li>Fixed a connection drop ("Thread: Connect failed") that could occur while loading
-  large islands upon joining a room.</li>
+  <li>Fixed an issue where pressing <code class="notranslate">[Y]</code> in the 2D
+  World View could trigger the Autoscroll toggle instead of opening the Spell Wheel.</li>
+
+  <li>Fixed <code class="notranslate">[Y]</code> responsiveness so both regular players
+  and Admins can open the Spell Wheel reliably at any time.</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>Instant Summon &amp; Warp Sync:</strong>
+
+  <ul dir="auto">
+
+  <li>Fixed a visual delay where summoned or warped players appeared at their old
+  position until they moved. Positions now update immediately for everyone in the
+  room.</li>
 
   </ul>
 
   </li>
 
   </ul>'
-updated: '2026-10-28T23:25:42Z'
-version: v3.3
-version_title: NoteRoom v3.3 Alpha
+updated: '2026-10-29T23:00:41Z'
+version: v3.4.1
+version_title: NoteRoom v3.4.1 - hotfix
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
