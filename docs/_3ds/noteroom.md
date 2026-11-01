@@ -39,7 +39,7 @@ update_notes: '<h1 dir="auto">🎃 NoteRoom v3.5.1 – The Spooky Halloween Upda
   <p dir="auto">Happy Halloween! This update brings a brand-new stereoscopic 3D Halloween
   atmosphere to NoteRoom.</p>
 
-  <h3 dir="auto">✨ What''s New (English)</h3>
+  <h3 dir="auto">✨ What''s New</h3>
 
   <ul dir="auto">
 
