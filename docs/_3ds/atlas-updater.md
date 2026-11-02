@@ -10,7 +10,7 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Atlorp/Atlas-Updater/releases
 github: Atlorp/Atlas-Updater
 image: https://avatars.githubusercontent.com/u/304442884?v=4&size=128
-image_length: 1518
+image_length: 3250
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
