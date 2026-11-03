@@ -62,7 +62,7 @@ update_notes: '<p dir="auto">This release of Luma3DS brings many quality-of-life
   allowing for more precise screen color calibration</li>
 
   <li>By continuity in gamma, we now define <math-renderer class="js-inline-math"
-  style="display: inline-block" data-run-id="80e222bfad67c948de76fa2840866676">$0^0
+  style="display: inline-block" data-run-id="2d3edc05158a8d9a927c01eb7c8c4c80">$0^0
   = 0$</math-renderer>, as this provides a useful result instead of turning the entire
   screen white</li>
 
