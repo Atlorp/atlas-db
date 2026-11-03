@@ -13,9 +13,9 @@ download_filter: (3dsx|cia)
 download_page: https://github.com/mockmodular/topos_3ds-video-player/releases
 downloads:
   topos.cia:
-    size: 9974720
+    size: 9978816
     size_str: 9 MiB
-    url: https://github.com/mockmodular/topos_3ds-video-player/releases/download/0.12.3.3/topos.cia
+    url: https://github.com/mockmodular/topos_3ds-video-player/releases/download/1.12.3.4/topos.cia
 github: mockmodular/topos_3ds-video-player
 icon: https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png
 image: https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png
@@ -31,72 +31,76 @@ stars: 18
 systems:
 - 3DS
 title: topos_3ds-video-player
-update_notes: '<h2 dir="auto">Changes</h2>
+update_notes: '<h1 dir="auto">1.12.3.4</h1>
 
-  <h3 dir="auto">Remove redundant texture cache flushes across all playback paths</h3>
-
-  <ul dir="auto">
-
-  <li>Remove the remaining 12 per-texture cache flush calls across hardware decoding,
-  software decoding, AV1, 2D, and SBS 3D playback.</li>
-
-  <li>Remove the MPEG-2-specific condition from the Y2R x2 SBS path so all codecs
-  on that path use the same behavior.</li>
-
-  <li>Retain the final whole-linear-memory cache flush before GPU execution and the
-  existing intermediate DMA cache handling.</li>
-
-  </ul>
-
-  <h3 dir="auto">Check MVD availability before hardware initialization</h3>
+  <h2 dir="auto">Direct decoded-frame input for Y2R x2</h2>
 
   <ul dir="auto">
 
-  <li>Check whether the actual <code class="notranslate">mvd:STD</code> service is
-  registered before allocating MVD buffers or requesting the service, including during
-  initialization after a seek.</li>
+  <li>Software-decoded YUV420P frames can now feed Y2R x2 directly in both 2D and
+  side-by-side 3D playback, eliminating the intermediate YUV buffer allocation and
+  frame copy.</li>
 
-  <li>If the service is absent or the availability query fails, return immediately
-  and let the existing logic fall back to software decoding. This prevents an Old
-  3DS with fake model mode enabled from waiting indefinitely for a New 3DS-only service.</li>
+  <li>Transfer the AVFrame reference to the conversion thread and retain it until
+  hardware conversion completes or cancellation is acknowledged. Use the actual plane
+  addresses and row strides.</li>
 
-  <li>Preserve the <code class="notranslate">sw</code> / <code class="notranslate">hw(auto)</code>
-  selection and fake model settings.</li>
+  <li>Keep compatibility with input layouts that require copying. Preserve the existing
+  RGB output fallback for 2D playback with 1024-wide textures while still avoiding
+  the YUV input copy.</li>
+
+  <li>Represent each contiguous decoded-image allocation with one correctly sized
+  AVBufferRef and a single release callback.</li>
 
   </ul>
 
-  <h3 dir="auto">Lowercase UI text and improve status readability</h3>
+  <h2 dir="auto">Audio track selection</h2>
 
   <ul dir="auto">
 
-  <li>Use lowercase menu options and hard-coded UI/status labels.</li>
+  <li>Add <code class="notranslate">track</code> immediately below <code class="notranslate">volume</code>
+  in the root settings menu, with choices <code class="notranslate">3</code>, <code
+  class="notranslate">2</code>, <code class="notranslate">1</code>, and <code class="notranslate">0</code>.
+  The default is <code class="notranslate">0</code>.</li>
 
-  <li>Display FFmpeg''s short video/audio codec names instead of their long names,
-  and use <code class="notranslate">k</code> for memory readings.</li>
+  <li>Save the preferred track in persistent settings. Existing settings files default
+  to track <code class="notranslate">0</code>.</li>
 
-  <li>Display the complete <code class="notranslate">sbs:0/1</code> and <code class="notranslate">3d:0/1</code>
-  indicators in the same white as the resolution and frame rate.</li>
+  <li>Apply the current in-memory preference when opening a video. If the requested
+  track does not exist, use track <code class="notranslate">0</code> without overwriting
+  the preference.</li>
+
+  <li>Changing the setting does not switch the current playback session. Reopening
+  the same video starts it from the beginning with the new selection; seeking retains
+  the session''s active track.</li>
+
+  <li>Use the active track''s audio parameters for speaker setup, buffer timing, and
+  codec display.</li>
 
   </ul>
-
-  <h2 dir="auto">Download</h2>
-
-  <p dir="auto">The only attached binary is <strong>topos.cia</strong>. Source archives
-  are available from GitHub for this release tag.</p>
 
   <h2 dir="auto">Validation</h2>
 
   <ul dir="auto">
 
-  <li>Full build and CIA packaging checks passed.</li>
+  <li>Built and linked the Nintendo 3DS application and generated the CIA package.</li>
 
-  <li>Targeted MVD initialization tests passed for an absent service, query failures,
-  repeated initialization attempts, and an available service.</li>
+  <li>Passed host checks for frame-reference lifetime, DMA addressing, conversion
+  error handling, audio-track routing, settings round-trips, and compatibility with
+  older settings files.</li>
 
-  <li>On-device playback validation is still pending for this build.</li>
+  <li>Passed the existing CIA package structure checks.</li>
+
+  </ul>
+
+  <h2 dir="auto">Download</h2>
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">topos.cia</code></li>
 
   </ul>'
-updated: '2026-11-02T17:54:12Z'
-version: 0.12.3.3
-version_title: topos 0.12.3.3
+updated: '2026-11-02T19:43:17Z'
+version: 1.12.3.4
+version_title: 1.12.3.4
 ---
