@@ -68,7 +68,7 @@ update_notes: '<div class="markdown-alert markdown-alert-important" dir="auto"><
   Make sure to join it for any reports or updates</p>
 
   </div>'
-updated: '2026-10-18T20:34:23Z'
+updated: '2026-11-05T15:54:52Z'
 version: latest
 version_title: v1.0.0
 ---
