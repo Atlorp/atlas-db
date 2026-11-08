@@ -7,11 +7,11 @@ color_bg: '#1a8032'
 description: The better way to install hShop content on a 3DS.
 downloads:
   hShop.3dsx:
-    size: 1823872
+    size: 2082444
     size_str: 1 MiB
     url: https://download2.erista.me/3hs/3hs.3dsx
   hShop.cia:
-    size: 1737664
+    size: 1893312
     size_str: 1 MiB
     url: https://download2.erista.me/3hs/3hs.cia
 icon: https://raw.githubusercontent.com/venkeyz/vendb/master/source/images/hShop.png
