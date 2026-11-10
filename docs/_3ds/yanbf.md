@@ -41,7 +41,7 @@ script_message: 'You will need to generate the actual forwarders on your compute
 
   https://github.com/YANBForwarder/YANBF'
 source: https://github.com/YANBForwarder/YANBF
-stars: 255
+stars: 256
 systems:
 - 3DS
 title: YANBF
