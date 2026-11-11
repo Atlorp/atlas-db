@@ -10,12 +10,12 @@ description: Aurorachat 3DS Client
 download_page: https://github.com/Unitendo/aurorachat-3ds/releases
 downloads:
   aurorachat.3dsx:
-    size: 199380
-    size_str: 194 KiB
+    size: 201816
+    size_str: 197 KiB
     url: https://github.com/Unitendo/aurorachat-3ds/releases/download/v7.1-r1/aurorachat.3dsx
   aurorachat.cia:
-    size: 533952
-    size_str: 521 KiB
+    size: 485312
+    size_str: 473 KiB
     url: https://github.com/Unitendo/aurorachat-3ds/releases/download/v7.1-r1/aurorachat.cia
 github: Unitendo/aurorachat-3ds
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
