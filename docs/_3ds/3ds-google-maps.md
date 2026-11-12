@@ -12,7 +12,7 @@ download_filter: \.3dsx$
 download_page: https://github.com/Oldhimaster1/3ds-Google-Maps/releases
 downloads:
   3ds_google_maps.3dsx:
-    size: 1898844
+    size: 1902636
     size_str: 1 MiB
     url: https://github.com/Oldhimaster1/3ds-Google-Maps/releases/download/v2.2.0/3ds_google_maps.3dsx
 github: Oldhimaster1/3ds-Google-Maps
@@ -24,7 +24,7 @@ license: mit
 license_name: MIT License
 llm_generation: unknown
 source: https://github.com/Oldhimaster1/3ds-Google-Maps
-stars: 12
+stars: 13
 systems:
 - 3DS
 title: 3ds Google Maps
