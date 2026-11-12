@@ -1,0 +1,16 @@
+{
+    "github": "Oldhimaster1/3ds-Google-Maps",
+    "title": "Maps for Nintendo 3DS",
+    "description": "Explore the world on your Nintendo 3DS with Street View, GeoGuessr-style gameplay, a 3D globe, terrain, GPS, and offline maps.",
+    "systems": [
+        "3DS"
+    ],
+    "categories": [
+        "app"
+    ],
+    "icon": "https://raw.githubusercontent.com/Oldhimaster1/3ds-Google-Maps/refs/heads/main/icon.png",
+    "image": "https://raw.githubusercontent.com/Oldhimaster1/3ds-Google-Maps/refs/heads/main/banner.png",
+    "long_description": "Explore the world on your Nintendo 3DS! Maps for Nintendo 3DS is an open-source mapping application featuring real street panoramas, a 3D globe, terrain exploration, GPS navigation, offline maps, and StreetGuess — a GeoGuessr-style geography game.\n\n**Street View Explorer:**\n- Explore real 360-degree street panoramas.\n- Navigate between connected viewpoints.\n- Supports Panoramax, Mapillary, KartaView, and experimental Google/Bing integrations.\n- Gyroscope controls on New 3DS systems.\n- Progressive imagery loading and higher-resolution detail on supported providers.\n\n**3D Exploration:**\n- Interactive, rotatable Earth globe with NASA imagery.\n- Live 3D terrain using elevation data.\n- 3D buildings using available OpenStreetMap data.\n- Stereoscopic 3D support on compatible systems.\n\n**StreetGuess — Geography Gaming:**\n- GeoGuessr-style location guessing using street imagery.\n- Classic World, USA, and Europe modes.\n- Daily challenges and shareable friend challenges.\n- Local pass-and-play multiplayer for 2–4 players.\n- Country Streak, Mystery Expeditions, and Surprise Me.\n- Moving, No Move, and NMPZ gameplay options.\n- 32 curated panoramas across 21 countries.\n- Timers, difficulty settings, distance scoring, and saved records.\n\n**Maps and Navigation:**\n- Interactive OpenStreetMap and satellite maps.\n- Place search, favorites, and route planning.\n- GPS tracking through a connected phone.\n- Route progress, estimated arrival times, and automatic rerouting.\n- Offline map caching and region downloads from supported sources.\n\n**Customization:**\n- Customizable button mappings and control profiles.\n- Adjustable text sizes, contrast, and gyro settings.\n- Improved interface and map loading performance.\n\n**Installation:**\nDownload the CIA or 3DSX from GitHub Releases, or install through Universal-Updater. Online features require Wi-Fi and available provider coverage. Some imagery integrations are experimental, and physical-console testing of newer features is ongoing.\n\n**Source and downloads:**\nhttps://github.com/Oldhimaster1/3ds-Google-Maps\n\n**Community discussion:**\nhttps://gbatemp.net/threads/release-maps-for-nintendo-3ds-v2-2-0-street-view-streetguess-3d-globe.686429/\n\nMaps for Nintendo 3DS is not affiliated with Nintendo, Google, or any imagery provider.",
+    "llm_generation": "yes",
+    "download_filter": "\\.(3dsx|cia)$"
+}
