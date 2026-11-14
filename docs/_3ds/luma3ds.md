@@ -23,7 +23,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
 source: https://github.com/LumaTeam/Luma3DS
-stars: 6897
+stars: 6898
 systems:
 - 3DS
 title: Luma3DS
@@ -62,7 +62,7 @@ update_notes: '<p dir="auto">This release of Luma3DS brings many quality-of-life
   allowing for more precise screen color calibration</li>
 
   <li>By continuity in gamma, we now define <math-renderer class="js-inline-math"
-  style="display: inline-block" data-run-id="b62cda48c2c0f95a4ec4da49307875f6">$0^0
+  style="display: inline-block" data-run-id="71b4e61fca7902a4a99c77ab4d5d856b">$0^0
   = 0$</math-renderer>, as this provides a useful result instead of turning the entire
   screen white</li>
 
