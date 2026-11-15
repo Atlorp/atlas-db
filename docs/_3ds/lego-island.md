@@ -32,14 +32,14 @@ script_message: 'An existing copy of LEGO Island is required to use this project
 
   See the instructions on the isle-portable wiki.'
 source: https://github.com/isledecomp/isle-portable
-stars: 1097
+stars: 1098
 systems:
 - 3DS
 title: LEGO Island
 unique_ids:
 - '0x76E7E'
-update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/43755295968">https://github.com/isledecomp/isle-portable/actions/runs/43755295968</a></p>'
-updated: '2026-11-15T20:15:12Z'
+update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/43760473201">https://github.com/isledecomp/isle-portable/actions/runs/43760473201</a></p>'
+updated: '2026-11-15T21:19:06Z'
 version: continuous
 version_title: Continuous build
 wiki: https://github.com/isledecomp/isle-portable/wiki
