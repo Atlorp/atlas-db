@@ -23,7 +23,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: minor
 source: https://github.com/Protarium-Network/nimbus-protarium
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: nimbus-protarium
