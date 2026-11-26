@@ -30,7 +30,7 @@ qr:
   fbge-installer.cia: https://db.universal-team.net/assets/images/qr/fbge-installer-cia.png
 script_message: Don't forget to read the "Help" section upon launching the program
 source: https://github.com/AtexBg/fbge-installer
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: 3DS-FBGE Installer
